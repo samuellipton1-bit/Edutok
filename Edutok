@@ -1,0 +1,329 @@
+import os, textwrap, zipfile
+base="/mnt/data/edutok-pwa"
+os.makedirs(base,exist_ok=True)
+files={
+"package.json":'''{
+  "name": "edutok-personal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node server.js"},
+  "dependencies": {"express": "^4.21.2"}
+}
+''',
+"server.js":'''import express from "express";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const app = express();
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const PORT = process.env.PORT || 3000;
+const API_KEY = process.env.YOUTUBE_API_KEY;
+
+app.use(express.static(path.join(__dirname, "public")));
+
+const topics = [
+  "baseball history statistics analytics",
+  "chess tactics strategy grandmaster lessons",
+  "world history educational",
+  "political science government civics educational",
+  "philosophy ideas thought experiments",
+  "psychology human behavior cognitive biases",
+  "mental math shortcuts tricks",
+  "Greek Norse Egyptian mythology"
+];
+
+const durationSeconds = (iso) => {
+  const m = iso.match(/PT(?:(\\d+)H)?(?:(\\d+)M)?(?:(\\d+)S)?/);
+  return m ? (+(m[1] || 0) * 3600 + +(m[2] || 0) * 60 + +(m[3] || 0)) : 0;
+};
+
+app.get("/api/feed", async (_req, res) => {
+  if (!API_KEY) return res.status(503).json({error: "YouTube API key is not configured. Set YOUTUBE_API_KEY in your environment."});
+  try {
+    // One query per interest, with a modest result count to manage API quota.
+    const searchResults = await Promise.all(topics.map(async (query) => {
+      const searchUrl = new URL("https://www.googleapis.com/youtube/v3/search");
+      searchUrl.search = new URLSearchParams({
+        key: API_KEY, part: "snippet", type: "video", maxResults: "8",
+        videoDuration: "short", order: "relevance", q: query
+      }).toString();
+      const response = await fetch(searchUrl);
+      if (!response.ok) throw new Error(`YouTube search API error (${response.status})`);
+      const data = await response.json();
+      return (data.items || []).map(item => ({
+        id: item.id.videoId, title: item.snippet.title,
+        channel: item.snippet.channelTitle, description: item.snippet.description,
+        publishedAt: item.snippet.publishedAt, topic: query,
+        thumbnail: item.snippet.thumbnails?.high?.url || item.snippet.thumbnails?.medium?.url
+      }));
+    }));
+
+    const candidates = searchResults.flat().filter(v => v.id);
+    const unique = [...new Map(candidates.map(v => [v.id, v])).values()];
+    // videos.list accepts up to 50 IDs per request.
+    const qualified = [];
+    for (let i = 0; i < unique.length; i += 50) {
+      const ids = unique.slice(i, i + 50).map(v => v.id).join(",");
+      const detailsUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
+      detailsUrl.search = new URLSearchParams({key: API_KEY, part: "contentDetails,statistics", id: ids}).toString();
+      const response = await fetch(detailsUrl);
+      if (!response.ok) throw new Error(`YouTube video details API error (${response.status})`);
+      const data = await response.json();
+      const byId = new Map(data.items.map(item => [item.id, item]));
+      for (const video of unique.slice(i, i + 50)) {
+        const detail = byId.get(video.id);
+        if (!detail) continue;
+        const seconds = durationSeconds(detail.contentDetails.duration);
+        if (seconds >= 15 && seconds <= 120) qualified.push({...video, durationSeconds: seconds, views: Number(detail.statistics?.viewCount || 0)});
+      }
+    }
+
+    // Interleave interest buckets then shuffle within the combined feed.
+    for (let i = qualified.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [qualified[i], qualified[j]] = [qualified[j], qualified[i]];
+    }
+    res.set("Cache-Control", "public, max-age=300");
+    res.json({videos: qualified, count: qualified.length});
+  } catch (error) {
+    console.error(error);
+    res.status(502).json({error: error.message || "Could not load YouTube feed."});
+  }
+});
+
+app.get("*", (_req, res) => res.sendFile(path.join(__dirname, "public", "index.html")));
+app.listen(PORT, () => console.log(`EduTok running on http://localhost:${PORT}`));
+''',
+"public/index.html":'''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#09090f">
+  <meta name="description" content="A personal, mixed-feed educational video app.">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="stylesheet" href="/styles.css">
+  <title>EduTok — Learn as you scroll</title>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Edu<span>Tok</span></div>
+    <div class="tagline">A feed full of things worth knowing</div>
+  </header>
+  <main>
+    <div class="feed-heading">
+      <span>YOUR LEARNING FEED</span>
+      <button id="refresh" aria-label="Refresh feed">↻ Refresh</button>
+    </div>
+    <div id="feed" class="feed" aria-live="polite">
+      <div class="state">Loading your mixed educational feed…</div>
+    </div>
+  </main>
+  <footer>
+    <span>Baseball · Chess · History · Politics · Philosophy · Psychology · Math · Mythology</span>
+  </footer>
+  <script src="/app.js" defer></script>
+</body>
+</html>
+''',
+"public/styles.css":'''*{box-sizing:border-box}
+:root{color-scheme:dark;--bg:#09090f;--panel:#14141d;--muted:#aaaaba;--accent:#9b7cff}
+body{margin:0;background:var(--bg);color:#fff;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.topbar{position:sticky;top:0;z-index:5;background:#09090fee;backdrop-filter:blur(14px);padding:14px max(16px,env(safe-area-inset-left));border-bottom:1px solid #242431;display:flex;align-items:center;justify-content:space-between}
+.brand{font-size:25px;font-weight:900;letter-spacing:-1.2px}.brand span{color:var(--accent)}
+.tagline{font-size:12px;color:var(--muted)}
+main{max-width:760px;margin:auto;padding:0 12px}
+.feed-heading{display:flex;align-items:center;justify-content:space-between;padding:16px 4px;font-size:11px;letter-spacing:1.4px;color:#c9c4dd;font-weight:800}
+button{border:0;border-radius:12px;background:#272535;color:white;padding:9px 13px;font:inherit;cursor:pointer}
+#refresh{font-size:12px;letter-spacing:0}
+.feed{height:calc(100dvh - 148px);min-height:450px;overflow-y:auto;scroll-snap-type:y mandatory;overscroll-behavior:contain;border-radius:16px;scrollbar-width:thin}
+.video-card{min-height:100%;scroll-snap-align:start;display:flex;flex-direction:column;background:var(--panel);border:1px solid #252532;border-radius:16px;margin-bottom:12px;overflow:hidden}
+.player-wrap{position:relative;background:#000;width:100%;aspect-ratio:9/16;max-height:70dvh;min-height:300px}
+.player-wrap iframe{position:absolute;width:100%;height:100%;inset:0;border:0}
+.card-info{padding:15px 16px 20px}
+.meta{display:flex;justify-content:space-between;gap:8px;color:#c6b8ff;font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase}
+.duration{color:#ddd;font-weight:600;white-space:nowrap}
+h2{font-size:20px;line-height:1.25;margin:10px 0 8px}
+.channel{color:#b6b6c5;font-size:13px;margin:0 0 8px}
+.description{font-size:13px;color:#d0d0da;line-height:1.45;margin:0}
+.actions{display:flex;gap:8px;margin-top:12px}.actions button{background:#282737;font-size:12px}.actions .youtube{background:#8a5cf6}
+.state{padding:28px;text-align:center;color:var(--muted)}
+footer{max-width:760px;margin:12px auto;padding:10px 16px;color:#8e8e9d;font-size:11px;text-align:center}
+@media(min-width:700px){.feed{height:calc(100dvh - 160px)}.video-card{min-height:auto}.player-wrap{max-height:60dvh;aspect-ratio:16/9;min-height:320px}}
+''',
+"public/app.js":'''const feed = document.querySelector("#feed");
+const refreshButton = document.querySelector("#refresh");
+let savedIds = new Set(JSON.parse(localStorage.getItem("edutok-saved") || "[]"));
+
+function formatDuration(seconds) {
+  const m = Math.floor(seconds / 60), s = seconds % 60;
+  return `${m}:${String(s).padStart(2, "0")}`;
+}
+function escapeHTML(value="") {
+  return value.replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+}
+function saveVideo(id, button) {
+  if (savedIds.has(id)) savedIds.delete(id); else savedIds.add(id);
+  localStorage.setItem("edutok-saved", JSON.stringify([...savedIds]));
+  button.textContent = savedIds.has(id) ? "✓ Saved" : "＋ Save";
+}
+function makeCard(video) {
+  const card = document.createElement("article");
+  card.className = "video-card";
+  const title = escapeHTML(video.title);
+  const channel = escapeHTML(video.channel);
+  const description = escapeHTML(video.description || "Educational video.");
+  card.innerHTML = `
+    <div class="player-wrap">
+      <iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(video.id)}?autoplay=0&rel=0&playsinline=1"
+        title="${title}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="card-info">
+      <div class="meta"><span>Curated topic · ${escapeHTML(video.topic)}</span><span class="duration">${formatDuration(video.durationSeconds)}</span></div>
+      <h2>${title}</h2>
+      <p class="channel">${channel}</p>
+      <p class="description">${description}</p>
+      <div class="actions">
+        <button class="save">${savedIds.has(video.id) ? "✓ Saved" : "＋ Save"}</button>
+        <button class="youtube">Open on YouTube ↗</button>
+      </div>
+    </div>`;
+  card.querySelector(".save").addEventListener("click", e => saveVideo(video.id, e.currentTarget));
+  card.querySelector(".youtube").addEventListener("click", () => window.open(`https://www.youtube.com/watch?v=${encodeURIComponent(video.id)}`, "_blank", "noopener"));
+  return card;
+}
+async function loadFeed() {
+  refreshButton.disabled = true;
+  feed.innerHTML = '<div class="state">Finding short educational videos across all your interests…</div>';
+  try {
+    const response = await fetch("/api/feed");
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || "Feed request failed.");
+    if (!data.videos?.length) {
+      feed.innerHTML = '<div class="state">No videos between 15 seconds and 2 minutes were found this time. Tap Refresh to try again.</div>';
+      return;
+    }
+    feed.replaceChildren(...data.videos.map(makeCard));
+  } catch (error) {
+    feed.innerHTML = `<div class="state"><strong>Feed could not load.</strong><p>${escapeHTML(error.message)}</p><p>Check that the server is running and its YouTube API key is configured.</p></div>`;
+  } finally { refreshButton.disabled = false; }
+}
+refreshButton.addEventListener("click", loadFeed);
+if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js").catch(console.warn));
+loadFeed();
+''',
+"public/manifest.json":'''{
+  "name": "EduTok — Educational Feed",
+  "short_name": "EduTok",
+  "description": "A personalized, mixed feed of educational YouTube videos.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#09090f",
+  "theme_color": "#09090f",
+  "icons": [
+    {"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
+''',
+"public/sw.js":'''const CACHE = "edutok-shell-v1";
+const SHELL = ["/", "/index.html", "/styles.css", "/app.js", "/manifest.json"];
+self.addEventListener("install", event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL))));
+self.addEventListener("activate", event => event.waitUntil(self.clients.claim()));
+self.addEventListener("fetch", event => {
+  const url = new URL(event.request.url);
+  if (event.request.method !== "GET" || url.pathname.startsWith("/api/")) return;
+  event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
+    if (response.ok && url.origin === self.location.origin) caches.open(CACHE).then(cache => cache.put(event.request, response.clone()));
+    return response;
+  })));
+});
+''',
+".env.example":'''# Create a YouTube Data API v3 key in Google Cloud Console and enable the YouTube Data API v3.
+# Keep this key on the server; do not put it in public/app.js.
+YOUTUBE_API_KEY=your_youtube_data_api_v3_key
+PORT=3000
+''',
+"README.md":'''# EduTok Personal PWA
+
+A single mixed vertical feed of educational YouTube videos based on:
+- Baseball history/stats
+- Chess
+- History
+- Politics
+- Philosophy
+- Psychology
+- Math shortcuts
+- Mythology
+
+Videos are checked by YouTube's `contentDetails.duration` and only included if duration is **15–120 seconds inclusive**. Cards embed the official YouTube player. The app is a Progressive Web App (PWA) with an installable manifest and basic offline shell caching.
+
+## Run locally
+
+1. Install Node.js 18+.
+2. Create a YouTube Data API v3 key in Google Cloud Console and enable YouTube Data API v3.
+3. Copy `.env.example` to `.env`; set `YOUTUBE_API_KEY`.
+4. Install dependency and launch:
+
+   ```sh
+   npm install
+   # Set environment variable (example macOS/Linux):
+   export YOUTUBE_API_KEY="YOUR_KEY"
+   npm start
+   ```
+
+5. Visit `http://localhost:3000`.
+
+The server reads `YOUTUBE_API_KEY` from the environment. For deployment, configure this environment variable in your hosting provider's secret/environment settings. Do not commit the key or expose it to client JavaScript.
+
+## Deploy and add to iPhone Home Screen
+
+Deploy the Node server to a provider that supports Node apps and HTTPS (e.g. Render, Railway, or a VPS). Configure `YOUTUBE_API_KEY` as a secret and deploy. PWA installation requires a secure HTTPS origin (localhost is allowed for development).
+
+On iPhone:
+1. Open the deployed HTTPS URL in **Safari**.
+2. Tap **Share**.
+3. Choose **Add to Home Screen**.
+4. Name it EduTok, then tap **Add**.
+
+## Notes
+
+- Search queries are topic-specific, then all qualifying results are mixed and shuffled into one feed. There are no topic tabs.
+- YouTube API search results are relevance-based and can change. The backend checks returned video metadata before allowing a clip into the feed.
+- YouTube API quota applies; this sample searches each topic per feed refresh and fetches duration details. Consider caching and a lower refresh frequency for production.
+- Playback is through YouTube's official embedded player. Some videos may disallow embedding, be region-restricted, or require age sign-in; such videos may show a YouTube error.
+- The YouTube API does not guarantee that every returned clip is educational; the topic search terms are a best-effort curated baseline.
+- Save/watchlist IDs are stored locally in the browser on that device.
+'''
+}
+for rel,content in files.items():
+    p=os.path.join(base,rel)
+    os.makedirs(os.path.dirname(p),exist_ok=True)
+    with open(p,"w",encoding="utf-8") as f:f.write(content)
+# create simple branded app icons using PIL
+from PIL import Image, ImageDraw
+os.makedirs(os.path.join(base,"public/icons"),exist_ok=True)
+for size in (192,512):
+    im=Image.new("RGB",(size,size),(9,9,15))
+    d=ImageDraw.Draw(im)
+    # rounded background panel
+    d.rounded_rectangle((size*.08,size*.08,size*.92,size*.92),radius=int(size*.2),fill=(30,26,49))
+    # play triangle purple
+    d.polygon([(size*.39,size*.28),(size*.72,size*.5),(size*.39,size*.72)],fill=(155,124,255))
+    # small E lettering
+    d.rounded_rectangle((size*.19,size*.22,size*.29,size*.78),radius=int(size*.025),fill=(245,242,255))
+    d.rectangle((size*.19,size*.22,size*.38,size*.29),fill=(245,242,255))
+    d.rectangle((size*.19,size*.46,size*.34,size*.53),fill=(245,242,255))
+    d.rectangle((size*.19,size*.71,size*.38,size*.78),fill=(245,242,255))
+    im.save(os.path.join(base,"public/icons",f"icon-{size}.png"))
+zip_path="/mnt/data/edutok-pwa.zip"
+with zipfile.ZipFile(zip_path,"w",zipfile.ZIP_DEFLATED) as z:
+    for root,dirs,fnames in os.walk(base):
+        for fn in fnames:
+            p=os.path.join(root,fn)
+            z.write(p,os.path.relpath(p,base))
+print("Created",zip_path,"with",len(files)+2,"files")
