@@ -131,7 +131,8 @@ function extractId(url){
  }catch{}
  return "";
 }
-document.getElementById("toggleAdd").addEventListener("click",()=>{
+const toggleAdd=document.getElementById("toggleAdd");
+if(toggleAdd)toggleAdd.addEventListener("click",()=>{
  const panel=document.getElementById("addPanel");panel.classList.toggle("open");
  if(panel.classList.contains("open"))document.getElementById("videoUrl").focus();
 });
