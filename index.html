@@ -6,92 +6,124 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="EduTok">
-<meta name="theme-color" content="#10131c">
+<meta name="theme-color" content="#090a10">
 <title>EduTok — Learn in a scroll</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%237c5cff'/%3E%3Ctext x='50' y='67' font-size='55' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3EE%3C/text%3E%3C/svg%3E">
 <style>
-:root{color-scheme:dark;--bg:#10131c;--panel:#1b2030;--ink:#f4f5fb;--muted:#a8b0c4;--accent:#8b72ff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-header{position:sticky;top:0;z-index:5;background:#10131ceF;backdrop-filter:blur(14px);padding:calc(env(safe-area-inset-top) + 12px) 16px 12px;border-bottom:1px solid #303647;display:flex;align-items:center;justify-content:space-between}
-.brand{font-size:22px;font-weight:850;letter-spacing:-.7px}.brand span{color:var(--accent)}.sub{font-size:12px;color:var(--muted);margin-top:2px}
-main{max-width:760px;margin:auto;padding:14px 12px 80px}.intro{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}.intro p{font-size:13px;color:var(--muted);line-height:1.45;margin:0}
-.add-toggle,.btn{border:1px solid #444b60;border-radius:999px;padding:10px 14px;background:#252b3d;color:white;font-size:13px;text-decoration:none;cursor:pointer}.add-toggle{background:var(--accent);border-color:var(--accent);font-weight:750;white-space:nowrap}
-.add-panel{display:none;background:var(--panel);border:1px solid #343c52;border-radius:16px;padding:14px;margin-bottom:16px}.add-panel.open{display:block}.add-panel h2{font-size:17px;margin:0 0 12px}
-.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.form-grid input,.form-grid select{min-width:0;width:100%;background:#111624;border:1px solid #414a60;border-radius:10px;padding:11px;color:var(--ink);font:inherit;font-size:13px}.form-grid .wide{grid-column:1/-1}.form-actions{display:flex;gap:8px;margin-top:10px;align-items:center}.form-actions button{border:0;border-radius:999px;padding:10px 15px;background:var(--accent);color:white;font-weight:750;cursor:pointer}.hint{font-size:11px;color:var(--muted);line-height:1.4;margin-top:8px}
-.filters{display:flex;gap:8px;overflow-x:auto;padding:2px 0 13px;scrollbar-width:none}.filters::-webkit-scrollbar{display:none}.filter{white-space:nowrap;border:1px solid #3c455b;background:#202638;color:#dfe3f1;border-radius:999px;padding:8px 12px;font-size:12px;cursor:pointer}.filter.active{background:#8b72ff;border-color:#8b72ff;color:white;font-weight:750}
-.feed{display:grid;gap:18px}.card{background:var(--panel);border:1px solid #2c3346;border-radius:18px;overflow:hidden}.meta{display:flex;align-items:center;justify-content:space-between;padding:13px 14px 9px}.topic{font-size:12px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:#c6baff}.duration{font-size:12px;color:var(--muted)}
-h2.card-title{font-size:19px;line-height:1.25;margin:0;padding:0 14px 12px}.video{width:100%;aspect-ratio:16/9;background:#080a10;position:relative}.video iframe{width:100%;height:100%;border:0;display:block}.desc{padding:12px 14px;color:#d8dced;font-size:14px;line-height:1.45}.card-actions{display:flex;gap:8px;padding:0 14px 14px;align-items:center;flex-wrap:wrap}.btn{display:inline-block}.btn.delete{background:transparent;color:#aeb6ca;margin-left:auto}
-.empty{padding:26px 18px;text-align:center;color:var(--muted);background:var(--panel);border:1px dashed #414a60;border-radius:16px;line-height:1.5}
-footer{text-align:center;color:var(--muted);font-size:12px;padding:22px}
-@media(max-width:520px){.form-grid{grid-template-columns:1fr}.form-grid .wide{grid-column:auto}.intro{align-items:flex-start}.add-toggle{padding:9px 11px}}
+:root{color-scheme:dark;--bg:#090a10;--panel:#171925;--ink:#f7f7fb;--muted:#b3b5c3;--accent:#8b72ff;--header:58px}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body{overflow:hidden}
+header{height:var(--header);position:relative;z-index:5;background:#090a10f2;backdrop-filter:blur(14px);padding:env(safe-area-inset-top) 16px 0;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #282a37}
+.brand{font-size:21px;font-weight:900;letter-spacing:-.8px}.brand span{color:var(--accent)}.sub{font-size:11px;color:var(--muted);margin-top:1px}
+.header-right{font-size:12px;color:var(--muted)}
+main{height:calc(100dvh - var(--header));display:flex;flex-direction:column;max-width:100%;margin:auto}
+.toolbar{position:relative;z-index:4;background:#090a10;padding:8px 12px 7px;border-bottom:1px solid #252735}
+.toolbar-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:7px}
+.toolbar p{font-size:12px;color:var(--muted);margin:0}
+.add-toggle,.btn{border:1px solid #44475a;border-radius:999px;padding:8px 12px;background:#242638;color:white;font-size:12px;text-decoration:none;cursor:pointer}
+.add-toggle{background:var(--accent);border-color:var(--accent);font-weight:800;white-space:nowrap}
+.filters{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none}.filters::-webkit-scrollbar{display:none}
+.filter{white-space:nowrap;border:1px solid #393c50;background:#1a1c29;color:#e4e4ed;border-radius:999px;padding:6px 10px;font-size:11px;cursor:pointer}
+.filter.active{background:var(--accent);border-color:var(--accent);color:white;font-weight:800}
+.add-panel{display:none;position:absolute;z-index:10;top:100%;left:10px;right:10px;max-width:540px;margin:auto;background:#191b29;border:1px solid #41445a;border-radius:16px;padding:14px;box-shadow:0 16px 50px #000b}
+.add-panel.open{display:block}.add-panel h2{font-size:16px;margin:0 0 10px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.form-grid input,.form-grid select{min-width:0;width:100%;background:#0e101a;border:1px solid #41445a;border-radius:9px;padding:10px;color:var(--ink);font:inherit;font-size:13px}
+.form-grid .wide{grid-column:1/-1}
+.form-actions{display:flex;gap:8px;margin-top:9px;align-items:center;flex-wrap:wrap}
+.form-actions button{border:0;border-radius:999px;padding:9px 14px;background:var(--accent);color:white;font-weight:800;cursor:pointer}
+.hint{font-size:11px;color:var(--muted);line-height:1.4;margin-top:7px}
+#formMessage{margin:0}
+.feed{flex:1;min-height:0;overflow-y:auto;overscroll-behavior-y:contain;scroll-snap-type:y mandatory;scrollbar-width:none}
+.feed::-webkit-scrollbar{display:none}
+.card{height:100%;min-height:100%;width:100%;max-width:520px;margin:0 auto;position:relative;overflow:hidden;scroll-snap-align:start;scroll-snap-stop:always;background:#11131d;border-bottom:1px solid #303242;display:flex;flex-direction:column}
+.video{position:relative;flex:1;min-height:0;background:#000;overflow:hidden}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
+.card-overlay{position:absolute;inset:auto 0 0;z-index:2;padding:60px 16px 18px;background:linear-gradient(transparent,#05060aee 35%,#05060af7);pointer-events:none}
+.meta{display:flex;align-items:center;gap:9px;margin-bottom:8px}
+.topic{font-size:11px;font-weight:900;letter-spacing:.7px;text-transform:uppercase;color:#d0c6ff;background:#55449d99;border:1px solid #a18bff66;border-radius:999px;padding:5px 9px}
+.duration{font-size:11px;color:#e3e3ec;background:#252633c9;border-radius:999px;padding:5px 8px}
+h2.card-title{font-size:20px;line-height:1.2;margin:0 0 7px;font-weight:850;text-shadow:0 2px 8px #000}
+.desc{font-size:13px;color:#e0e0e8;line-height:1.4;max-width:92%;text-shadow:0 1px 5px #000}
+.card-actions{display:flex;gap:8px;align-items:center;margin-top:10px;pointer-events:auto}
+.btn{background:#ffffff20;border-color:#ffffff55;backdrop-filter:blur(8px)}
+.btn.delete{color:#fff}
+.empty{height:100%;min-height:100%;display:grid;place-items:center;text-align:center;padding:30px;color:var(--muted);line-height:1.5;scroll-snap-align:start}
+.empty strong{display:block;color:var(--ink);font-size:20px;margin-bottom:8px}
+.sound-hint{position:absolute;right:12px;top:12px;z-index:3;font-size:10px;color:#fff;background:#0009;padding:6px 9px;border-radius:999px;pointer-events:none}
+footer{display:none}
+@media(min-width:700px){.toolbar{padding-left:20px;padding-right:20px}.toolbar-top,.filters{max-width:520px;margin-left:auto;margin-right:auto}.card{border-left:1px solid #303242;border-right:1px solid #303242}.card-overlay{padding-left:20px;padding-right:20px}}
+@media(max-width:480px){:root{--header:54px}.form-grid{grid-template-columns:1fr}.form-grid .wide{grid-column:auto}.card-overlay{padding-left:14px;padding-right:14px}h2.card-title{font-size:18px}}
 </style>
 </head>
 <body>
-<header><div><div class="brand">Edu<span>Tok</span></div><div class="sub">A mixed feed for curious minds</div></div><div aria-label="Educational feed">📚</div></header>
+<header><div><div class="brand">Edu<span>Tok</span></div><div class="sub">Learn something new with every swipe</div></div><div class="header-right">📚 For curious minds</div></header>
 <main>
-<div class="intro"><p>Scroll through ideas, discoveries, and lessons.<br>Videos play right here in your feed.</p><button class="add-toggle" id="toggleAdd" type="button">＋ Add a video</button></div>
-<section class="add-panel" id="addPanel" aria-label="Add a video">
-<h2>Add to the EduTok feed</h2>
-<form id="videoForm">
-<div class="form-grid">
-<input class="wide" id="videoUrl" type="url" placeholder="Paste a YouTube video link" required>
-<input id="videoTitle" type="text" placeholder="Video title" maxlength="100" required>
-<select id="videoTopic"><option>History</option><option>Baseball</option><option>Chess</option><option>Politics · Civics</option><option>Philosophy</option><option>Psychology</option><option>Math</option><option>Mythology</option><option>Science</option><option>Geography</option><option>Technology</option><option>Other</option></select>
-<input class="wide" id="videoDesc" type="text" placeholder="What will people learn? (optional)" maxlength="220">
-</div>
-<div class="form-actions"><button type="submit">Add to feed</button><span class="hint" id="formMessage" role="status"></span></div>
-<div class="hint">Paste a regular YouTube video URL or youtu.be link. Your added videos are saved in this browser on this device.</div>
-</form>
+<section class="toolbar">
+ <div class="toolbar-top"><p>Swipe or scroll for the next lesson · autoplay is muted</p><button class="add-toggle" id="toggleAdd" type="button">＋ Add video</button></div>
+ <nav class="filters" id="filters" aria-label="Filter videos"></nav>
+ <section class="add-panel" id="addPanel" aria-label="Add a video">
+  <h2>Add a short video</h2>
+  <form id="videoForm">
+   <div class="form-grid">
+    <input class="wide" id="videoUrl" type="url" placeholder="YouTube video or Shorts link" required>
+    <input id="videoTitle" type="text" placeholder="Video title" maxlength="100" required>
+    <select id="videoTopic"><option>History</option><option>Baseball</option><option>Chess</option><option>Politics · Civics</option><option>Philosophy</option><option>Psychology</option><option>Math</option><option>Mythology</option><option>Science</option><option>Geography</option><option>Technology</option><option>Other</option></select>
+    <input id="videoDuration" type="number" min="1" max="120" step="1" placeholder="Duration in seconds (max 120)" required>
+    <input class="wide" id="videoDesc" type="text" placeholder="What will people learn? (optional)" maxlength="220">
+   </div>
+   <div class="form-actions"><button type="submit">Add to feed</button><span class="hint" id="formMessage" role="status"></span></div>
+   <div class="hint">Only submit videos that are 120 seconds or shorter. Enter the actual duration in seconds. Videos are saved in this browser on this device.</div>
+  </form>
+ </section>
 </section>
-<nav class="filters" id="filters" aria-label="Filter videos"></nav>
-<div class="feed" id="feed"></div>
-<footer>Keep scrolling. Keep learning. · EduTok</footer>
+<section class="feed" id="feed" aria-label="Video feed"></section>
 </main>
 <script>
-const starterVideos = [
- {id:"Yocja_N5s1I",topic:"History",title:"The Agricultural Revolution: Crash Course World History #1",desc:"How the shift to farming changed human societies and the course of history.",source:"EduTok"},
- {id:"vo4pMVb0R6M",topic:"Psychology",title:"Intro to Psychology: Crash Course Psychology #1",desc:"A quick introduction to the scientific study of the mind and behavior.",source:"EduTok"}
-];
 const topics=["All","History","Baseball","Chess","Politics · Civics","Philosophy","Psychology","Math","Mythology","Science","Geography","Technology","Other"];
-const feed=document.getElementById("feed"), filters=document.getElementById("filters");
-let selectedTopic="All";
+const feed=document.getElementById("feed"),filters=document.getElementById("filters");
+let selectedTopic="All",playbackObserver=null;
 function getSaved(){try{return JSON.parse(localStorage.getItem("edutok-videos")||"[]")}catch{return []}}
 function save(items){localStorage.setItem("edutok-videos",JSON.stringify(items))}
-function allVideos(){return [...getSaved(),...starterVideos]}
+function allVideos(){return getSaved().filter(v=>Number.isInteger(Number(v.durationSeconds))&&Number(v.durationSeconds)>0&&Number(v.durationSeconds)<=120)}
 function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function timeLabel(seconds){const n=Number(seconds);return Math.floor(n/60)+":"+String(n%60).padStart(2,"0")}
 function makeFilters(){
  filters.innerHTML=topics.map(t=>'<button class="filter '+(t===selectedTopic?'active':'')+'" type="button" data-topic="'+esc(t)+'">'+esc(t)+'</button>').join("");
  filters.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{selectedTopic=b.dataset.topic;makeFilters();render()}));
 }
-function videoCard(v,index){
- const saved=getSaved().some(x=>x.id===v.id&&x.title===v.title);
- return '<article class="card"><div class="meta"><span class="topic">'+esc(v.topic)+'</span><span class="duration">▶ Watch in feed</span></div><h2 class="card-title">'+esc(v.title)+'</h2><div class="video"><iframe loading="lazy" title="'+esc(v.title)+'" data-video-id="'+esc(v.id)+'" src="https://www.youtube-nocookie.com/embed/'+encodeURIComponent(v.id)+'?playsinline=1&rel=0&enablejsapi=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="desc">'+esc(v.desc||"")+'</div><div class="card-actions"><span class="hint">Video provided by YouTube</span>'+(saved?'<button class="btn delete" type="button" data-delete="'+esc(v.id)+'">Remove</button>':'')+'</div></article>';
+function videoCard(v){
+ const id=esc(v.id),title=esc(v.title);
+ const saved=getSaved().some(x=>x.id===v.id);
+ return '<article class="card"><div class="video"><iframe loading="lazy" title="'+title+'" data-video-id="'+id+'" src="https://www.youtube-nocookie.com/embed/'+encodeURIComponent(v.id)+'?autoplay=1&mute=1&playsinline=1&controls=1&rel=0&enablejsapi=1" allow="autoplay; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe><span class="sound-hint">Autoplay · muted</span></div><div class="card-overlay"><div class="meta"><span class="topic">'+esc(v.topic)+'</span><span class="duration">'+timeLabel(v.durationSeconds)+' / 2:00 max</span></div><h2 class="card-title">'+title+'</h2><div class="desc">'+esc(v.desc||"")+'</div><div class="card-actions">'+(saved?'<button class="btn delete" type="button" data-delete="'+id+'">Remove video</button>':'')+'</div></div></article>';
 }
 function render(){
+ if(playbackObserver){playbackObserver.disconnect();playbackObserver=null}
  const videos=allVideos().filter(v=>selectedTopic==="All"||v.topic===selectedTopic);
- feed.innerHTML=videos.length?videos.map(videoCard).join(""):'<div class="empty">No videos in this subject yet. Add a YouTube video to start this part of the feed.</div>';
+ feed.innerHTML=videos.length?videos.map(videoCard).join(""):'<div class="empty"><div><strong>Your feed is ready for its first lesson.</strong>Add a YouTube video that is no longer than 2 minutes. It will play right here as you scroll.</div></div>';
  feed.querySelectorAll("[data-delete]").forEach(b=>b.addEventListener("click",()=>{save(getSaved().filter(v=>v.id!==b.dataset.delete));render()}));
  setupPlayback();
 }
 function setupPlayback(){
  const frames=[...feed.querySelectorAll("iframe[data-video-id]")];
  if(!("IntersectionObserver" in window))return;
- const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
-   const frame=entry.target;
-   if(entry.isIntersecting&&entry.intersectionRatio>=0.65){
-     frames.forEach(other=>{if(other!==frame)try{other.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}',"*")}catch{}});
-     try{frame.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}',"*")}catch{}
-   }else{
-     try{frame.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}',"*")}catch{}
-   }
- }),{threshold:[0,0.65,1]});
- frames.forEach(f=>observer.observe(f));
+ playbackObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
+  const frame=entry.target;
+  if(entry.isIntersecting&&entry.intersectionRatio>=0.7){
+   frames.forEach(other=>{if(other!==frame)try{other.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}',"*")}catch{}});
+   try{frame.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}',"*")}catch{}
+  }else{
+   try{frame.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}',"*")}catch{}
+  }
+ }),{threshold:[0,0.7,1]});
+ frames.forEach(f=>playbackObserver.observe(f));
 }
 function extractId(url){
  try{
-  const u=new URL(url);
-  if(u.hostname==="youtu.be"||u.hostname.endsWith(".youtu.be"))return u.pathname.split("/").filter(Boolean)[0]||"";
-  if(u.hostname.includes("youtube.com")){
+  const u=new URL(url),host=u.hostname.toLowerCase();
+  if(host==="youtu.be"||host.endsWith(".youtu.be"))return u.pathname.split("/").filter(Boolean)[0]||"";
+  if(host==="youtube.com"||host.endsWith(".youtube.com")){
    if(u.pathname==="/watch")return u.searchParams.get("v")||"";
    const parts=u.pathname.split("/").filter(Boolean);
    if(["embed","shorts","live"].includes(parts[0]))return parts[1]||"";
@@ -99,16 +131,21 @@ function extractId(url){
  }catch{}
  return "";
 }
-document.getElementById("toggleAdd").addEventListener("click",()=>{document.getElementById("addPanel").classList.toggle("open");if(document.getElementById("addPanel").classList.contains("open"))document.getElementById("videoUrl").focus()});
+document.getElementById("toggleAdd").addEventListener("click",()=>{
+ const panel=document.getElementById("addPanel");panel.classList.toggle("open");
+ if(panel.classList.contains("open"))document.getElementById("videoUrl").focus();
+});
 document.getElementById("videoForm").addEventListener("submit",e=>{
  e.preventDefault();
  const id=extractId(document.getElementById("videoUrl").value.trim());
  const message=document.getElementById("formMessage");
- if(!id||!/^[a-zA-Z0-9_-]{11}$/.test(id)){message.textContent="That doesn't look like a valid YouTube video link.";return}
- const video={id,topic:document.getElementById("videoTopic").value,title:document.getElementById("videoTitle").value.trim(),desc:document.getElementById("videoDesc").value.trim()};
+ const seconds=Number(document.getElementById("videoDuration").value);
+ if(!id||!/^[a-zA-Z0-9_-]{11}$/.test(id)){message.textContent="Enter a valid YouTube video link.";return}
+ if(!Number.isInteger(seconds)||seconds<1||seconds>120){message.textContent="The video must be 120 seconds or shorter.";return}
+ const video={id,topic:document.getElementById("videoTopic").value,title:document.getElementById("videoTitle").value.trim(),desc:document.getElementById("videoDesc").value.trim(),durationSeconds:seconds};
  const items=getSaved();
  if(items.some(v=>v.id===id)){message.textContent="That video is already in your feed.";return}
- items.unshift(video);save(items);selectedTopic="All";makeFilters();render();e.target.reset();message.textContent="Added!";document.getElementById("addPanel").classList.remove("open");window.scrollTo({top:0,behavior:"smooth"});
+ items.unshift(video);save(items);selectedTopic="All";makeFilters();render();e.target.reset();message.textContent="Added!";document.getElementById("addPanel").classList.remove("open");feed.scrollTo({top:0,behavior:"smooth"});
 });
 makeFilters();render();
 </script>
