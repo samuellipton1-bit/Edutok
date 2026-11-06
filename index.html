@@ -22,7 +22,7 @@ main{height:calc(100dvh - var(--header));display:flex;flex-direction:column;max-
 .toolbar-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:7px}
 .toolbar p{font-size:12px;color:var(--muted);margin:0}
 .add-toggle,.btn{border:1px solid #44475a;border-radius:999px;padding:8px 12px;background:#242638;color:white;font-size:12px;text-decoration:none;cursor:pointer}
-.add-toggle{background:var(--accent);border-color:var(--accent);font-weight:800;white-space:nowrap}
+.add-toggle{background:var(--accent);border-color:var(--accent);font-weight:800;white-space:nowrap}.add-toggle,.add-panel{display:none!important}
 .filters{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none}.filters::-webkit-scrollbar{display:none}
 .filter{white-space:nowrap;border:1px solid #393c50;background:#1a1c29;color:#e4e4ed;border-radius:999px;padding:6px 10px;font-size:11px;cursor:pointer}
 .filter.active{background:var(--accent);border-color:var(--accent);color:white;font-weight:800}
@@ -58,10 +58,10 @@ footer{display:none}
 </style>
 </head>
 <body>
-<header><div><div class="brand">Edu<span>Tok</span></div><div class="sub">Learn something new with every swipe</div></div><div class="header-right">📚 For curious minds</div></header>
+<header><div><div class="brand">Edu<span>Tok</span></div><div class="sub">Learn something new with every swipe</div></div><div class="header-right" id="feedStatus">🤖 AI-curated feed</div></header>
 <main>
 <section class="toolbar">
- <div class="toolbar-top"><p>Swipe or scroll for the next lesson · autoplay is muted</p><button class="add-toggle" id="toggleAdd" type="button">＋ Add video</button></div>
+ <div class="toolbar-top"><p>Fresh educational clips, automatically added · swipe to learn</p></div>
  <nav class="filters" id="filters" aria-label="Filter videos"></nav>
  <section class="add-panel" id="addPanel" aria-label="Add a video">
   <h2>Add a short video</h2>
@@ -83,10 +83,10 @@ footer{display:none}
 <script>
 const topics=["All","History","Baseball","Chess","Politics · Civics","Philosophy","Psychology","Math","Mythology","Science","Geography","Technology","Other"];
 const feed=document.getElementById("feed"),filters=document.getElementById("filters");
-let selectedTopic="All",playbackObserver=null;
+let selectedTopic="All",playbackObserver=null,autoVideos=[];
 function getSaved(){try{return JSON.parse(localStorage.getItem("edutok-videos")||"[]")}catch{return []}}
 function save(items){localStorage.setItem("edutok-videos",JSON.stringify(items))}
-function allVideos(){return getSaved().filter(v=>Number.isInteger(Number(v.durationSeconds))&&Number(v.durationSeconds)>0&&Number(v.durationSeconds)<=120)}
+function allVideos(){return [...autoVideos,...getSaved()].filter(v=>Number.isInteger(Number(v.durationSeconds))&&Number(v.durationSeconds)>0&&Number(v.durationSeconds)<=120)}
 function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function timeLabel(seconds){const n=Number(seconds);return Math.floor(n/60)+":"+String(n%60).padStart(2,"0")}
 function makeFilters(){
@@ -101,7 +101,7 @@ function videoCard(v){
 function render(){
  if(playbackObserver){playbackObserver.disconnect();playbackObserver=null}
  const videos=allVideos().filter(v=>selectedTopic==="All"||v.topic===selectedTopic);
- feed.innerHTML=videos.length?videos.map(videoCard).join(""):'<div class="empty"><div><strong>Your feed is ready for its first lesson.</strong>Add a YouTube video that is no longer than 2 minutes. It will play right here as you scroll.</div></div>';
+ feed.innerHTML=videos.length?videos.map(videoCard).join(""):'<div class="empty"><div><strong>Your AI-curated feed is loading.</strong>New educational clips are added automatically. Check back soon for the next batch.</div></div>';
  feed.querySelectorAll("[data-delete]").forEach(b=>b.addEventListener("click",()=>{save(getSaved().filter(v=>v.id!==b.dataset.delete));render()}));
  setupPlayback();
 }
@@ -147,7 +147,21 @@ document.getElementById("videoForm").addEventListener("submit",e=>{
  if(items.some(v=>v.id===id)){message.textContent="That video is already in your feed.";return}
  items.unshift(video);save(items);selectedTopic="All";makeFilters();render();e.target.reset();message.textContent="Added!";document.getElementById("addPanel").classList.remove("open");feed.scrollTo({top:0,behavior:"smooth"});
 });
-makeFilters();render();
+async function loadAutoFeed(){
+ try{
+  const response=await fetch("feed.json?ts="+Date.now(),{cache:"no-store"});
+  if(!response.ok)throw new Error("Feed not published yet");
+  const data=await response.json();
+  autoVideos=Array.isArray(data.videos)?data.videos:[];
+  const stamp=data.updatedAt?new Date(data.updatedAt):null;
+  document.getElementById("feedStatus").textContent=stamp&&!Number.isNaN(stamp.getTime())?"🤖 Updated "+stamp.toLocaleDateString():"🤖 AI-curated feed";
+  render();
+ }catch(error){
+  document.getElementById("feedStatus").textContent="🤖 Feed initializing";
+ }
+}
+makeFilters();render();loadAutoFeed();
+setInterval(loadAutoFeed,5*60*1000);
 </script>
 </body>
 </html>
