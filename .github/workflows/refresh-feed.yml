@@ -8,12 +8,19 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: edutok-feed-refresh
+  cancel-in-progress: false
+
 jobs:
   refresh-feed:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+      - name: Sync latest main branch
+        run: |
+          git pull --rebase origin main
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
