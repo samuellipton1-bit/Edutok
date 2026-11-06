@@ -10,14 +10,24 @@ YOUTUBE_KEY = os.environ["YOUTUBE_API_KEY"]
 OPENAI_KEY = os.environ["OPENAI_API_KEY"]
 FEED_PATH = Path("feed.json")
 MAX_SECONDS = 120
+MAX_NEW_VIDEOS = 25
+
+# Broader searches cover the subjects EduTok is meant to teach.
+# YouTube's "short" filter can include videos up to four minutes;
+# get_video_details() enforces the actual two-minute limit.
 SEARCH_TERMS = [
-    "short educational science lesson",
-    "short history lesson explained",
-    "short math lesson educational",
-    "geography facts educational short",
-    "psychology explained educational short",
-    "technology and economics educational short",
-    "baseball history statistics educational",
+    "educational shorts explained",
+    "science facts explained short",
+    "history facts explained short",
+    "math concepts explained short",
+    "geography facts explained short",
+    "psychology concepts explained short",
+    "technology explained short",
+    "economics explained short",
+    "philosophy explained short",
+    "mythology stories explained short",
+    "baseball history facts short",
+    "chess lessons for beginners short",
 ]
 
 def get_json(url, headers=None):
@@ -27,9 +37,14 @@ def get_json(url, headers=None):
 
 def youtube_search(term):
     params = urllib.parse.urlencode({
-        "part": "snippet", "type": "video", "q": term,
-        "maxResults": 20, "order": "date", "videoDuration": "short",
-        "safeSearch": "strict", "key": YOUTUBE_KEY
+        "part": "snippet",
+        "type": "video",
+        "q": term,
+        "maxResults": 20,
+        "order": "relevance",
+        "videoDuration": "short",
+        "safeSearch": "strict",
+        "key": YOUTUBE_KEY
     })
     data = get_json("https://www.googleapis.com/youtube/v3/search?" + params)
     return data.get("items", [])
@@ -47,7 +62,8 @@ def get_video_details(ids):
         chunk = ids[start:start + 50]
         params = urllib.parse.urlencode({
             "part": "snippet,contentDetails,status",
-            "id": ",".join(chunk), "key": YOUTUBE_KEY
+            "id": ",".join(chunk),
+            "key": YOUTUBE_KEY
         })
         data = get_json("https://www.googleapis.com/youtube/v3/videos?" + params)
         for item in data.get("items", []):
@@ -70,8 +86,24 @@ def ai_curate(candidates):
     if not candidates:
         return []
     prompt = {
-        "task": "Select the strongest genuinely educational videos for a general-audience learning feed. Reject promotions, memes, misleading claims, low-information clips, and videos whose title gives no clear learning value. Use only facts in the supplied metadata. Assign one topic from History, Baseball, Chess, Politics · Civics, Philosophy, Psychology, Math, Mythology, Science, Geography, Technology, Other. Write a concise accurate title and one-sentence description. Do not invent facts.",
-        "output": {"videos": [{"id": "existing candidate ID", "topic": "topic", "title": "clear title", "desc": "one sentence"}]},
+        "task": (
+            "Choose up to 25 useful videos for a general-audience educational feed. "
+            "The candidates have already been verified as embeddable and no longer "
+            "than 120 seconds. Be inclusive: keep a video if its title and channel "
+            "make a genuine learning topic reasonably clear. Reject only clearly "
+            "unrelated videos, advertisements, memes, or obviously misleading items. "
+            "Do not require a perfect title. Use only supplied metadata and do not "
+            "claim to have watched the videos. Assign one topic from History, Baseball, "
+            "Chess, Politics · Civics, Philosophy, Psychology, Math, Mythology, Science, "
+            "Geography, Technology, Other. Keep the original meaning in a concise title "
+            "and write a cautious one-sentence description based only on the metadata."
+        ),
+        "output": {
+            "videos": [
+                {"id": "existing candidate ID", "topic": "topic",
+                 "title": "concise title", "desc": "one sentence"}
+            ]
+        },
         "candidates": candidates
     }
     body = json.dumps({
@@ -79,17 +111,21 @@ def ai_curate(candidates):
         "temperature": 0.2,
         "response_format": {"type": "json_object"},
         "messages": [
-            {"role": "system", "content": "You are a careful educational video curator. Return valid JSON only."},
+            {"role": "system", "content": "You curate educational video metadata. Return valid JSON only."},
             {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)}
         ]
     }).encode("utf-8")
     req = urllib.request.Request(
-        "https://api.openai.com/v1/chat/completions", data=body,
-        headers={"Authorization": "Bearer " + OPENAI_KEY, "Content-Type": "application/json"}
+        "https://api.openai.com/v1/chat/completions",
+        data=body,
+        headers={
+            "Authorization": "Bearer " + OPENAI_KEY,
+            "Content-Type": "application/json"
+        }
     )
-    result = get_json(req.full_url, req.headers) if False else None
     with urllib.request.urlopen(req, timeout=60) as response:
         result = json.loads(response.read().decode("utf-8"))
+
     content = result["choices"][0]["message"]["content"]
     parsed = json.loads(content)
     by_id = {v["id"]: v for v in candidates}
@@ -98,37 +134,51 @@ def ai_curate(candidates):
         "History", "Baseball", "Chess", "Politics · Civics", "Philosophy",
         "Psychology", "Math", "Mythology", "Science", "Geography", "Technology", "Other"
     }
+    seen = set()
     for item in parsed.get("videos", []):
         original = by_id.get(item.get("id"))
-        if not original:
+        if not original or original["id"] in seen:
             continue
+        seen.add(original["id"])
         video = dict(original)
         video["topic"] = item.get("topic") if item.get("topic") in allowed_topics else "Other"
         video["title"] = str(item.get("title") or original["sourceTitle"])[:100]
         video["desc"] = str(item.get("desc") or "A short educational video.")[:220]
         curated.append(video)
+        if len(curated) >= MAX_NEW_VIDEOS:
+            break
     return curated
 
 def main():
     previous = json.loads(FEED_PATH.read_text("utf-8")) if FEED_PATH.exists() else {"videos": []}
     old_videos = previous.get("videos", [])
-    old_ids = {v.get("id") for v in old_videos}
+    old_ids = {v.get("id") for v in old_videos if v.get("id")}
     discovered = {}
+
     for term in SEARCH_TERMS:
-        for item in youtube_search(term):
+        results = youtube_search(term)
+        for item in results:
             video_id = item.get("id", {}).get("videoId")
             if video_id and video_id not in old_ids:
                 discovered[video_id] = item
+
+    print(f"YouTube search found {len(discovered)} unique new candidates.")
     candidates = get_video_details(list(discovered.keys()))
+    print(f"{len(candidates)} candidates passed the 120-second and embeddable checks.")
+
     curated = ai_curate(list(candidates.values()))
-    # Keep the feed fresh while retaining a useful backlog; never duplicate IDs.
-    merged = curated + [v for v in old_videos if v.get("id") not in {x["id"] for x in curated}]
+    curated_ids = {v["id"] for v in curated}
+    merged = curated + [v for v in old_videos if v.get("id") not in curated_ids]
     merged = merged[:100]
+
     output = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "videos": merged
     }
-    FEED_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    FEED_PATH.write_text(
+        json.dumps(output, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8"
+    )
     print(f"Added {len(curated)} AI-curated videos; feed now contains {len(merged)} clips.")
 
 if __name__ == "__main__":
