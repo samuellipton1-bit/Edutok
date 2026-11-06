@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="EduTok">
+<meta name="theme-color" content="#10131c">
+<title>EduTok — Learn in a scroll</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%237c5cff'/%3E%3Ctext x='50' y='67' font-size='55' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3EE%3C/text%3E%3C/svg%3E">
+<style>
+:root{color-scheme:dark;--bg:#10131c;--panel:#1b2030;--ink:#f4f5fb;--muted:#a8b0c4;--accent:#8b72ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{position:sticky;top:0;z-index:5;background:#10131ceF;backdrop-filter:blur(14px);padding:calc(env(safe-area-inset-top) + 12px) 16px 12px;border-bottom:1px solid #303647;display:flex;align-items:center;justify-content:space-between}
+.brand{font-size:22px;font-weight:850;letter-spacing:-.7px}.brand span{color:var(--accent)}.sub{font-size:12px;color:var(--muted);margin-top:2px}
+main{max-width:720px;margin:auto;padding:14px 12px 80px}
+.notice{font-size:13px;color:var(--muted);padding:10px 12px;background:var(--panel);border-radius:12px;margin-bottom:14px}
+.feed{display:grid;gap:18px}.card{background:var(--panel);border:1px solid #2c3346;border-radius:18px;overflow:hidden}
+.meta{display:flex;align-items:center;justify-content:space-between;padding:13px 14px 10px}.topic{font-size:12px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:#c6baff}.duration{font-size:12px;color:var(--muted)}
+h2{font-size:19px;line-height:1.25;margin:0;padding:0 14px 12px}
+.video{width:100%;aspect-ratio:16/9;background:#080a10}.video iframe{width:100%;height:100%;border:0}
+.desc{padding:12px 14px 14px;color:#d8dced;font-size:14px;line-height:1.45}
+.actions{display:flex;gap:9px;padding:0 14px 14px;flex-wrap:wrap}.btn{border:1px solid #444b60;border-radius:999px;padding:9px 13px;background:#252b3d;color:white;font-size:13px;text-decoration:none;display:inline-block}.btn.primary{background:var(--accent);border-color:var(--accent);font-weight:700}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
+</style>
+</head>
+<body>
+<header><div><div class="brand">Edu<span>Tok</span></div><div class="sub">A mixed feed for curious minds</div></div><div aria-label="Educational feed">📚</div></header>
+<main>
+<div class="notice">One mixed feed—no topic tabs. Tap a topic’s button to open a YouTube search for short educational clips. YouTube videos are hosted and served by YouTube.</div>
+<div class="feed" id="feed"></div>
+<footer>Keep scrolling. Keep learning. · EduTok</footer>
+</main>
+<script>
+const subjects=[
+ {topic:"Baseball · History & Stats",title:"Baseball: learn the game’s history and numbers",desc:"Explore baseball history, player statistics, strategy, and the stories behind the numbers.",q:"baseball history statistics explained short educational"},
+ {topic:"Chess",title:"Chess ideas, tactics, and strategy",desc:"Quick lessons on tactics, positional ideas, famous games, and how to think ahead.",q:"chess tactics strategy lesson short"},
+ {topic:"History",title:"A bite-sized trip through world history",desc:"Discover pivotal events, civilizations, and historical turning points.",q:"world history educational short video"},
+ {topic:"Politics · Civics",title:"How government and political systems work",desc:"Understand civics, political institutions, elections, and ideas shaping public life.",q:"political science civics government explained short"},
+ {topic:"Philosophy",title:"Big philosophical questions in small clips",desc:"Explore thought experiments, ethics, logic, and questions about how to live.",q:"philosophy thought experiment explained short"},
+ {topic:"Psychology",title:"Understand the human mind",desc:"Learn about behavior, cognition, biases, memory, and psychological research.",q:"psychology cognitive bias explained short"},
+ {topic:"Math Shortcuts",title:"Mental math tricks and useful shortcuts",desc:"Practice clever ways to calculate faster and understand the math behind them.",q:"mental math shortcuts tricks educational short"},
+ {topic:"Mythology",title:"Gods, heroes, and myths from around the world",desc:"Explore Greek, Norse, Egyptian, and other mythological traditions.",q:"Greek Norse Egyptian mythology explained short"}
+];
+const feed=document.getElementById("feed");
+function shuffle(a){for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function card(s){const search="https://www.youtube.com/results?search_query="+encodeURIComponent(s.q+" 15 seconds 2 minutes");return `<article class="card"><div class="meta"><span class="topic">${s.topic}</span><span class="duration">Short learning</span></div><h2>${s.title}</h2><div class="desc">${s.desc}</div><div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="${search}">▶ Find clips on YouTube</a><a class="btn" target="_blank" rel="noopener" href="${search}">Explore topic</a></div></article>`}
+feed.innerHTML=shuffle([...subjects,...subjects]).map(card).join("");
+</script>
+</body>
+</html>
