@@ -11,42 +11,106 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%237c5cff'/%3E%3Ctext x='50' y='67' font-size='55' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3EE%3C/text%3E%3C/svg%3E">
 <style>
 :root{color-scheme:dark;--bg:#10131c;--panel:#1b2030;--ink:#f4f5fb;--muted:#a8b0c4;--accent:#8b72ff}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
 header{position:sticky;top:0;z-index:5;background:#10131ceF;backdrop-filter:blur(14px);padding:calc(env(safe-area-inset-top) + 12px) 16px 12px;border-bottom:1px solid #303647;display:flex;align-items:center;justify-content:space-between}
 .brand{font-size:22px;font-weight:850;letter-spacing:-.7px}.brand span{color:var(--accent)}.sub{font-size:12px;color:var(--muted);margin-top:2px}
-main{max-width:720px;margin:auto;padding:14px 12px 80px}
-.notice{font-size:13px;color:var(--muted);padding:10px 12px;background:var(--panel);border-radius:12px;margin-bottom:14px}
-.feed{display:grid;gap:18px}.card{background:var(--panel);border:1px solid #2c3346;border-radius:18px;overflow:hidden}
-.meta{display:flex;align-items:center;justify-content:space-between;padding:13px 14px 10px}.topic{font-size:12px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:#c6baff}.duration{font-size:12px;color:var(--muted)}
-h2{font-size:19px;line-height:1.25;margin:0;padding:0 14px 12px}
-.video{width:100%;aspect-ratio:16/9;background:#080a10}.video iframe{width:100%;height:100%;border:0}
-.desc{padding:12px 14px 14px;color:#d8dced;font-size:14px;line-height:1.45}
-.actions{display:flex;gap:9px;padding:0 14px 14px;flex-wrap:wrap}.btn{border:1px solid #444b60;border-radius:999px;padding:9px 13px;background:#252b3d;color:white;font-size:13px;text-decoration:none;display:inline-block}.btn.primary{background:var(--accent);border-color:var(--accent);font-weight:700}
-footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
+main{max-width:760px;margin:auto;padding:14px 12px 80px}.intro{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}.intro p{font-size:13px;color:var(--muted);line-height:1.45;margin:0}
+.add-toggle,.btn{border:1px solid #444b60;border-radius:999px;padding:10px 14px;background:#252b3d;color:white;font-size:13px;text-decoration:none;cursor:pointer}.add-toggle{background:var(--accent);border-color:var(--accent);font-weight:750;white-space:nowrap}
+.add-panel{display:none;background:var(--panel);border:1px solid #343c52;border-radius:16px;padding:14px;margin-bottom:16px}.add-panel.open{display:block}.add-panel h2{font-size:17px;margin:0 0 12px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.form-grid input,.form-grid select{min-width:0;width:100%;background:#111624;border:1px solid #414a60;border-radius:10px;padding:11px;color:var(--ink);font:inherit;font-size:13px}.form-grid .wide{grid-column:1/-1}.form-actions{display:flex;gap:8px;margin-top:10px;align-items:center}.form-actions button{border:0;border-radius:999px;padding:10px 15px;background:var(--accent);color:white;font-weight:750;cursor:pointer}.hint{font-size:11px;color:var(--muted);line-height:1.4;margin-top:8px}
+.filters{display:flex;gap:8px;overflow-x:auto;padding:2px 0 13px;scrollbar-width:none}.filters::-webkit-scrollbar{display:none}.filter{white-space:nowrap;border:1px solid #3c455b;background:#202638;color:#dfe3f1;border-radius:999px;padding:8px 12px;font-size:12px;cursor:pointer}.filter.active{background:#8b72ff;border-color:#8b72ff;color:white;font-weight:750}
+.feed{display:grid;gap:18px}.card{background:var(--panel);border:1px solid #2c3346;border-radius:18px;overflow:hidden}.meta{display:flex;align-items:center;justify-content:space-between;padding:13px 14px 9px}.topic{font-size:12px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:#c6baff}.duration{font-size:12px;color:var(--muted)}
+h2.card-title{font-size:19px;line-height:1.25;margin:0;padding:0 14px 12px}.video{width:100%;aspect-ratio:16/9;background:#080a10;position:relative}.video iframe{width:100%;height:100%;border:0;display:block}.desc{padding:12px 14px;color:#d8dced;font-size:14px;line-height:1.45}.card-actions{display:flex;gap:8px;padding:0 14px 14px;align-items:center;flex-wrap:wrap}.btn{display:inline-block}.btn.delete{background:transparent;color:#aeb6ca;margin-left:auto}
+.empty{padding:26px 18px;text-align:center;color:var(--muted);background:var(--panel);border:1px dashed #414a60;border-radius:16px;line-height:1.5}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:22px}
+@media(max-width:520px){.form-grid{grid-template-columns:1fr}.form-grid .wide{grid-column:auto}.intro{align-items:flex-start}.add-toggle{padding:9px 11px}}
 </style>
 </head>
 <body>
 <header><div><div class="brand">Edu<span>Tok</span></div><div class="sub">A mixed feed for curious minds</div></div><div aria-label="Educational feed">📚</div></header>
 <main>
-<div class="notice">One mixed feed—no topic tabs. Tap a topic’s button to open a YouTube search for short educational clips. YouTube videos are hosted and served by YouTube.</div>
+<div class="intro"><p>Scroll through ideas, discoveries, and lessons.<br>Videos play right here in your feed.</p><button class="add-toggle" id="toggleAdd" type="button">＋ Add a video</button></div>
+<section class="add-panel" id="addPanel" aria-label="Add a video">
+<h2>Add to the EduTok feed</h2>
+<form id="videoForm">
+<div class="form-grid">
+<input class="wide" id="videoUrl" type="url" placeholder="Paste a YouTube video link" required>
+<input id="videoTitle" type="text" placeholder="Video title" maxlength="100" required>
+<select id="videoTopic"><option>History</option><option>Baseball</option><option>Chess</option><option>Politics · Civics</option><option>Philosophy</option><option>Psychology</option><option>Math</option><option>Mythology</option><option>Science</option><option>Geography</option><option>Technology</option><option>Other</option></select>
+<input class="wide" id="videoDesc" type="text" placeholder="What will people learn? (optional)" maxlength="220">
+</div>
+<div class="form-actions"><button type="submit">Add to feed</button><span class="hint" id="formMessage" role="status"></span></div>
+<div class="hint">Paste a regular YouTube video URL or youtu.be link. Your added videos are saved in this browser on this device.</div>
+</form>
+</section>
+<nav class="filters" id="filters" aria-label="Filter videos"></nav>
 <div class="feed" id="feed"></div>
 <footer>Keep scrolling. Keep learning. · EduTok</footer>
 </main>
 <script>
-const subjects=[
- {topic:"Baseball · History & Stats",title:"Baseball: learn the game’s history and numbers",desc:"Explore baseball history, player statistics, strategy, and the stories behind the numbers.",q:"baseball history statistics explained short educational"},
- {topic:"Chess",title:"Chess ideas, tactics, and strategy",desc:"Quick lessons on tactics, positional ideas, famous games, and how to think ahead.",q:"chess tactics strategy lesson short"},
- {topic:"History",title:"A bite-sized trip through world history",desc:"Discover pivotal events, civilizations, and historical turning points.",q:"world history educational short video"},
- {topic:"Politics · Civics",title:"How government and political systems work",desc:"Understand civics, political institutions, elections, and ideas shaping public life.",q:"political science civics government explained short"},
- {topic:"Philosophy",title:"Big philosophical questions in small clips",desc:"Explore thought experiments, ethics, logic, and questions about how to live.",q:"philosophy thought experiment explained short"},
- {topic:"Psychology",title:"Understand the human mind",desc:"Learn about behavior, cognition, biases, memory, and psychological research.",q:"psychology cognitive bias explained short"},
- {topic:"Math Shortcuts",title:"Mental math tricks and useful shortcuts",desc:"Practice clever ways to calculate faster and understand the math behind them.",q:"mental math shortcuts tricks educational short"},
- {topic:"Mythology",title:"Gods, heroes, and myths from around the world",desc:"Explore Greek, Norse, Egyptian, and other mythological traditions.",q:"Greek Norse Egyptian mythology explained short"}
+const starterVideos = [
+ {id:"Yocja_N5s1I",topic:"History",title:"The Agricultural Revolution: Crash Course World History #1",desc:"How the shift to farming changed human societies and the course of history.",source:"EduTok"},
+ {id:"vo4pMVb0R6M",topic:"Psychology",title:"Intro to Psychology: Crash Course Psychology #1",desc:"A quick introduction to the scientific study of the mind and behavior.",source:"EduTok"}
 ];
-const feed=document.getElementById("feed");
-function shuffle(a){for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function card(s){const search="https://www.youtube.com/results?search_query="+encodeURIComponent(s.q+" 15 seconds 2 minutes");return `<article class="card"><div class="meta"><span class="topic">${s.topic}</span><span class="duration">Short learning</span></div><h2>${s.title}</h2><div class="desc">${s.desc}</div><div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="${search}">▶ Find clips on YouTube</a><a class="btn" target="_blank" rel="noopener" href="${search}">Explore topic</a></div></article>`}
-feed.innerHTML=shuffle([...subjects,...subjects]).map(card).join("");
+const topics=["All","History","Baseball","Chess","Politics · Civics","Philosophy","Psychology","Math","Mythology","Science","Geography","Technology","Other"];
+const feed=document.getElementById("feed"), filters=document.getElementById("filters");
+let selectedTopic="All";
+function getSaved(){try{return JSON.parse(localStorage.getItem("edutok-videos")||"[]")}catch{return []}}
+function save(items){localStorage.setItem("edutok-videos",JSON.stringify(items))}
+function allVideos(){return [...getSaved(),...starterVideos]}
+function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function makeFilters(){
+ filters.innerHTML=topics.map(t=>'<button class="filter '+(t===selectedTopic?'active':'')+'" type="button" data-topic="'+esc(t)+'">'+esc(t)+'</button>').join("");
+ filters.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{selectedTopic=b.dataset.topic;makeFilters();render()}));
+}
+function videoCard(v,index){
+ const saved=getSaved().some(x=>x.id===v.id&&x.title===v.title);
+ return '<article class="card"><div class="meta"><span class="topic">'+esc(v.topic)+'</span><span class="duration">▶ Watch in feed</span></div><h2 class="card-title">'+esc(v.title)+'</h2><div class="video"><iframe loading="lazy" title="'+esc(v.title)+'" data-video-id="'+esc(v.id)+'" src="https://www.youtube-nocookie.com/embed/'+encodeURIComponent(v.id)+'?playsinline=1&rel=0&enablejsapi=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="desc">'+esc(v.desc||"")+'</div><div class="card-actions"><span class="hint">Video provided by YouTube</span>'+(saved?'<button class="btn delete" type="button" data-delete="'+esc(v.id)+'">Remove</button>':'')+'</div></article>';
+}
+function render(){
+ const videos=allVideos().filter(v=>selectedTopic==="All"||v.topic===selectedTopic);
+ feed.innerHTML=videos.length?videos.map(videoCard).join(""):'<div class="empty">No videos in this subject yet. Add a YouTube video to start this part of the feed.</div>';
+ feed.querySelectorAll("[data-delete]").forEach(b=>b.addEventListener("click",()=>{save(getSaved().filter(v=>v.id!==b.dataset.delete));render()}));
+ setupPlayback();
+}
+function setupPlayback(){
+ const frames=[...feed.querySelectorAll("iframe[data-video-id]")];
+ if(!("IntersectionObserver" in window))return;
+ const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+   const frame=entry.target;
+   if(entry.isIntersecting&&entry.intersectionRatio>=0.65){
+     frames.forEach(other=>{if(other!==frame)try{other.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}',"*")}catch{}});
+     try{frame.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}',"*")}catch{}
+   }else{
+     try{frame.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}',"*")}catch{}
+   }
+ }),{threshold:[0,0.65,1]});
+ frames.forEach(f=>observer.observe(f));
+}
+function extractId(url){
+ try{
+  const u=new URL(url);
+  if(u.hostname==="youtu.be"||u.hostname.endsWith(".youtu.be"))return u.pathname.split("/").filter(Boolean)[0]||"";
+  if(u.hostname.includes("youtube.com")){
+   if(u.pathname==="/watch")return u.searchParams.get("v")||"";
+   const parts=u.pathname.split("/").filter(Boolean);
+   if(["embed","shorts","live"].includes(parts[0]))return parts[1]||"";
+  }
+ }catch{}
+ return "";
+}
+document.getElementById("toggleAdd").addEventListener("click",()=>{document.getElementById("addPanel").classList.toggle("open");if(document.getElementById("addPanel").classList.contains("open"))document.getElementById("videoUrl").focus()});
+document.getElementById("videoForm").addEventListener("submit",e=>{
+ e.preventDefault();
+ const id=extractId(document.getElementById("videoUrl").value.trim());
+ const message=document.getElementById("formMessage");
+ if(!id||!/^[a-zA-Z0-9_-]{11}$/.test(id)){message.textContent="That doesn't look like a valid YouTube video link.";return}
+ const video={id,topic:document.getElementById("videoTopic").value,title:document.getElementById("videoTitle").value.trim(),desc:document.getElementById("videoDesc").value.trim()};
+ const items=getSaved();
+ if(items.some(v=>v.id===id)){message.textContent="That video is already in your feed.";return}
+ items.unshift(video);save(items);selectedTopic="All";makeFilters();render();e.target.reset();message.textContent="Added!";document.getElementById("addPanel").classList.remove("open");window.scrollTo({top:0,behavior:"smooth"});
+});
+makeFilters();render();
 </script>
 </body>
 </html>
