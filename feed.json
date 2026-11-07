@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-07T05:58:40.759911+00:00",
+  "updatedAt": "2026-11-07T13:00:42.364719+00:00",
   "videos": [
+    {
+      "id": "xmlcSFz3GOs",
+      "sourceTitle": "Grenade ఎలా పనిచేస్తుందో తెలుసా ? 😱 | 3D Explained #shorts #facts",
+      "channel": "Yathish X",
+      "topic": "Other",
+      "title": "How a Grenade Works Explained in 3D",
+      "desc": "A short educational video explaining the functioning of a grenade.",
+      "durationSeconds": 47,
+      "publishedAt": "2026-11-07T12:00:11Z"
+    },
+    {
+      "id": "FjXS0Wlivmw",
+      "sourceTitle": "Human Respiratory System Explained in 2 Minutes 🫁 | श्वसन तंत्र कैसे काम करता है? #shorts",
+      "channel": "Apun GS Education ",
+      "topic": "Other",
+      "title": "Human Respiratory System Explained in 2 Minutes",
+      "desc": "A brief educational video describing how the human respiratory system works.",
+      "durationSeconds": 113,
+      "publishedAt": "2026-11-07T10:41:03Z"
+    },
+    {
+      "id": "IKITDHcewtA",
+      "sourceTitle": "How Do Plants Make Their Own Food? 🌱☀️ | Photosynthesis Explained in 20 Seconds! #Shorts #youtube",
+      "channel": "Science & Beyond",
+      "topic": "Other",
+      "title": "Photosynthesis Explained in 20 Seconds",
+      "desc": "A short video explaining how plants make their own food through photosynthesis.",
+      "durationSeconds": 21,
+      "publishedAt": "2026-11-07T10:17:54Z"
+    },
+    {
+      "id": "8RNIL-S_GBM",
+      "sourceTitle": "Apasih Kata \"Think\" Itu? 🤔 | Belajar Kosa Kata Bahasa Inggris #short #education #meme #music",
+      "channel": "Kreebu",
+      "topic": "Other",
+      "title": "Meaning of the Word 'Think' in English Vocabulary",
+      "desc": "A brief educational video about the English word 'think' and its meaning.",
+      "durationSeconds": 32,
+      "publishedAt": "2026-11-04T02:20:13Z"
+    },
+    {
+      "id": "8tXWDZxxjQg",
+      "sourceTitle": "Make it 150/innovative teaching idea #youtubeshorts #viral #brainlearning #maths #education #shorts",
+      "channel": "study with dk sir 1988",
+      "topic": "Other",
+      "title": "Innovative Teaching Idea: Make it 150",
+      "desc": "A short video presenting an innovative teaching idea related to math education.",
+      "durationSeconds": 25,
+      "publishedAt": "2026-09-30T10:30:35Z"
+    },
+    {
+      "id": "CujUY2drocI",
+      "sourceTitle": "What Happens If You Fall Into Quicksand? 😱",
+      "channel": "Magnitude",
+      "topic": "Other",
+      "title": "What Happens If You Fall Into Quicksand?",
+      "desc": "A short educational video exploring the effects of falling into quicksand.",
+      "durationSeconds": 58,
+      "publishedAt": "2026-11-07T11:47:16Z"
+    },
+    {
+      "id": "2MPh3FDq5Pc",
+      "sourceTitle": "FINALLY! India Begins 'COMPULSORY' AI Education in Schools! #shorts",
+      "channel": "FactTechz",
+      "topic": "Other",
+      "title": "India Begins Compulsory AI Education in Schools",
+      "desc": "A brief video about the introduction of compulsory AI education in Indian schools.",
+      "durationSeconds": 59,
+      "publishedAt": "2025-10-18T00:30:02Z"
+    },
+    {
+      "id": "HQWOIv42lVg",
+      "sourceTitle": "Learn 4 Arabic Nature & Weather Words ☀️🌙🌧️ |English Meaning | 4K Arabic Vocabulary Lesson 🇸🇦 #Short",
+      "channel": "Niyamat Islamic calligraphy ",
+      "topic": "Other",
+      "title": "Learn 4 Arabic Nature and Weather Words",
+      "desc": "A short vocabulary lesson teaching four Arabic words related to nature and weather.",
+      "durationSeconds": 11,
+      "publishedAt": "2026-11-07T01:41:21Z"
+    },
+    {
+      "id": "nMnQVcBgLTw",
+      "sourceTitle": "USB-C: One Port to Rule Them All. Almost. #engineering #technologyexplained #usbc",
+      "channel": "Designed, Somehow",
+      "topic": "Other",
+      "title": "USB-C: One Port to Rule Them All",
+      "desc": "An educational video explaining the features and uses of USB-C technology.",
+      "durationSeconds": 112,
+      "publishedAt": "2026-11-04T15:20:21Z"
+    },
+    {
+      "id": "PWa8fbr2Qy8",
+      "sourceTitle": "How Does Bluetooth Work?",
+      "channel": "Mr Teller",
+      "topic": "Other",
+      "title": "How Does Bluetooth Work?",
+      "desc": "A short video explaining the technology behind Bluetooth communication.",
+      "durationSeconds": 30,
+      "publishedAt": "2025-07-20T06:00:31Z"
+    },
+    {
+      "id": "_yr-VNLW9nU",
+      "sourceTitle": "How The Internet Actually Works 😱",
+      "channel": "SimpliHow",
+      "topic": "Other",
+      "title": "How The Internet Actually Works",
+      "desc": "A brief educational video explaining the functioning of the internet.",
+      "durationSeconds": 26,
+      "publishedAt": "2024-05-01T06:51:15Z"
+    },
+    {
+      "id": "z6v67BgcVy4",
+      "sourceTitle": "RFID Technology Explained",
+      "channel": "Kestronics",
+      "topic": "Other",
+      "title": "RFID Technology Explained",
+      "desc": "An educational video explaining how RFID technology works.",
+      "durationSeconds": 107,
+      "publishedAt": "2021-09-17T09:34:25Z"
+    },
+    {
+      "id": "VFhdACHi8kg",
+      "sourceTitle": "Holograms: The Future of Communication | Mind-Blowing Technology Explained! #short",
+      "channel": "Do U Know?",
+      "topic": "Other",
+      "title": "Holograms: The Future of Communication",
+      "desc": "A short video explaining hologram technology and its potential for communication.",
+      "durationSeconds": 72,
+      "publishedAt": "2025-01-12T15:15:04Z"
+    },
+    {
+      "id": "GqeRnxSuLFI",
+      "sourceTitle": "Supply and Demand Explained in One Minute",
+      "channel": "One Minute Economics",
+      "topic": "Other",
+      "title": "Supply and Demand Explained in One Minute",
+      "desc": "A concise explanation of the economic principle of supply and demand.",
+      "durationSeconds": 54,
+      "publishedAt": "2016-01-23T06:42:26Z"
+    },
+    {
+      "id": "4K8a2sGzk0k",
+      "sourceTitle": "Austrian Economics and Keynesianism (Keynesian Economics) Explained in One Minute",
+      "channel": "One Minute Economics",
+      "topic": "Other",
+      "title": "Austrian Economics and Keynesianism Explained in One Minute",
+      "desc": "A brief video explaining the basics of Austrian and Keynesian economic theories.",
+      "durationSeconds": 68,
+      "publishedAt": "2016-05-25T07:35:01Z"
+    },
+    {
+      "id": "cSqoA4449eg",
+      "sourceTitle": "What Does “The Economy” Mean?",
+      "channel": "Johnny Harris",
+      "topic": "Other",
+      "title": "What Does “The Economy” Mean?",
+      "desc": "A short educational video defining the concept of the economy.",
+      "durationSeconds": 56,
+      "publishedAt": "2023-04-21T19:02:21Z"
+    },
+    {
+      "id": "rYvzM_tayY4",
+      "sourceTitle": "Economies of Scale in One Minute: Definition/Theory, Explanation and Examples",
+      "channel": "One Minute Economics",
+      "topic": "Other",
+      "title": "Economies of Scale Explained with Examples",
+      "desc": "A video explaining the definition, theory, and examples of economies of scale.",
+      "durationSeconds": 104,
+      "publishedAt": "2019-07-18T17:30:01Z"
+    },
+    {
+      "id": "kxQeb2PDz9M",
+      "sourceTitle": "What is Doughnut Economics? - with Kate Raworth",
+      "channel": "Ross Harrison",
+      "topic": "Other",
+      "title": "What is Doughnut Economics? With Kate Raworth",
+      "desc": "An educational video introducing the concept of Doughnut Economics.",
+      "durationSeconds": 96,
+      "publishedAt": "2019-01-23T06:48:39Z"
+    },
+    {
+      "id": "feZSqm7cZtQ",
+      "sourceTitle": "What is Economy for Kids? How Money Works! Economics Made Simple 🌍💰",
+      "channel": "Kids_Finance_English",
+      "topic": "Other",
+      "title": "What is Economy for Kids? How Money Works",
+      "desc": "A simple explanation of economics and money for children.",
+      "durationSeconds": 117,
+      "publishedAt": "2025-03-19T06:08:46Z"
+    },
+    {
+      "id": "XgoBeh_z7Xk",
+      "sourceTitle": "PRINCIPLES OF ECONOMICS Explained Simply | Mankiw’s 10 Principles",
+      "channel": "ExplainIt! ",
+      "topic": "Other",
+      "title": "Principles of Economics Explained Simply",
+      "desc": "A video explaining Mankiw’s 10 principles of economics in simple terms.",
+      "durationSeconds": 103,
+      "publishedAt": "2026-09-27T11:00:08Z"
+    },
+    {
+      "id": "asery3UeBj4",
+      "sourceTitle": "Ayn Rand - Her Philosophy in Two Minutes",
+      "channel": "Ayn Rand Institute",
+      "topic": "Other",
+      "title": "Ayn Rand - Her Philosophy in Two Minutes",
+      "desc": "A brief video summarizing Ayn Rand's philosophy.",
+      "durationSeconds": 117,
+      "publishedAt": "2015-09-21T19:51:22Z"
+    },
+    {
+      "id": "E-wuAWnrVu4",
+      "sourceTitle": "Every Philosopher's Philosophy In One Sentence",
+      "channel": "M3 Digital",
+      "topic": "Other",
+      "title": "Every Philosopher's Philosophy In One Sentence",
+      "desc": "A short video summarizing key philosophies of various philosophers.",
+      "durationSeconds": 79,
+      "publishedAt": "2025-02-22T13:34:18Z"
+    },
+    {
+      "id": "cLD9Ld97AlY",
+      "sourceTitle": "What is Philosophy?",
+      "channel": "THE WHAT IS PROJECT",
+      "topic": "Other",
+      "title": "What is Philosophy?",
+      "desc": "A concise explanation of the concept of philosophy.",
+      "durationSeconds": 58,
+      "publishedAt": "2023-04-09T09:24:14Z"
+    },
+    {
+      "id": "xlAdS7uWhLA",
+      "sourceTitle": "What are Myths? Simple and Concise Explanation of Mythology",
+      "channel": "The Learning Depot",
+      "topic": "Other",
+      "title": "What are Myths? Simple Explanation of Mythology",
+      "desc": "A brief educational video explaining the concept of myths and mythology.",
+      "durationSeconds": 77,
+      "publishedAt": "2019-04-09T01:25:26Z"
+    },
+    {
+      "id": "GQlIlJxW538",
+      "sourceTitle": "Odysseus 101 🐴 | Greeking Out: Minute Myths | @natgeokids",
+      "channel": "Nat Geo Kids",
+      "topic": "Other",
+      "title": "Odysseus 101: Minute Myths",
+      "desc": "A short video introducing the mythological figure Odysseus.",
+      "durationSeconds": 79,
+      "publishedAt": "2025-11-21T14:00:22Z"
+    },
     {
       "id": "zZNCNpvcpmc",
       "sourceTitle": "What Is Hajj? 🕋 | Hajj Explained for Muslim Kids | Islamic Education #Shorts",
