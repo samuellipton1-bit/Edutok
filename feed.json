@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-08T06:00:42.326471+00:00",
+  "updatedAt": "2026-11-08T13:25:17.826859+00:00",
   "videos": [
+    {
+      "id": "BV0Tvp69VnY",
+      "sourceTitle": "Top 10 Educational YouTube channels In the world. #top10 #education #shorts #viral #bestvideo",
+      "channel": "Top 10 Quicks ",
+      "topic": "Other",
+      "title": "Top 10 Educational YouTube Channels",
+      "desc": "A short video listing top educational YouTube channels.",
+      "durationSeconds": 38,
+      "publishedAt": "2025-06-17T14:15:01Z"
+    },
+    {
+      "id": "8JCcPM8H6Jw",
+      "sourceTitle": "Car Cooling System Explained 🔥 | Radiator & Coolant Flow Animation #shorts",
+      "channel": "Jameel Hybrid Care ",
+      "topic": "Other",
+      "title": "Car Cooling System Explained",
+      "desc": "A brief animation explaining radiator and coolant flow in car cooling systems.",
+      "durationSeconds": 13,
+      "publishedAt": "2026-11-08T07:29:16Z"
+    },
+    {
+      "id": "V0ALvVPHz-8",
+      "sourceTitle": "5 Foods for Your Arteries — Meet the Tiny Cleanup Crew 🛠️ #Shorts #HeartHealth #Artery #Cholesterol",
+      "channel": "BeHealthy",
+      "topic": "Other",
+      "title": "5 Foods for Your Arteries",
+      "desc": "A short video about foods that may help artery health.",
+      "durationSeconds": 31,
+      "publishedAt": "2026-10-10T08:30:13Z"
+    },
+    {
+      "id": "r9Nj-IzIwv4",
+      "sourceTitle": "What is a noun ? #shorts#englishgrammar#english#trending#viral#shortvideo #noun#education",
+      "channel": "Easy learning",
+      "topic": "Other",
+      "title": "What is a Noun?",
+      "desc": "A quick explanation of the noun concept in English grammar.",
+      "durationSeconds": 5,
+      "publishedAt": "2022-09-30T04:57:25Z"
+    },
+    {
+      "id": "2RRxQAkbMXM",
+      "sourceTitle": "Explained With Circle Diagram #shorts #maths  #mathstricks #sushila_educational",
+      "channel": "Sushila Educational ",
+      "topic": "Other",
+      "title": "Explained With Circle Diagram",
+      "desc": "A short math explanation using a circle diagram.",
+      "durationSeconds": 15,
+      "publishedAt": "2026-11-05T02:13:19Z"
+    },
+    {
+      "id": "GN_t4xoZUgg",
+      "sourceTitle": "The Tangram Paradox Explained in 30 seconds",
+      "channel": "Lingualin",
+      "topic": "Other",
+      "title": "The Tangram Paradox Explained",
+      "desc": "A brief explanation of the tangram paradox.",
+      "durationSeconds": 29,
+      "publishedAt": "2026-11-08T10:05:46Z"
+    },
+    {
+      "id": "5PO-ZlmaORs",
+      "sourceTitle": "3 Science Facts You Didn't Need To Know",
+      "channel": "IFLScience",
+      "topic": "Other",
+      "title": "3 Science Facts You Didn't Need To Know",
+      "desc": "A short video sharing three unusual science facts.",
+      "durationSeconds": 25,
+      "publishedAt": "2022-11-08T18:15:00Z"
+    },
+    {
+      "id": "q966TbakCV0",
+      "sourceTitle": "Insane Science Facts",
+      "channel": "The Infographics Show",
+      "topic": "Other",
+      "title": "Insane Science Facts",
+      "desc": "A brief video presenting surprising science facts.",
+      "durationSeconds": 49,
+      "publishedAt": "2021-10-02T22:15:03Z"
+    },
+    {
+      "id": "6PaLnLxCAmQ",
+      "sourceTitle": "The Strongest Material in the universe? #sciencefacts #facts #science #shorts",
+      "channel": "Scienceverse",
+      "topic": "Other",
+      "title": "The Strongest Material in the Universe?",
+      "desc": "A short video discussing the strongest known material.",
+      "durationSeconds": 31,
+      "publishedAt": "2024-10-05T12:02:21Z"
+    },
+    {
+      "id": "UzKSA8jcFv4",
+      "sourceTitle": "Creepy Science Facts That Will Keep You Up At Night",
+      "channel": "The Infographics Show",
+      "topic": "Other",
+      "title": "Creepy Science Facts That Will Keep You Up At Night",
+      "desc": "A brief video sharing unsettling science facts.",
+      "durationSeconds": 34,
+      "publishedAt": "2022-02-20T23:15:01Z"
+    },
+    {
+      "id": "wOh_UFk9fmo",
+      "sourceTitle": "This Fact Will Blow Your Mind #space #science #facts",
+      "channel": "AstroKobi",
+      "topic": "Other",
+      "title": "This Fact Will Blow Your Mind",
+      "desc": "A short video sharing an impressive space science fact.",
+      "durationSeconds": 44,
+      "publishedAt": "2023-02-12T12:59:20Z"
+    },
+    {
+      "id": "xcixR0tKGu0",
+      "sourceTitle": "Random History Facts to Blow Your Mind #shorts #shortsvideo #facts #history #trivia #interesting",
+      "channel": "Cody Tucker",
+      "topic": "Other",
+      "title": "Random History Facts to Blow Your Mind",
+      "desc": "A short video presenting surprising history facts.",
+      "durationSeconds": 44,
+      "publishedAt": "2025-04-22T23:00:54Z"
+    },
+    {
+      "id": "Xv-_c3WtY8M",
+      "sourceTitle": "Crazy Facts About Queen Cleopatra 🇪🇬 #history #shorts #cleopatra",
+      "channel": "History Hideout",
+      "topic": "Other",
+      "title": "Crazy Facts About Queen Cleopatra",
+      "desc": "A brief video sharing interesting facts about Cleopatra.",
+      "durationSeconds": 45,
+      "publishedAt": "2023-05-29T15:35:00Z"
+    },
+    {
+      "id": "OuZrXdy5zWI",
+      "sourceTitle": "History Facts They Won’t Teach You In School! #history",
+      "channel": "Jabreel Sagas",
+      "topic": "Other",
+      "title": "History Facts They Won’t Teach You In School",
+      "desc": "A short video revealing lesser-known history facts.",
+      "durationSeconds": 46,
+      "publishedAt": "2023-08-23T21:49:14Z"
+    },
+    {
+      "id": "AV1OkEN3Cpw",
+      "sourceTitle": "Why the Statue of Liberty Has Chains #history #facts #newyork",
+      "channel": "Learning To Travel",
+      "topic": "Other",
+      "title": "Why the Statue of Liberty Has Chains",
+      "desc": "A brief explanation about the chains on the Statue of Liberty.",
+      "durationSeconds": 21,
+      "publishedAt": "2025-03-24T19:00:12Z"
+    },
+    {
+      "id": "JAxKlOFvcS8",
+      "sourceTitle": "How was Israel created? 🇮🇱",
+      "channel": "Quick History",
+      "topic": "Other",
+      "title": "How was Israel Created?",
+      "desc": "A short video explaining the creation of Israel.",
+      "durationSeconds": 31,
+      "publishedAt": "2025-09-21T19:05:19Z"
+    },
+    {
+      "id": "cay9_oeYDF0",
+      "sourceTitle": "Why do so many German Officers have facial scars? #history #ww2",
+      "channel": "History's Mysteries",
+      "topic": "Other",
+      "title": "Why do so many German Officers have facial scars?",
+      "desc": "A brief history video about facial scars among German officers in WW2.",
+      "durationSeconds": 26,
+      "publishedAt": "2024-12-31T20:40:44Z"
+    },
+    {
+      "id": "fSPywoLsJrk",
+      "sourceTitle": "Prehistoric Facts That Change How you See Earth 🌍🔥 #prehistoric #dinosaurs #unbelievable",
+      "channel": "Fossil Facts",
+      "topic": "Other",
+      "title": "Prehistoric Facts That Change How You See Earth",
+      "desc": "A short video sharing surprising prehistoric facts.",
+      "durationSeconds": 34,
+      "publishedAt": "2025-06-11T14:30:26Z"
+    },
+    {
+      "id": "4H2ZstC14qU",
+      "sourceTitle": "History of Palestine and Israel in 60 sec #history #facts #shorts",
+      "channel": "His-story_Teller",
+      "topic": "Other",
+      "title": "History of Palestine and Israel in 60 Seconds",
+      "desc": "A brief overview of the history of Palestine and Israel.",
+      "durationSeconds": 59,
+      "publishedAt": "2023-10-22T20:00:01Z"
+    },
+    {
+      "id": "LWIKdWarTRk",
+      "sourceTitle": "5 Geography facts that Broke my brain... 😱🤔",
+      "channel": "Geo-Empire",
+      "topic": "Other",
+      "title": "5 Geography Facts That Broke My Brain",
+      "desc": "A short video presenting surprising geography facts.",
+      "durationSeconds": 59,
+      "publishedAt": "2026-08-26T17:36:40Z"
+    },
+    {
+      "id": "7VfQOxSLH4I",
+      "sourceTitle": "8 Crazy Geography Facts You Won't Believe! 🌎 #geography #didyouknow #subscribe #shorts #facts",
+      "channel": "geohand",
+      "topic": "Other",
+      "title": "8 Crazy Geography Facts You Won't Believe",
+      "desc": "A brief video sharing unusual geography facts.",
+      "durationSeconds": 36,
+      "publishedAt": "2026-10-19T14:28:27Z"
+    },
+    {
+      "id": "Zux6l4SGqcc",
+      "sourceTitle": "🌍 9 Countries With Geography Facts That Sound Impossible! 😱🔥#shorts",
+      "channel": "Atlas Reveal",
+      "topic": "Other",
+      "title": "9 Countries With Geography Facts That Sound Impossible",
+      "desc": "A short video about surprising geography facts of nine countries.",
+      "durationSeconds": 17,
+      "publishedAt": "2026-09-16T11:32:56Z"
+    },
+    {
+      "id": "VslfnYJEwQw",
+      "sourceTitle": "Sigmund Freud Explained: Psychoanalysis Pioneer, Mind Theories & Psychological Impact",
+      "channel": "History Chronicles",
+      "topic": "Other",
+      "title": "Sigmund Freud Explained",
+      "desc": "A brief explanation of Sigmund Freud's psychoanalysis and mind theories.",
+      "durationSeconds": 49,
+      "publishedAt": "2023-12-30T10:00:32Z"
+    },
+    {
+      "id": "hkvYK5TbkwQ",
+      "sourceTitle": "Neuroplasticity Explained Step-by-Step",
+      "channel": "Productive, actually",
+      "topic": "Other",
+      "title": "Neuroplasticity Explained Step-by-Step",
+      "desc": "A short video explaining the concept of neuroplasticity.",
+      "durationSeconds": 36,
+      "publishedAt": "2025-07-09T22:02:32Z"
+    },
+    {
+      "id": "MDtAgWRbj58",
+      "sourceTitle": "How VTEC Works (In 60 Seconds)",
+      "channel": "Engineering Explained",
+      "topic": "Other",
+      "title": "How VTEC Works in 60 Seconds",
+      "desc": "A brief explanation of how VTEC engine technology works.",
+      "durationSeconds": 57,
+      "publishedAt": "2022-10-21T14:00:09Z"
+    },
     {
       "id": "xFwiMZIttLQ",
       "sourceTitle": "8 year old GENIUS doing a math question #shorts #homeschool #educational #kids",
@@ -750,256 +1000,6 @@
       "desc": "A short video introducing the mythological figure Odysseus.",
       "durationSeconds": 79,
       "publishedAt": "2025-11-21T14:00:22Z"
-    },
-    {
-      "id": "zZNCNpvcpmc",
-      "sourceTitle": "What Is Hajj? 🕋 | Hajj Explained for Muslim Kids | Islamic Education #Shorts",
-      "channel": "Muslim Tales",
-      "topic": "Other",
-      "title": "What Is Hajj? | Hajj Explained for Muslim Kids",
-      "desc": "A brief explanation of the Islamic pilgrimage Hajj aimed at children.",
-      "durationSeconds": 11,
-      "publishedAt": "2026-10-29T06:45:10Z"
-    },
-    {
-      "id": "l-bXzErVQ9s",
-      "sourceTitle": "How Do Plants Eat? Photosynthesis Explained! 🌱 #shorts  #comedyshorts  #education  #foryou",
-      "channel": "NoCapLessons",
-      "topic": "Science",
-      "title": "How Do Plants Eat? Photosynthesis Explained",
-      "desc": "An educational video explaining the process of photosynthesis in plants.",
-      "durationSeconds": 98,
-      "publishedAt": "2026-11-06T21:51:00Z"
-    },
-    {
-      "id": "tAZQy5320Qk",
-      "sourceTitle": "When Did Humans First Appear? 🧑🌍 | Human Evolution Explained #Shorts",
-      "channel": "26Indokids",
-      "topic": "Science",
-      "title": "When Did Humans First Appear? | Human Evolution Explained",
-      "desc": "A short video outlining the timeline of human evolution.",
-      "durationSeconds": 50,
-      "publishedAt": "2026-11-06T07:00:14Z"
-    },
-    {
-      "id": "5Qyadtb-j0g",
-      "sourceTitle": "What Is Umrah? 🌙 | Umrah Explained for Kids | Islamic Education #Shorts",
-      "channel": "Muslim Tales",
-      "topic": "Other",
-      "title": "What Is Umrah? | Umrah Explained for Kids",
-      "desc": "A concise explanation of the Islamic Umrah pilgrimage for children.",
-      "durationSeconds": 11,
-      "publishedAt": "2026-10-30T07:17:25Z"
-    },
-    {
-      "id": "AONlqzToMS8",
-      "sourceTitle": "Education Full Form🔥Full Form of Education👌#shorts #short",
-      "channel": "Hspath Study Center",
-      "topic": "Other",
-      "title": "Education Full Form Explained",
-      "desc": "A brief video explaining the full form of the word 'Education'.",
-      "durationSeconds": 32,
-      "publishedAt": "2023-12-23T10:30:03Z"
-    },
-    {
-      "id": "tAgIg8_jg0s",
-      "sourceTitle": "Why Education is Important ? 📚😲 | Kuldeep Singhaniaa #shorts",
-      "channel": "Kuldeep Singhania Shorts",
-      "topic": "Other",
-      "title": "Why Education is Important?",
-      "desc": "A short motivational video discussing the importance of education.",
-      "durationSeconds": 55,
-      "publishedAt": "2024-10-18T06:25:51Z"
-    },
-    {
-      "id": "SYB-4txHRaE",
-      "sourceTitle": "Apasih Kata \"When\" Itu? 🤔 | Belajar Kosa Kata Bahasa Inggris #short #education #meme #music",
-      "channel": "Kreebu",
-      "topic": "Other",
-      "title": "What Does 'When' Mean? | English Vocabulary Lesson",
-      "desc": "A brief English vocabulary lesson focusing on the word 'When'.",
-      "durationSeconds": 35,
-      "publishedAt": "2026-11-06T02:30:10Z"
-    },
-    {
-      "id": "qvLO1tiy-BA",
-      "sourceTitle": "🤩 Understand BIG Feelings! 😄 Happy VS Sad 😭 with Blippi! #shorts",
-      "channel": "Blippi - Educational Videos for Kids",
-      "topic": "Psychology",
-      "title": "Understand BIG Feelings! Happy VS Sad with Blippi",
-      "desc": "A short video helping children understand and differentiate between happy and sad emotions.",
-      "durationSeconds": 50,
-      "publishedAt": "2025-09-05T11:01:41Z"
-    },
-    {
-      "id": "jQ-3y_Y93qk",
-      "sourceTitle": "How Nature Inspired Science | Amazing Science Facts #shorts #education #physics",
-      "channel": "Sri Chaitanya Academy NEET",
-      "topic": "Science",
-      "title": "How Nature Inspired Science | Amazing Science Facts",
-      "desc": "A brief video exploring how nature has influenced scientific discoveries.",
-      "durationSeconds": 21,
-      "publishedAt": "2025-08-27T06:30:21Z"
-    },
-    {
-      "id": "EC_wGGqxZCM",
-      "sourceTitle": "The two greatest mysteries in science #michiokaku",
-      "channel": "The Science Fact",
-      "topic": "Science",
-      "title": "The Two Greatest Mysteries in Science",
-      "desc": "A short video discussing two major unsolved mysteries in science.",
-      "durationSeconds": 38,
-      "publishedAt": "2023-11-16T15:40:02Z"
-    },
-    {
-      "id": "7nNoAaeZQoI",
-      "sourceTitle": "The SCARIEST Fact About SPACE #space #spacefacts #universe",
-      "channel": "AstroKobi",
-      "topic": "Science",
-      "title": "The SCARIEST Fact About SPACE",
-      "desc": "A brief video presenting a surprising fact about space.",
-      "durationSeconds": 44,
-      "publishedAt": "2022-09-22T14:00:04Z"
-    },
-    {
-      "id": "Ey-5LxdnvSc",
-      "sourceTitle": "Largest and the Smallest Human Cell | Human Body 101| Human Body Facts #biologyexams4u #humanbody",
-      "channel": "biologyexams4u",
-      "topic": "Science",
-      "title": "Largest and Smallest Human Cells | Human Body Facts",
-      "desc": "A short educational video about the size extremes of human cells.",
-      "durationSeconds": 13,
-      "publishedAt": "2023-09-03T10:20:14Z"
-    },
-    {
-      "id": "PmVA43pwMBI",
-      "sourceTitle": "The Medical Routine of a WWII Leader #shorts",
-      "channel": "History Bypass",
-      "topic": "History",
-      "title": "The Medical Routine of a WWII Leader",
-      "desc": "A brief video about the medical routine of a leader during World War II.",
-      "durationSeconds": 7,
-      "publishedAt": "2025-10-11T22:14:57Z"
-    },
-    {
-      "id": "HVz6luFlsOg",
-      "sourceTitle": "History’s Timeline Doesn’t Make Sense?? #shorts #timeline #weird #history #interesting #ypr",
-      "channel": "Ryan Kelly Comedy",
-      "topic": "History",
-      "title": "History’s Timeline Doesn’t Make Sense?",
-      "desc": "A short video questioning the coherence of historical timelines.",
-      "durationSeconds": 46,
-      "publishedAt": "2025-01-28T22:00:18Z"
-    },
-    {
-      "id": "2OIn4bKiXts",
-      "sourceTitle": "Three wildly different historical eras that overlapped #history #art",
-      "channel": "History by Mae",
-      "topic": "History",
-      "title": "Three Wildly Different Historical Eras That Overlapped",
-      "desc": "A brief video discussing overlapping historical eras.",
-      "durationSeconds": 13,
-      "publishedAt": "2025-07-12T12:05:47Z"
-    },
-    {
-      "id": "YQWTW3TwueI",
-      "sourceTitle": "That must have been painful… #history #archaeology",
-      "channel": "History by Mae",
-      "topic": "History",
-      "title": "That Must Have Been Painful… | History and Archaeology",
-      "desc": "A short video about a painful historical or archaeological event.",
-      "durationSeconds": 17,
-      "publishedAt": "2024-08-13T12:56:29Z"
-    },
-    {
-      "id": "s9FB4M3QodI",
-      "sourceTitle": "scary facts creep me out #shorts #history #viral",
-      "channel": "Histovar Lucis",
-      "topic": "History",
-      "title": "Scary Facts Creep Me Out | History",
-      "desc": "A brief video sharing unsettling historical facts.",
-      "durationSeconds": 30,
-      "publishedAt": "2024-05-30T16:11:42Z"
-    },
-    {
-      "id": "WWWcA9NOcIQ",
-      "sourceTitle": "Akbar’s Crazy Experiment On Kids | Keerthi History                            #india #facts #shorts",
-      "channel": "Keerthi",
-      "topic": "History",
-      "title": "Akbar’s Crazy Experiment On Kids | Indian History",
-      "desc": "A short video about a historical experiment conducted by Akbar involving children.",
-      "durationSeconds": 35,
-      "publishedAt": "2024-10-21T11:53:10Z"
-    },
-    {
-      "id": "xuj2UA-kIE8",
-      "sourceTitle": "We've Been Lied To About The Great Sphinx 😯 (EXPLAINED)",
-      "channel": "Zack D. Films",
-      "topic": "History",
-      "title": "We've Been Lied To About The Great Sphinx (Explained)",
-      "desc": "A brief video discussing misconceptions about the Great Sphinx.",
-      "durationSeconds": 24,
-      "publishedAt": "2022-11-23T15:30:12Z"
-    },
-    {
-      "id": "GnYwJogIyUM",
-      "sourceTitle": "How North Koreans Learn Math - Yeonmi Park",
-      "channel": "HeroMediaX",
-      "topic": "Other",
-      "title": "How North Koreans Learn Math - Yeonmi Park",
-      "desc": "A short video explaining the approach to math education in North Korea.",
-      "durationSeconds": 16,
-      "publishedAt": "2025-07-02T14:12:51Z"
-    },
-    {
-      "id": "O86CweicQ6k",
-      "sourceTitle": "How to Make Multiplication Easy and Fun 😉 #math #multiplication #mathtrick",
-      "channel": "NikiMath",
-      "topic": "Math",
-      "title": "How to Make Multiplication Easy and Fun",
-      "desc": "A brief video demonstrating a trick to simplify multiplication.",
-      "durationSeconds": 14,
-      "publishedAt": "2023-03-17T08:00:17Z"
-    },
-    {
-      "id": "nr6aatMxNP0",
-      "sourceTitle": "Why Greenland's Geography is Fascinating",
-      "channel": "Uncovered ",
-      "topic": "Geography",
-      "title": "Why Greenland's Geography is Fascinating",
-      "desc": "A short video highlighting interesting geographical facts about Greenland.",
-      "durationSeconds": 27,
-      "publishedAt": "2023-07-12T10:30:23Z"
-    },
-    {
-      "id": "vDJzdvxtr3U",
-      "sourceTitle": "60 Seconds of Surprising Geography Facts 🌎🤯",
-      "channel": "TopQuest",
-      "topic": "Geography",
-      "title": "60 Seconds of Surprising Geography Facts",
-      "desc": "A brief video presenting surprising facts about geography.",
-      "durationSeconds": 71,
-      "publishedAt": "2026-09-22T16:21:36Z"
-    },
-    {
-      "id": "QZIaCjlnefs",
-      "sourceTitle": "Mind-Blowing Facts About the U.S. 🇺🇸 You Never Knew 🤯",
-      "channel": "GeoGlobeTales",
-      "topic": "Geography",
-      "title": "Mind-Blowing Facts About the U.S. You Never Knew",
-      "desc": "A short video sharing lesser-known facts about the geography of the United States.",
-      "durationSeconds": 61,
-      "publishedAt": "2024-09-02T00:09:40Z"
-    },
-    {
-      "id": "D_qkJBWsROE",
-      "sourceTitle": "Top 5 Geography Facts You Never Knew 🌍 Part 2",
-      "channel": "Geo-Empire",
-      "topic": "Geography",
-      "title": "Top 5 Geography Facts You Never Knew | Part 2",
-      "desc": "A brief video listing interesting geography facts.",
-      "durationSeconds": 45,
-      "publishedAt": "2026-06-09T21:35:33Z"
     }
   ]
 }
