@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-09T06:28:36.977455+00:00",
+  "updatedAt": "2026-11-09T22:21:56.747781+00:00",
   "videos": [
+    {
+      "id": "8Ckd5YMTaTI",
+      "sourceTitle": "YouTube Method for Fast Multiplication!  35 × 75 Trick #shorts #maths #mathstricks #education",
+      "channel": "Al Barkat Learning Hub ",
+      "topic": "Math",
+      "title": "YouTube Method for Fast Multiplication",
+      "desc": "A short video demonstrating a fast multiplication trick for 35 × 75.",
+      "durationSeconds": 16,
+      "publishedAt": "2026-10-13T16:00:21Z"
+    },
+    {
+      "id": "yej5ztTDacI",
+      "sourceTitle": "What is String Theory?",
+      "channel": "Science Explained",
+      "topic": "Science",
+      "title": "What is String Theory?",
+      "desc": "A brief explanation of string theory in physics.",
+      "durationSeconds": 47,
+      "publishedAt": "2023-11-11T21:11:34Z"
+    },
+    {
+      "id": "pSH9DVii1iM",
+      "sourceTitle": "Solving for x in x³ - 11 = 53 #Shorts #algebra #math #maths #mathematics #education #learn #learning",
+      "channel": "markiedoesmath",
+      "topic": "Math",
+      "title": "Solving for x in x³ - 11 = 53",
+      "desc": "A short algebra lesson solving a cubic equation.",
+      "durationSeconds": 16,
+      "publishedAt": "2022-03-25T03:00:30Z"
+    },
+    {
+      "id": "THQWhMkij2E",
+      "sourceTitle": "The Beauty of Mathematics",
+      "channel": "The Science and Math Channel",
+      "topic": "Math",
+      "title": "The Beauty of Mathematics",
+      "desc": "A concise video highlighting the appeal of mathematics.",
+      "durationSeconds": 9,
+      "publishedAt": "2025-01-31T15:06:25Z"
+    },
+    {
+      "id": "6UZv64lI5hM",
+      "sourceTitle": "Basic Algebra | Basic Concept | #math #mathematics #mathstricks",
+      "channel": "Easy Maths By Ms. Maham",
+      "topic": "Math",
+      "title": "Basic Algebra Concepts",
+      "desc": "An introduction to basic algebra concepts.",
+      "durationSeconds": 17,
+      "publishedAt": "2024-03-08T17:08:20Z"
+    },
+    {
+      "id": "kcjZo9IWQ3c",
+      "sourceTitle": "How to Calculate Percentages FAST!⚡ Easy Math Trick You’ll Never Forget!  #maths #mathstricks",
+      "channel": "NikiMath",
+      "topic": "Math",
+      "title": "How to Calculate Percentages Fast",
+      "desc": "A quick math trick to calculate percentages efficiently.",
+      "durationSeconds": 11,
+      "publishedAt": "2025-09-16T21:05:23Z"
+    },
+    {
+      "id": "4WIWvNdgrW4",
+      "sourceTitle": "Matrix 3D Determinant - Visual meaning #maths #physics #shorts",
+      "channel": "MerlinoMaths",
+      "topic": "Math",
+      "title": "Matrix 3D Determinant Visual Meaning",
+      "desc": "A visual explanation of the determinant of a 3D matrix.",
+      "durationSeconds": 18,
+      "publishedAt": "2025-07-09T16:04:26Z"
+    },
+    {
+      "id": "jf1jWdGuK_I",
+      "sourceTitle": "Why US has the BEST Geography???🇺🇲",
+      "channel": "Map Lad",
+      "topic": "Geography",
+      "title": "Why US Has the Best Geography",
+      "desc": "A short video discussing aspects of US geography.",
+      "durationSeconds": 25,
+      "publishedAt": "2023-07-30T16:17:32Z"
+    },
+    {
+      "id": "0wegV24-aUg",
+      "sourceTitle": "10 Things That You Didn't Know About the United States #geography #usa",
+      "channel": "Mr. Lee",
+      "topic": "Geography",
+      "title": "10 Things You Didn't Know About the United States",
+      "desc": "A brief video sharing lesser-known facts about the US.",
+      "durationSeconds": 60,
+      "publishedAt": "2024-04-04T00:51:24Z"
+    },
+    {
+      "id": "Bi8KLRaYcW4",
+      "sourceTitle": "Brazil's Geography isn't as Good as You'd Think.",
+      "channel": "Uncovered ",
+      "topic": "Geography",
+      "title": "Brazil's Geography Isn't as Good as You'd Think",
+      "desc": "A short video discussing Brazil's geography.",
+      "durationSeconds": 26,
+      "publishedAt": "2023-06-13T03:25:26Z"
+    },
+    {
+      "id": "7XoPJY-VM-A",
+      "sourceTitle": "Life Changing Tip From A Psychologist",
+      "channel": "Dr Julie",
+      "topic": "Psychology",
+      "title": "Life Changing Tip From a Psychologist",
+      "desc": "A brief psychology tip intended to improve life.",
+      "durationSeconds": 19,
+      "publishedAt": "2025-05-10T15:45:01Z"
+    },
+    {
+      "id": "Xjq2it8nVa4",
+      "sourceTitle": "Id ego and superego simplified. #psychology #psychologicalfacts",
+      "channel": "Syed Tahir Rufai",
+      "topic": "Psychology",
+      "title": "Id, Ego, and Superego Simplified",
+      "desc": "A short explanation of Freud's psychological concepts.",
+      "durationSeconds": 15,
+      "publishedAt": "2024-08-10T12:10:44Z"
+    },
+    {
+      "id": "-adV--_QhsI",
+      "sourceTitle": "How do we learn by association? Classical Conditioning | Pavlov classical conditioning #psychology",
+      "channel": "Psychology with SG",
+      "topic": "Psychology",
+      "title": "How Do We Learn by Association? Classical Conditioning",
+      "desc": "A brief explanation of Pavlovian classical conditioning.",
+      "durationSeconds": 3,
+      "publishedAt": "2026-02-17T09:07:21Z"
+    },
+    {
+      "id": "NleWyugr2pI",
+      "sourceTitle": "Quick Psychology Test  | TikTok: @drjuliesmith",
+      "channel": "Psychology",
+      "topic": "Psychology",
+      "title": "Quick Psychology Test",
+      "desc": "A short video presenting a quick psychology test.",
+      "durationSeconds": 58,
+      "publishedAt": "2022-03-07T18:31:01Z"
+    },
+    {
+      "id": "PGXBC-fGqqk",
+      "sourceTitle": "Psychoanalytic Theory | Sigmund Freud | #psychology #psychoanalysis",
+      "channel": "Psy Capsule",
+      "topic": "Psychology",
+      "title": "Psychoanalytic Theory by Sigmund Freud",
+      "desc": "A brief overview of Freud's psychoanalytic theory.",
+      "durationSeconds": 7,
+      "publishedAt": "2026-09-03T06:36:01Z"
+    },
+    {
+      "id": "VYIN8hy_CGo",
+      "sourceTitle": "What is Technology For Kids | STEM lesson for Kids | Fun Tech Learning for Kids (Ages 3–6)",
+      "channel": "Techy Ameth",
+      "topic": "Technology",
+      "title": "What is Technology for Kids",
+      "desc": "A STEM lesson introducing technology to young children.",
+      "durationSeconds": 96,
+      "publishedAt": "2026-01-07T03:46:58Z"
+    },
+    {
+      "id": "EnJgyKosCII",
+      "sourceTitle": "How Neuralink Works 🧠",
+      "channel": "Zack D. Films",
+      "topic": "Technology",
+      "title": "How Neuralink Works",
+      "desc": "A short explanation of Neuralink brain-machine interface technology.",
+      "durationSeconds": 28,
+      "publishedAt": "2024-04-26T14:30:08Z"
+    },
+    {
+      "id": "PWa8fbr2Qy8",
+      "sourceTitle": "How Does Bluetooth Work?",
+      "channel": "Mr Teller",
+      "topic": "Technology",
+      "title": "How Does Bluetooth Work?",
+      "desc": "A brief video explaining Bluetooth technology.",
+      "durationSeconds": 30,
+      "publishedAt": "2025-07-20T06:00:31Z"
+    },
+    {
+      "id": "z6v67BgcVy4",
+      "sourceTitle": "RFID Technology Explained",
+      "channel": "Kestronics",
+      "topic": "Technology",
+      "title": "RFID Technology Explained",
+      "desc": "An explanation of RFID technology and its uses.",
+      "durationSeconds": 107,
+      "publishedAt": "2021-09-17T09:34:25Z"
+    },
+    {
+      "id": "FR_HY4xMhLs",
+      "sourceTitle": "How Smart Lamps Work Without the Internet",
+      "channel": "Technology’s Finest",
+      "topic": "Technology",
+      "title": "How Smart Lamps Work Without the Internet",
+      "desc": "A video explaining smart lamp technology functioning offline.",
+      "durationSeconds": 82,
+      "publishedAt": "2026-11-09T21:00:35Z"
+    },
+    {
+      "id": "VFhdACHi8kg",
+      "sourceTitle": "Holograms: The Future of Communication | Mind-Blowing Technology Explained! #short",
+      "channel": "Do U Know?",
+      "topic": "Technology",
+      "title": "Holograms: The Future of Communication",
+      "desc": "An explanation of hologram technology and its potential.",
+      "durationSeconds": 72,
+      "publishedAt": "2025-01-12T15:15:04Z"
+    },
+    {
+      "id": "GqeRnxSuLFI",
+      "sourceTitle": "Supply and Demand Explained in One Minute",
+      "channel": "One Minute Economics",
+      "topic": "Other",
+      "title": "Supply and Demand Explained in One Minute",
+      "desc": "A concise explanation of supply and demand economics.",
+      "durationSeconds": 54,
+      "publishedAt": "2016-01-23T06:42:26Z"
+    },
+    {
+      "id": "4K8a2sGzk0k",
+      "sourceTitle": "Austrian Economics and Keynesianism (Keynesian Economics) Explained in One Minute",
+      "channel": "One Minute Economics",
+      "topic": "Other",
+      "title": "Austrian and Keynesian Economics Explained",
+      "desc": "A brief overview of Austrian and Keynesian economic theories.",
+      "durationSeconds": 68,
+      "publishedAt": "2016-05-25T07:35:01Z"
+    },
+    {
+      "id": "cSqoA4449eg",
+      "sourceTitle": "What Does “The Economy” Mean?",
+      "channel": "Johnny Harris",
+      "topic": "Other",
+      "title": "What Does 'The Economy' Mean?",
+      "desc": "A short video explaining the concept of the economy.",
+      "durationSeconds": 56,
+      "publishedAt": "2023-04-21T19:02:21Z"
+    },
+    {
+      "id": "XgoBeh_z7Xk",
+      "sourceTitle": "PRINCIPLES OF ECONOMICS Explained Simply | Mankiw’s 10 Principles",
+      "channel": "ExplainIt! ",
+      "topic": "Other",
+      "title": "Principles of Economics Explained Simply",
+      "desc": "An overview of Mankiw’s 10 principles of economics.",
+      "durationSeconds": 103,
+      "publishedAt": "2026-09-27T11:00:08Z"
+    },
     {
       "id": "qAsa9IpNPoI",
       "sourceTitle": "English Tenses Explained with Examples | Learn English Grammar Easily #shorts",
@@ -750,256 +1000,6 @@
       "desc": "A brief explanation of how VTEC engine technology works.",
       "durationSeconds": 57,
       "publishedAt": "2022-10-21T14:00:09Z"
-    },
-    {
-      "id": "xFwiMZIttLQ",
-      "sourceTitle": "8 year old GENIUS doing a math question #shorts #homeschool #educational #kids",
-      "channel": "JonAyves TV",
-      "topic": "Math",
-      "title": "8 year old genius solving a math question",
-      "desc": "An 8-year-old demonstrates solving a math problem.",
-      "durationSeconds": 24,
-      "publishedAt": "2023-04-09T02:00:22Z"
-    },
-    {
-      "id": "jo4Zj8tPcJ0",
-      "sourceTitle": "Why your math teacher was right about 0! #mathclass #education #shorts",
-      "channel": "Parishy world",
-      "topic": "Math",
-      "title": "Why your math teacher was right about zero",
-      "desc": "Explanation supporting common math teacher lessons about zero.",
-      "durationSeconds": 45,
-      "publishedAt": "2026-11-07T17:24:28Z"
-    },
-    {
-      "id": "auvTtlQ8zDQ",
-      "sourceTitle": "What is physics.#definition #education #science #shorts",
-      "channel": "Educo learn",
-      "topic": "Science",
-      "title": "What is physics? Definition and basics",
-      "desc": "A brief introduction to the definition of physics.",
-      "durationSeconds": 9,
-      "publishedAt": "2024-12-26T08:57:56Z"
-    },
-    {
-      "id": "-1F_J1FI6DM",
-      "sourceTitle": "Wormhole Theory Explained 😲| #facts #shorts",
-      "channel": "Scienceverse",
-      "topic": "Science",
-      "title": "Wormhole theory explained",
-      "desc": "A concise explanation of wormhole theory.",
-      "durationSeconds": 52,
-      "publishedAt": "2025-08-25T12:01:38Z"
-    },
-    {
-      "id": "Tr2OkeZOP_w",
-      "sourceTitle": "Secrets of Einstein's Brain 🧠",
-      "channel": "Mr Scientific",
-      "topic": "Science",
-      "title": "Secrets of Einstein's brain",
-      "desc": "Insights into the unique aspects of Einstein's brain.",
-      "durationSeconds": 42,
-      "publishedAt": "2025-09-13T13:00:53Z"
-    },
-    {
-      "id": "AnMuBpaMtms",
-      "sourceTitle": "Why Tardigrades Are Awesome",
-      "channel": "Cleo Abram",
-      "topic": "Science",
-      "title": "Why tardigrades are awesome",
-      "desc": "An overview of the remarkable features of tardigrades.",
-      "durationSeconds": 55,
-      "publishedAt": "2024-08-28T13:30:53Z"
-    },
-    {
-      "id": "xsxIVl0WABo",
-      "sourceTitle": "Earthquakes EXPLAINED in 30 seconds! What causes EARTHQUAKES? 🌎 Fun science facts for kids",
-      "channel": "Outschool - Educational Classes for Kids",
-      "topic": "Science",
-      "title": "What causes earthquakes? Explained in 30 seconds",
-      "desc": "A quick explanation of the causes of earthquakes.",
-      "durationSeconds": 30,
-      "publishedAt": "2023-11-19T21:05:01Z"
-    },
-    {
-      "id": "qRGYAQUOKcE",
-      "sourceTitle": "Why Spacesuits Are White & Orange 😯 (EXPLAINED)",
-      "channel": "Zack D. Films",
-      "topic": "Science",
-      "title": "Why spacesuits are white and orange",
-      "desc": "Explanation of the color choices for spacesuits.",
-      "durationSeconds": 28,
-      "publishedAt": "2023-03-24T14:30:29Z"
-    },
-    {
-      "id": "6Ij0mL5vmM8",
-      "sourceTitle": "How Does a Chicken Make an Egg? The Incredible Process 🥚 #science #chicken #egg #facts #experiment",
-      "channel": "EcoplanturUSA",
-      "topic": "Science",
-      "title": "How does a chicken make an egg? The process explained",
-      "desc": "A brief explanation of the biological process of egg formation.",
-      "durationSeconds": 41,
-      "publishedAt": "2026-09-15T01:50:58Z"
-    },
-    {
-      "id": "fcNziOxaboM",
-      "sourceTitle": "Hidden secrets about the Revolutionary War. #ninjasarebutterflies #podcast #history",
-      "channel": "Ninjas Are Butterflies ",
-      "topic": "History",
-      "title": "Hidden secrets about the Revolutionary War",
-      "desc": "Revealing lesser-known facts about the Revolutionary War.",
-      "durationSeconds": 59,
-      "publishedAt": "2024-07-26T00:05:07Z"
-    },
-    {
-      "id": "k9ObD8Aogsk",
-      "sourceTitle": "This Capital Used to Be Two Cities 🇭🇺🤯  #facts #history #animation #short  #geography #map #shorts",
-      "channel": "GeoFactGuy",
-      "topic": "Geography",
-      "title": "This capital used to be two cities",
-      "desc": "Exploring the history of a capital city formed from two cities.",
-      "durationSeconds": 82,
-      "publishedAt": "2026-10-10T21:07:26Z"
-    },
-    {
-      "id": "XFlK_Zl0Py8",
-      "sourceTitle": "One bizarre facts about every King and Queen of England (Part 1)",
-      "channel": "Absolute History",
-      "topic": "History",
-      "title": "Bizarre facts about every King and Queen of England (Part 1)",
-      "desc": "Unusual facts about English monarchs.",
-      "durationSeconds": 57,
-      "publishedAt": "2023-05-17T21:00:24Z"
-    },
-    {
-      "id": "voScUU68cz0",
-      "sourceTitle": "The truth about medieval rotten teeth! #history #art",
-      "channel": "History by Mae",
-      "topic": "History",
-      "title": "The truth about medieval rotten teeth",
-      "desc": "Insights into dental health in medieval times.",
-      "durationSeconds": 18,
-      "publishedAt": "2025-06-03T16:48:15Z"
-    },
-    {
-      "id": "tdP4C6-yQx8",
-      "sourceTitle": "Count on the Victorians to have interesting taste. #history #art",
-      "channel": "History by Mae",
-      "topic": "History",
-      "title": "Victorian era's interesting taste",
-      "desc": "A look at the unique tastes of the Victorian period.",
-      "durationSeconds": 21,
-      "publishedAt": "2025-08-14T18:41:47Z"
-    },
-    {
-      "id": "F8-dtqVMH9Q",
-      "sourceTitle": "Shortest Wars in History😮",
-      "channel": "Glore",
-      "topic": "History",
-      "title": "Shortest wars in history",
-      "desc": "A brief overview of some of the shortest wars ever recorded.",
-      "durationSeconds": 40,
-      "publishedAt": "2025-03-26T19:59:01Z"
-    },
-    {
-      "id": "m5yjg4IDZyI",
-      "sourceTitle": "Imaginary Numbers in 60 Seconds",
-      "channel": "World of Math",
-      "topic": "Math",
-      "title": "Imaginary numbers explained in 60 seconds",
-      "desc": "A quick introduction to the concept of imaginary numbers.",
-      "durationSeconds": 62,
-      "publishedAt": "2025-01-27T15:00:33Z"
-    },
-    {
-      "id": "uJ-5PD_su2M",
-      "sourceTitle": "Calculus Explained In 30 Seconds",
-      "channel": "CleereLearn",
-      "topic": "Math",
-      "title": "Calculus explained in 30 seconds",
-      "desc": "A brief explanation of calculus basics.",
-      "durationSeconds": 45,
-      "publishedAt": "2024-10-29T15:35:28Z"
-    },
-    {
-      "id": "5E54PyNViZA",
-      "sourceTitle": "Understanding Calculus in One Minute... 🤯",
-      "channel": "JOCALUME",
-      "topic": "Math",
-      "title": "Understanding calculus in one minute",
-      "desc": "A one-minute overview of calculus concepts.",
-      "durationSeconds": 52,
-      "publishedAt": "2024-03-16T14:00:05Z"
-    },
-    {
-      "id": "ZdC2vjJnyhM",
-      "sourceTitle": "Top 5 Wild Geography Facts🤯",
-      "channel": "Glore",
-      "topic": "Geography",
-      "title": "Top 5 wild geography facts",
-      "desc": "A list of surprising geography facts.",
-      "durationSeconds": 40,
-      "publishedAt": "2025-01-29T20:26:44Z"
-    },
-    {
-      "id": "pvfzsETlEjM",
-      "sourceTitle": "Earth's Secret 8th Continent 😱 (EXPLAINED)",
-      "channel": "Zack D. Films",
-      "topic": "Geography",
-      "title": "Earth's secret 8th continent explained",
-      "desc": "An explanation of the concept of Earth's hidden continent.",
-      "durationSeconds": 27,
-      "publishedAt": "2022-10-07T14:30:11Z"
-    },
-    {
-      "id": "t1DECN9zS_8",
-      "sourceTitle": "Why Do Time Zones Look So Strange 🌍 How They Work 🕒",
-      "channel": "GeoGlobeTales",
-      "topic": "Geography",
-      "title": "Why do time zones look so strange? How they work",
-      "desc": "An explanation of the irregular shapes of time zones.",
-      "durationSeconds": 61,
-      "publishedAt": "2024-07-03T15:43:48Z"
-    },
-    {
-      "id": "O96MiXxXz6k",
-      "sourceTitle": "Why Animals Don’t Cross This Invisible Border 🚧 Wallace Line 😱",
-      "channel": "GeoGlobeTales",
-      "topic": "Geography",
-      "title": "Why animals don’t cross the Wallace Line",
-      "desc": "Explaining the biological boundary known as the Wallace Line.",
-      "durationSeconds": 61,
-      "publishedAt": "2024-09-01T15:50:57Z"
-    },
-    {
-      "id": "tT-BzWbyqkw",
-      "sourceTitle": "Why Nobody Can Cross Darien Gap 🤔 What's Wrong here? 🤯",
-      "channel": "Geo All Day",
-      "topic": "Geography",
-      "title": "Why nobody can cross the Darien Gap",
-      "desc": "Exploring the reasons behind the difficulty of crossing the Darien Gap.",
-      "durationSeconds": 60,
-      "publishedAt": "2024-09-09T18:43:13Z"
-    },
-    {
-      "id": "qJHUh9h-Q84",
-      "sourceTitle": "The Best Chess Opening For Beginners?",
-      "channel": "Chess.com",
-      "topic": "Chess",
-      "title": "The best chess opening for beginners",
-      "desc": "A recommendation for an effective chess opening for new players.",
-      "durationSeconds": 60,
-      "publishedAt": "2023-01-18T19:07:19Z"
-    },
-    {
-      "id": "1zw7V1o9K98",
-      "sourceTitle": "Magnus Carlsen EXPLAINS the BEST CHESS OPENING",
-      "channel": "Chess.com",
-      "topic": "Chess",
-      "title": "Magnus Carlsen explains the best chess opening",
-      "desc": "Magnus Carlsen shares insights on the best chess opening.",
-      "durationSeconds": 59,
-      "publishedAt": "2025-08-13T17:24:00Z"
     }
   ]
 }
