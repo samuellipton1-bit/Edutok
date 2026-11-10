@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-10T07:18:16.430648+00:00",
+  "updatedAt": "2026-11-10T19:44:10.202375+00:00",
   "videos": [
+    {
+      "id": "BV0Tvp69VnY",
+      "sourceTitle": "Top 10 Educational YouTube channels In the world. #top10 #education #shorts #viral #bestvideo",
+      "channel": "Top 10 Quicks ",
+      "topic": "Other",
+      "title": "Top 10 Educational YouTube Channels",
+      "desc": "A brief overview of top educational YouTube channels worldwide.",
+      "durationSeconds": 38,
+      "publishedAt": "2025-06-17T14:15:01Z"
+    },
+    {
+      "id": "E-qKI7xzhcc",
+      "sourceTitle": "Why Does Your Tongue Stick To Frozen Metal? 😮",
+      "channel": "Just In Shorts",
+      "topic": "Science",
+      "title": "Why Does Your Tongue Stick To Frozen Metal?",
+      "desc": "Explains the science behind tongue sticking to frozen metal.",
+      "durationSeconds": 37,
+      "publishedAt": "2026-11-10T13:53:27Z"
+    },
+    {
+      "id": "AhAn1gYnwFA",
+      "sourceTitle": "How Do Bulletproof Vests Actually Stop Bullets? 😳 The Science Explained! #shorts",
+      "channel": "Unfiltered Why",
+      "topic": "Science",
+      "title": "How Bulletproof Vests Stop Bullets",
+      "desc": "Explains the science of how bulletproof vests protect against bullets.",
+      "durationSeconds": 60,
+      "publishedAt": "2026-11-10T06:09:41Z"
+    },
+    {
+      "id": "r9Nj-IzIwv4",
+      "sourceTitle": "What is a noun ? #shorts#englishgrammar#english#trending#viral#shortvideo #noun#education",
+      "channel": "Easy learning",
+      "topic": "Other",
+      "title": "What is a Noun?",
+      "desc": "A short explanation of the grammatical concept of a noun.",
+      "durationSeconds": 5,
+      "publishedAt": "2022-09-30T04:57:25Z"
+    },
+    {
+      "id": "GN_t4xoZUgg",
+      "sourceTitle": "The Tangram Paradox Explained in 30 seconds",
+      "channel": "Lingualin",
+      "topic": "Other",
+      "title": "The Tangram Paradox Explained",
+      "desc": "A brief explanation of the Tangram paradox puzzle.",
+      "durationSeconds": 29,
+      "publishedAt": "2026-11-08T10:05:46Z"
+    },
+    {
+      "id": "auvTtlQ8zDQ",
+      "sourceTitle": "What is physics.#definition #education #science #shorts",
+      "channel": "Educo learn",
+      "topic": "Science",
+      "title": "What is Physics?",
+      "desc": "A concise definition and introduction to physics.",
+      "durationSeconds": 9,
+      "publishedAt": "2024-12-26T08:57:56Z"
+    },
+    {
+      "id": "5PO-ZlmaORs",
+      "sourceTitle": "3 Science Facts You Didn't Need To Know",
+      "channel": "IFLScience",
+      "topic": "Science",
+      "title": "3 Science Facts You Didn't Need To Know",
+      "desc": "Presents three interesting but unnecessary science facts.",
+      "durationSeconds": 25,
+      "publishedAt": "2022-11-08T18:15:00Z"
+    },
+    {
+      "id": "q966TbakCV0",
+      "sourceTitle": "Insane Science Facts",
+      "channel": "The Infographics Show",
+      "topic": "Science",
+      "title": "Insane Science Facts",
+      "desc": "Shares surprising and fascinating science facts.",
+      "durationSeconds": 49,
+      "publishedAt": "2021-10-02T22:15:03Z"
+    },
+    {
+      "id": "6PaLnLxCAmQ",
+      "sourceTitle": "The Strongest Material in the universe? #sciencefacts #facts #science #shorts",
+      "channel": "Scienceverse",
+      "topic": "Science",
+      "title": "The Strongest Material in the Universe?",
+      "desc": "Discusses what might be the strongest material known.",
+      "durationSeconds": 31,
+      "publishedAt": "2024-10-05T12:02:21Z"
+    },
+    {
+      "id": "UzKSA8jcFv4",
+      "sourceTitle": "Creepy Science Facts That Will Keep You Up At Night",
+      "channel": "The Infographics Show",
+      "topic": "Science",
+      "title": "Creepy Science Facts That Will Keep You Up At Night",
+      "desc": "Shares unsettling science facts.",
+      "durationSeconds": 34,
+      "publishedAt": "2022-02-20T23:15:01Z"
+    },
+    {
+      "id": "wOh_UFk9fmo",
+      "sourceTitle": "This Fact Will Blow Your Mind #space #science #facts",
+      "channel": "AstroKobi",
+      "topic": "Science",
+      "title": "This Fact Will Blow Your Mind",
+      "desc": "Presents an astonishing fact related to space and science.",
+      "durationSeconds": 44,
+      "publishedAt": "2023-02-12T12:59:20Z"
+    },
+    {
+      "id": "xcixR0tKGu0",
+      "sourceTitle": "Random History Facts to Blow Your Mind #shorts #shortsvideo #facts #history #trivia #interesting",
+      "channel": "Cody Tucker",
+      "topic": "History",
+      "title": "Random History Facts to Blow Your Mind",
+      "desc": "Shares surprising historical facts.",
+      "durationSeconds": 44,
+      "publishedAt": "2025-04-22T23:00:54Z"
+    },
+    {
+      "id": "JAxKlOFvcS8",
+      "sourceTitle": "How was Israel created? 🇮🇱",
+      "channel": "Quick History",
+      "topic": "History",
+      "title": "How Was Israel Created?",
+      "desc": "A brief explanation of the creation of Israel.",
+      "durationSeconds": 31,
+      "publishedAt": "2025-09-21T19:05:19Z"
+    },
+    {
+      "id": "AV1OkEN3Cpw",
+      "sourceTitle": "Why the Statue of Liberty Has Chains #history #facts #newyork",
+      "channel": "Learning To Travel",
+      "topic": "History",
+      "title": "Why the Statue of Liberty Has Chains",
+      "desc": "Explains the historical significance of chains on the Statue of Liberty.",
+      "durationSeconds": 21,
+      "publishedAt": "2025-03-24T19:00:12Z"
+    },
+    {
+      "id": "cay9_oeYDF0",
+      "sourceTitle": "Why do so many German Officers have facial scars? #history #ww2",
+      "channel": "History's Mysteries",
+      "topic": "History",
+      "title": "Why Do So Many German Officers Have Facial Scars?",
+      "desc": "Explores the historical reasons behind facial scars on German officers.",
+      "durationSeconds": 26,
+      "publishedAt": "2024-12-31T20:40:44Z"
+    },
+    {
+      "id": "4H2ZstC14qU",
+      "sourceTitle": "History of Palestine and Israel in 60 sec #history #facts #shorts",
+      "channel": "His-story_Teller",
+      "topic": "History",
+      "title": "History of Palestine and Israel in 60 Seconds",
+      "desc": "A concise overview of the history of Palestine and Israel.",
+      "durationSeconds": 59,
+      "publishedAt": "2023-10-22T20:00:01Z"
+    },
+    {
+      "id": "fSPywoLsJrk",
+      "sourceTitle": "Prehistoric Facts That Change How you See Earth 🌍🔥 #prehistoric #dinosaurs #unbelievable",
+      "channel": "Fossil Facts",
+      "topic": "History",
+      "title": "Prehistoric Facts That Change How You See Earth",
+      "desc": "Shares surprising prehistoric facts about Earth.",
+      "durationSeconds": 34,
+      "publishedAt": "2025-06-11T14:30:26Z"
+    },
+    {
+      "id": "xuj2UA-kIE8",
+      "sourceTitle": "We've Been Lied To About The Great Sphinx 😯 (EXPLAINED)",
+      "channel": "Zack D. Films",
+      "topic": "History",
+      "title": "We've Been Lied To About The Great Sphinx",
+      "desc": "Discusses misconceptions about the Great Sphinx.",
+      "durationSeconds": 24,
+      "publishedAt": "2022-11-23T15:30:12Z"
+    },
+    {
+      "id": "F8-dtqVMH9Q",
+      "sourceTitle": "Shortest Wars in History😮",
+      "channel": "Glore",
+      "topic": "History",
+      "title": "Shortest Wars in History",
+      "desc": "Describes some of the shortest wars in recorded history.",
+      "durationSeconds": 40,
+      "publishedAt": "2025-03-26T19:59:01Z"
+    },
+    {
+      "id": "MgiG1GaDvaI",
+      "sourceTitle": "Why was Italy so useless during World War 2 #history #worldwar2",
+      "channel": "Madmam",
+      "topic": "History",
+      "title": "Why Was Italy So Useless During World War 2?",
+      "desc": "Examines Italy's role and performance in World War II.",
+      "durationSeconds": 40,
+      "publishedAt": "2025-05-20T10:48:39Z"
+    },
+    {
+      "id": "7VfQOxSLH4I",
+      "sourceTitle": "8 Crazy Geography Facts You Won't Believe! 🌎 #geography #didyouknow #subscribe #shorts #facts",
+      "channel": "geohand",
+      "topic": "Geography",
+      "title": "8 Crazy Geography Facts You Won't Believe!",
+      "desc": "Shares eight surprising facts about geography.",
+      "durationSeconds": 36,
+      "publishedAt": "2026-10-19T14:28:27Z"
+    },
+    {
+      "id": "pvfzsETlEjM",
+      "sourceTitle": "Earth's Secret 8th Continent 😱 (EXPLAINED)",
+      "channel": "Zack D. Films",
+      "topic": "Geography",
+      "title": "Earth's Secret 8th Continent Explained",
+      "desc": "Explains the concept of Earth's secret eighth continent.",
+      "durationSeconds": 27,
+      "publishedAt": "2022-10-07T14:30:11Z"
+    },
+    {
+      "id": "2-sJHyJMN5I",
+      "sourceTitle": "US Geography facts",
+      "channel": "True Story Docs",
+      "topic": "Geography",
+      "title": "US Geography Facts",
+      "desc": "Presents interesting facts about the geography of the United States.",
+      "durationSeconds": 45,
+      "publishedAt": "2024-06-26T12:47:01Z"
+    },
+    {
+      "id": "BF1Zv2BxxgU",
+      "sourceTitle": "Fun Fact About Every Country in the World",
+      "channel": "Happy Earth",
+      "topic": "Geography",
+      "title": "Fun Fact About Every Country in the World",
+      "desc": "Shares a fun fact about each country globally.",
+      "durationSeconds": 31,
+      "publishedAt": "2022-04-24T17:37:22Z"
+    },
+    {
+      "id": "VslfnYJEwQw",
+      "sourceTitle": "Sigmund Freud Explained: Psychoanalysis Pioneer, Mind Theories & Psychological Impact",
+      "channel": "History Chronicles",
+      "topic": "Psychology",
+      "title": "Sigmund Freud Explained: Psychoanalysis Pioneer",
+      "desc": "An introduction to Sigmund Freud's theories and psychological impact.",
+      "durationSeconds": 49,
+      "publishedAt": "2023-12-30T10:00:32Z"
+    },
     {
       "id": "xFwiMZIttLQ",
       "sourceTitle": "8 year old GENIUS doing a math question #shorts #homeschool #educational #kids",
@@ -750,256 +1000,6 @@
       "desc": "A short video explaining the Pralay missile's features and technology.",
       "durationSeconds": 118,
       "publishedAt": "2026-11-09T04:00:16Z"
-    },
-    {
-      "id": "bLvr7-e-89g",
-      "sourceTitle": "3 Types of Rocks Explained in 30 Seconds! 🪨 | Amazing Earth Science #shorts",
-      "channel": "Smartlearn",
-      "topic": "Science",
-      "title": "3 Types of Rocks Explained in 30 Seconds",
-      "desc": "A brief explanation of the three types of rocks in earth science.",
-      "durationSeconds": 6,
-      "publishedAt": "2026-11-06T23:30:22Z"
-    },
-    {
-      "id": "EO2oZYPAUUs",
-      "sourceTitle": "Oxygen and CO₂ Explain Their Importance! 💨 | Educational Video #shorts",
-      "channel": "FactStory World",
-      "topic": "Science",
-      "title": "Oxygen and CO₂ Explain Their Importance",
-      "desc": "A short video explaining the importance of oxygen and carbon dioxide.",
-      "durationSeconds": 13,
-      "publishedAt": "2026-07-18T08:30:21Z"
-    },
-    {
-      "id": "9dMFxnpEkKc",
-      "sourceTitle": "Newton's Apple - Science Short",
-      "channel": "Sick Science!",
-      "topic": "Science",
-      "title": "Newton's Apple - Science Short",
-      "desc": "A short educational video about Newton's apple and its scientific significance.",
-      "durationSeconds": 11,
-      "publishedAt": "2023-03-15T19:00:05Z"
-    },
-    {
-      "id": "EC_wGGqxZCM",
-      "sourceTitle": "The two greatest mysteries in science #michiokaku",
-      "channel": "The Science Fact",
-      "topic": "Science",
-      "title": "The Two Greatest Mysteries in Science",
-      "desc": "A brief video discussing two major mysteries in science.",
-      "durationSeconds": 38,
-      "publishedAt": "2023-11-16T15:40:02Z"
-    },
-    {
-      "id": "Ey-5LxdnvSc",
-      "sourceTitle": "Largest and the Smallest Human Cell | Human Body 101| Human Body Facts #biologyexams4u #humanbody",
-      "channel": "biologyexams4u",
-      "topic": "Science",
-      "title": "Largest and Smallest Human Cells",
-      "desc": "A short video about the largest and smallest human cells.",
-      "durationSeconds": 13,
-      "publishedAt": "2023-09-03T10:20:14Z"
-    },
-    {
-      "id": "mBTEzBqSmZo",
-      "sourceTitle": "Amazing facts About Science ( You Don’t Know ) top amazing facts about science in english",
-      "channel": "SVKA LIFE EDUCATION ",
-      "topic": "Science",
-      "title": "Amazing Facts About Science You Don’t Know",
-      "desc": "A short video sharing surprising science facts.",
-      "durationSeconds": 34,
-      "publishedAt": "2025-06-28T12:51:13Z"
-    },
-    {
-      "id": "qXnE3XS-6RM",
-      "sourceTitle": "Country in Two Continents😮",
-      "channel": "Glore",
-      "topic": "Geography",
-      "title": "Country in Two Continents",
-      "desc": "A short video explaining a country located in two continents.",
-      "durationSeconds": 45,
-      "publishedAt": "2025-08-18T20:48:21Z"
-    },
-    {
-      "id": "vDJzdvxtr3U",
-      "sourceTitle": "60 Seconds of Surprising Geography Facts 🌎🤯",
-      "channel": "TopQuest",
-      "topic": "Geography",
-      "title": "60 Seconds of Surprising Geography Facts",
-      "desc": "A brief video sharing surprising facts about geography.",
-      "durationSeconds": 71,
-      "publishedAt": "2026-09-22T16:21:36Z"
-    },
-    {
-      "id": "nr6aatMxNP0",
-      "sourceTitle": "Why Greenland's Geography is Fascinating",
-      "channel": "Uncovered ",
-      "topic": "Geography",
-      "title": "Why Greenland's Geography is Fascinating",
-      "desc": "A short video exploring interesting aspects of Greenland's geography.",
-      "durationSeconds": 27,
-      "publishedAt": "2023-07-12T10:30:23Z"
-    },
-    {
-      "id": "D_qkJBWsROE",
-      "sourceTitle": "Top 5 Geography Facts You Never Knew 🌍 Part 2",
-      "channel": "Geo-Empire",
-      "topic": "Geography",
-      "title": "Top 5 Geography Facts You Never Knew Part 2",
-      "desc": "A brief video presenting five lesser-known geography facts.",
-      "durationSeconds": 45,
-      "publishedAt": "2026-06-09T21:35:33Z"
-    },
-    {
-      "id": "j703QOlk6sc",
-      "sourceTitle": "What If Countries Took What They Wanted? 🤯🌎 Dream Maps & Alternate History",
-      "channel": "GeoMap Unveiled",
-      "topic": "Geography",
-      "title": "What If Countries Took What They Wanted? Dream Maps & Alternate History",
-      "desc": "A short video imagining alternate history through dream maps.",
-      "durationSeconds": 35,
-      "publishedAt": "2025-01-31T22:00:35Z"
-    },
-    {
-      "id": "QZIaCjlnefs",
-      "sourceTitle": "Mind-Blowing Facts About the U.S. 🇺🇸 You Never Knew 🤯",
-      "channel": "GeoGlobeTales",
-      "topic": "Geography",
-      "title": "Mind-Blowing Facts About the U.S. You Never Knew",
-      "desc": "A brief video sharing surprising facts about the United States.",
-      "durationSeconds": 61,
-      "publishedAt": "2024-09-02T00:09:40Z"
-    },
-    {
-      "id": "fhOFWAw6d-s",
-      "sourceTitle": "Geography facts that Broke my brain... Part 2",
-      "channel": "Geo-Empire",
-      "topic": "Geography",
-      "title": "Geography Facts That Broke My Brain Part 2",
-      "desc": "A short video presenting unusual geography facts.",
-      "durationSeconds": 44,
-      "publishedAt": "2026-09-07T15:34:03Z"
-    },
-    {
-      "id": "lS6WWVHmeww",
-      "sourceTitle": "Inside Most Countries At Once🤔",
-      "channel": "Glore60",
-      "topic": "Geography",
-      "title": "Inside Most Countries At Once",
-      "desc": "A brief video exploring a unique geographic concept involving multiple countries.",
-      "durationSeconds": 50,
-      "publishedAt": "2025-05-17T19:27:00Z"
-    },
-    {
-      "id": "WVQ9GpJbBV8",
-      "sourceTitle": "Confusing Borders😵‍💫🇮🇳???",
-      "channel": "Mr Geo",
-      "topic": "Geography",
-      "title": "Confusing Borders Explained",
-      "desc": "A short video discussing confusing international borders.",
-      "durationSeconds": 21,
-      "publishedAt": "2024-10-21T18:10:00Z"
-    },
-    {
-      "id": "x1SU-xq_0PM",
-      "sourceTitle": "Where’s the Real Center of Each Continent? 🤔 Geographic Centers Explained 🌍",
-      "channel": "Geo Bytes",
-      "topic": "Geography",
-      "title": "Where’s the Real Center of Each Continent? Geographic Centers Explained",
-      "desc": "A brief explanation of geographic centers of continents.",
-      "durationSeconds": 61,
-      "publishedAt": "2025-06-26T15:37:51Z"
-    },
-    {
-      "id": "Giiz81_uzK8",
-      "sourceTitle": "What is Technology?",
-      "channel": "Tony Montez",
-      "topic": "Technology",
-      "title": "What is Technology?",
-      "desc": "A short video explaining the concept of technology.",
-      "durationSeconds": 90,
-      "publishedAt": "2014-02-16T00:56:45Z"
-    },
-    {
-      "id": "vEpEeTQwsnM",
-      "sourceTitle": "How Neuralink Works",
-      "channel": "Future Business Tech",
-      "topic": "Technology",
-      "title": "How Neuralink Works",
-      "desc": "A brief explanation of how Neuralink technology functions.",
-      "durationSeconds": 32,
-      "publishedAt": "2024-08-29T15:06:46Z"
-    },
-    {
-      "id": "SMC2lylFXeQ",
-      "sourceTitle": "What is AI?",
-      "channel": "The Educated Owl",
-      "topic": "Technology",
-      "title": "What is AI?",
-      "desc": "A short video defining artificial intelligence.",
-      "durationSeconds": 18,
-      "publishedAt": "2025-07-28T16:00:55Z"
-    },
-    {
-      "id": "S5SIcZY26aI",
-      "sourceTitle": "Ejection Seat Engineering Explained!",
-      "channel": "BrainHook ",
-      "topic": "Technology",
-      "title": "Ejection Seat Engineering Explained",
-      "desc": "A brief explanation of the engineering behind ejection seats.",
-      "durationSeconds": 18,
-      "publishedAt": "2025-10-17T15:24:02Z"
-    },
-    {
-      "id": "HQ-Kg_xgdhE",
-      "sourceTitle": "What is inflation? Economics explained",
-      "channel": "The Guardian",
-      "topic": "Other",
-      "title": "What is Inflation? Economics Explained",
-      "desc": "A short video explaining the concept of inflation in economics.",
-      "durationSeconds": 112,
-      "publishedAt": "2015-12-15T11:02:36Z"
-    },
-    {
-      "id": "beAvFHP4wDI",
-      "sourceTitle": "Inflation Explained in One Minute",
-      "channel": "One Minute Economics",
-      "topic": "Other",
-      "title": "Inflation Explained in One Minute",
-      "desc": "A brief explanation of inflation.",
-      "durationSeconds": 70,
-      "publishedAt": "2015-11-08T12:41:40Z"
-    },
-    {
-      "id": "vIYRM2QqaOA",
-      "sourceTitle": "Who was Milton Friedman? #economics #shorts",
-      "channel": "Economics Explained",
-      "topic": "Other",
-      "title": "Who was Milton Friedman?",
-      "desc": "A short video about economist Milton Friedman.",
-      "durationSeconds": 56,
-      "publishedAt": "2023-01-28T13:00:40Z"
-    },
-    {
-      "id": "_59K531_9Ig",
-      "sourceTitle": "Tax Havens Don't Have Taxes. So How Do They Make Money? | Economics Explained",
-      "channel": "Economics Explained",
-      "topic": "Other",
-      "title": "Tax Havens Don't Have Taxes. So How Do They Make Money?",
-      "desc": "A brief explanation of how tax havens operate financially.",
-      "durationSeconds": 60,
-      "publishedAt": "2021-11-16T17:14:43Z"
-    },
-    {
-      "id": "DJSxAllIVUk",
-      "sourceTitle": "The Story of Medusa | Greek Mythology Explained",
-      "channel": "Eras & Tales Unfolded",
-      "topic": "Mythology",
-      "title": "The Story of Medusa | Greek Mythology Explained",
-      "desc": "A short video explaining the Greek myth of Medusa.",
-      "durationSeconds": 58,
-      "publishedAt": "2023-11-06T21:30:00Z"
     }
   ]
 }
