@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-12T07:11:06.368277+00:00",
+  "updatedAt": "2026-11-12T19:54:52.440571+00:00",
   "videos": [
+    {
+      "id": "xFwiMZIttLQ",
+      "sourceTitle": "8 year old GENIUS doing a math question #shorts #homeschool #educational #kids",
+      "channel": "JonAyves TV",
+      "topic": "Math",
+      "title": "8 year old genius solving a math question",
+      "desc": "An 8-year-old demonstrates solving a math question in a short educational video.",
+      "durationSeconds": 24,
+      "publishedAt": "2023-04-09T02:00:22Z"
+    },
+    {
+      "id": "R_wV2Anpx-U",
+      "sourceTitle": "Complex Arithmetic explained visually  #complexnumbers #maths #calculus #education #exam  #shorts",
+      "channel": "Nabla",
+      "topic": "Math",
+      "title": "Visual explanation of complex arithmetic",
+      "desc": "A visual explanation of complex arithmetic concepts in a short educational video.",
+      "durationSeconds": 45,
+      "publishedAt": "2026-11-12T10:50:40Z"
+    },
+    {
+      "id": "m5yjg4IDZyI",
+      "sourceTitle": "Imaginary Numbers in 60 Seconds",
+      "channel": "World of Math",
+      "topic": "Math",
+      "title": "Imaginary numbers explained in 60 seconds",
+      "desc": "A concise explanation of imaginary numbers in a one-minute educational video.",
+      "durationSeconds": 62,
+      "publishedAt": "2025-01-27T15:00:33Z"
+    },
+    {
+      "id": "5E54PyNViZA",
+      "sourceTitle": "Understanding Calculus in One Minute... 🤯",
+      "channel": "JOCALUME",
+      "topic": "Math",
+      "title": "Understanding calculus in one minute",
+      "desc": "A brief overview of calculus concepts explained in one minute.",
+      "durationSeconds": 52,
+      "publishedAt": "2024-03-16T14:00:05Z"
+    },
+    {
+      "id": "uJ-5PD_su2M",
+      "sourceTitle": "Calculus Explained In 30 Seconds",
+      "channel": "CleereLearn",
+      "topic": "Math",
+      "title": "Calculus explained in 30 seconds",
+      "desc": "A short video providing an explanation of calculus in 30 seconds.",
+      "durationSeconds": 45,
+      "publishedAt": "2024-10-29T15:35:28Z"
+    },
+    {
+      "id": "ZdC2vjJnyhM",
+      "sourceTitle": "Top 5 Wild Geography Facts🤯",
+      "channel": "Glore",
+      "topic": "Geography",
+      "title": "Top 5 wild geography facts",
+      "desc": "A short video presenting five interesting geography facts.",
+      "durationSeconds": 40,
+      "publishedAt": "2025-01-29T20:26:44Z"
+    },
+    {
+      "id": "t1DECN9zS_8",
+      "sourceTitle": "Why Do Time Zones Look So Strange 🌍 How They Work 🕒",
+      "channel": "GeoGlobeTales",
+      "topic": "Geography",
+      "title": "Why do time zones look so strange and how they work",
+      "desc": "An explanation of the unusual shapes of time zones and their functioning.",
+      "durationSeconds": 61,
+      "publishedAt": "2024-07-03T15:43:48Z"
+    },
+    {
+      "id": "O96MiXxXz6k",
+      "sourceTitle": "Why Animals Don’t Cross This Invisible Border 🚧 Wallace Line 😱",
+      "channel": "GeoGlobeTales",
+      "topic": "Geography",
+      "title": "Why animals don’t cross the Wallace Line",
+      "desc": "A short educational video explaining the Wallace Line and its effect on animal distribution.",
+      "durationSeconds": 61,
+      "publishedAt": "2024-09-01T15:50:57Z"
+    },
+    {
+      "id": "tT-BzWbyqkw",
+      "sourceTitle": "Why Nobody Can Cross Darien Gap 🤔 What's Wrong here? 🤯",
+      "channel": "Geo All Day",
+      "topic": "Geography",
+      "title": "Why nobody can cross the Darien Gap",
+      "desc": "An explanation of the challenges and reasons why the Darien Gap is impassable.",
+      "durationSeconds": 60,
+      "publishedAt": "2024-09-09T18:43:13Z"
+    },
+    {
+      "id": "x1SU-xq_0PM",
+      "sourceTitle": "Where’s the Real Center of Each Continent? 🤔 Geographic Centers Explained 🌍",
+      "channel": "Geo Bytes",
+      "topic": "Geography",
+      "title": "Real centers of each continent explained",
+      "desc": "A short video explaining how the geographic centers of continents are determined.",
+      "durationSeconds": 61,
+      "publishedAt": "2025-06-26T15:37:51Z"
+    },
+    {
+      "id": "cSqoA4449eg",
+      "sourceTitle": "What Does “The Economy” Mean?",
+      "channel": "Johnny Harris",
+      "topic": "Other",
+      "title": "What does “The Economy” mean?",
+      "desc": "A short educational video explaining the meaning of the economy.",
+      "durationSeconds": 56,
+      "publishedAt": "2023-04-21T19:02:21Z"
+    },
+    {
+      "id": "GqeRnxSuLFI",
+      "sourceTitle": "Supply and Demand Explained in One Minute",
+      "channel": "One Minute Economics",
+      "topic": "Other",
+      "title": "Supply and demand explained in one minute",
+      "desc": "A brief explanation of the economic principles of supply and demand.",
+      "durationSeconds": 54,
+      "publishedAt": "2016-01-23T06:42:26Z"
+    },
+    {
+      "id": "4K8a2sGzk0k",
+      "sourceTitle": "Austrian Economics and Keynesianism (Keynesian Economics) Explained in One Minute",
+      "channel": "One Minute Economics",
+      "topic": "Other",
+      "title": "Austrian and Keynesian economics explained in one minute",
+      "desc": "A short video comparing Austrian and Keynesian economic theories.",
+      "durationSeconds": 68,
+      "publishedAt": "2016-05-25T07:35:01Z"
+    },
+    {
+      "id": "rYvzM_tayY4",
+      "sourceTitle": "Economies of Scale in One Minute: Definition/Theory, Explanation and Examples",
+      "channel": "One Minute Economics",
+      "topic": "Other",
+      "title": "Economies of scale: definition, theory, and examples",
+      "desc": "An explanation of economies of scale with definitions and examples.",
+      "durationSeconds": 104,
+      "publishedAt": "2019-07-18T17:30:01Z"
+    },
+    {
+      "id": "kxQeb2PDz9M",
+      "sourceTitle": "What is Doughnut Economics? - with Kate Raworth",
+      "channel": "Ross Harrison",
+      "topic": "Other",
+      "title": "What is doughnut economics? with Kate Raworth",
+      "desc": "A short educational video introducing the concept of doughnut economics.",
+      "durationSeconds": 96,
+      "publishedAt": "2019-01-23T06:48:39Z"
+    },
+    {
+      "id": "feZSqm7cZtQ",
+      "sourceTitle": "What is Economy for Kids? How Money Works! Economics Made Simple 🌍💰",
+      "channel": "Kids_Finance_English",
+      "topic": "Other",
+      "title": "What is economy for kids? How money works",
+      "desc": "An educational video explaining basic economic concepts for children.",
+      "durationSeconds": 117,
+      "publishedAt": "2025-03-19T06:08:46Z"
+    },
+    {
+      "id": "beAvFHP4wDI",
+      "sourceTitle": "Inflation Explained in One Minute",
+      "channel": "One Minute Economics",
+      "topic": "Other",
+      "title": "Inflation explained in one minute",
+      "desc": "A concise explanation of inflation and its effects.",
+      "durationSeconds": 70,
+      "publishedAt": "2015-11-08T12:41:40Z"
+    },
+    {
+      "id": "XgoBeh_z7Xk",
+      "sourceTitle": "PRINCIPLES OF ECONOMICS Explained Simply | Mankiw’s 10 Principles",
+      "channel": "ExplainIt! ",
+      "topic": "Other",
+      "title": "Principles of economics explained simply",
+      "desc": "An overview of Mankiw’s 10 principles of economics.",
+      "durationSeconds": 103,
+      "publishedAt": "2026-09-27T11:00:08Z"
+    },
+    {
+      "id": "vIYRM2QqaOA",
+      "sourceTitle": "Who was Milton Friedman? #economics #shorts",
+      "channel": "Economics Explained",
+      "topic": "Other",
+      "title": "Who was Milton Friedman?",
+      "desc": "A short video introducing economist Milton Friedman.",
+      "durationSeconds": 56,
+      "publishedAt": "2023-01-28T13:00:40Z"
+    },
+    {
+      "id": "nWPrMmv1Tis",
+      "sourceTitle": "What is Economics?",
+      "channel": "Plain Prep",
+      "topic": "Other",
+      "title": "What is economics?",
+      "desc": "A brief educational video explaining the field of economics.",
+      "durationSeconds": 93,
+      "publishedAt": "2013-02-23T08:52:24Z"
+    },
+    {
+      "id": "_59K531_9Ig",
+      "sourceTitle": "Tax Havens Don't Have Taxes. So How Do They Make Money? | Economics Explained",
+      "channel": "Economics Explained",
+      "topic": "Other",
+      "title": "How tax havens make money without taxes",
+      "desc": "An explanation of the economic functioning of tax havens.",
+      "durationSeconds": 60,
+      "publishedAt": "2021-11-16T17:14:43Z"
+    },
+    {
+      "id": "kKnRq6u5Z9Y",
+      "sourceTitle": "Should You Become an Economist? #Shorts | Economics Explained",
+      "channel": "Economics Explained",
+      "topic": "Other",
+      "title": "Should you become an economist?",
+      "desc": "A short video discussing the profession of economics.",
+      "durationSeconds": 60,
+      "publishedAt": "2021-11-06T12:41:32Z"
+    },
+    {
+      "id": "cLD9Ld97AlY",
+      "sourceTitle": "What is Philosophy?",
+      "channel": "THE WHAT IS PROJECT",
+      "topic": "Philosophy",
+      "title": "What is philosophy?",
+      "desc": "A short educational video introducing the concept of philosophy.",
+      "durationSeconds": 58,
+      "publishedAt": "2023-04-09T09:24:14Z"
+    },
+    {
+      "id": "asery3UeBj4",
+      "sourceTitle": "Ayn Rand - Her Philosophy in Two Minutes",
+      "channel": "Ayn Rand Institute",
+      "topic": "Philosophy",
+      "title": "Ayn Rand’s philosophy in two minutes",
+      "desc": "A brief overview of Ayn Rand’s philosophical ideas.",
+      "durationSeconds": 117,
+      "publishedAt": "2015-09-21T19:51:22Z"
+    },
+    {
+      "id": "9TqJrvtt9ws",
+      "sourceTitle": "Moral Philosophy | Ethics Defined",
+      "channel": "McCombs School of Business",
+      "topic": "Philosophy",
+      "title": "Moral philosophy and ethics defined",
+      "desc": "A short video defining moral philosophy and ethics.",
+      "durationSeconds": 103,
+      "publishedAt": "2018-12-18T13:43:46Z"
+    },
     {
       "id": "8Ckd5YMTaTI",
       "sourceTitle": "YouTube Method for Fast Multiplication!  35 × 75 Trick #shorts #maths #mathstricks #education",
@@ -750,256 +1000,6 @@
       "desc": "A short video about confusing international borders.",
       "durationSeconds": 21,
       "publishedAt": "2024-10-21T18:10:00Z"
-    },
-    {
-      "id": "BV0Tvp69VnY",
-      "sourceTitle": "Top 10 Educational YouTube channels In the world. #top10 #education #shorts #viral #bestvideo",
-      "channel": "Top 10 Quicks ",
-      "topic": "Other",
-      "title": "Top 10 Educational YouTube Channels",
-      "desc": "A brief overview of top educational YouTube channels worldwide.",
-      "durationSeconds": 38,
-      "publishedAt": "2025-06-17T14:15:01Z"
-    },
-    {
-      "id": "E-qKI7xzhcc",
-      "sourceTitle": "Why Does Your Tongue Stick To Frozen Metal? 😮",
-      "channel": "Just In Shorts",
-      "topic": "Science",
-      "title": "Why Does Your Tongue Stick To Frozen Metal?",
-      "desc": "Explains the science behind tongue sticking to frozen metal.",
-      "durationSeconds": 37,
-      "publishedAt": "2026-11-10T13:53:27Z"
-    },
-    {
-      "id": "AhAn1gYnwFA",
-      "sourceTitle": "How Do Bulletproof Vests Actually Stop Bullets? 😳 The Science Explained! #shorts",
-      "channel": "Unfiltered Why",
-      "topic": "Science",
-      "title": "How Bulletproof Vests Stop Bullets",
-      "desc": "Explains the science of how bulletproof vests protect against bullets.",
-      "durationSeconds": 60,
-      "publishedAt": "2026-11-10T06:09:41Z"
-    },
-    {
-      "id": "r9Nj-IzIwv4",
-      "sourceTitle": "What is a noun ? #shorts#englishgrammar#english#trending#viral#shortvideo #noun#education",
-      "channel": "Easy learning",
-      "topic": "Other",
-      "title": "What is a Noun?",
-      "desc": "A short explanation of the grammatical concept of a noun.",
-      "durationSeconds": 5,
-      "publishedAt": "2022-09-30T04:57:25Z"
-    },
-    {
-      "id": "GN_t4xoZUgg",
-      "sourceTitle": "The Tangram Paradox Explained in 30 seconds",
-      "channel": "Lingualin",
-      "topic": "Other",
-      "title": "The Tangram Paradox Explained",
-      "desc": "A brief explanation of the Tangram paradox puzzle.",
-      "durationSeconds": 29,
-      "publishedAt": "2026-11-08T10:05:46Z"
-    },
-    {
-      "id": "auvTtlQ8zDQ",
-      "sourceTitle": "What is physics.#definition #education #science #shorts",
-      "channel": "Educo learn",
-      "topic": "Science",
-      "title": "What is Physics?",
-      "desc": "A concise definition and introduction to physics.",
-      "durationSeconds": 9,
-      "publishedAt": "2024-12-26T08:57:56Z"
-    },
-    {
-      "id": "5PO-ZlmaORs",
-      "sourceTitle": "3 Science Facts You Didn't Need To Know",
-      "channel": "IFLScience",
-      "topic": "Science",
-      "title": "3 Science Facts You Didn't Need To Know",
-      "desc": "Presents three interesting but unnecessary science facts.",
-      "durationSeconds": 25,
-      "publishedAt": "2022-11-08T18:15:00Z"
-    },
-    {
-      "id": "q966TbakCV0",
-      "sourceTitle": "Insane Science Facts",
-      "channel": "The Infographics Show",
-      "topic": "Science",
-      "title": "Insane Science Facts",
-      "desc": "Shares surprising and fascinating science facts.",
-      "durationSeconds": 49,
-      "publishedAt": "2021-10-02T22:15:03Z"
-    },
-    {
-      "id": "6PaLnLxCAmQ",
-      "sourceTitle": "The Strongest Material in the universe? #sciencefacts #facts #science #shorts",
-      "channel": "Scienceverse",
-      "topic": "Science",
-      "title": "The Strongest Material in the Universe?",
-      "desc": "Discusses what might be the strongest material known.",
-      "durationSeconds": 31,
-      "publishedAt": "2024-10-05T12:02:21Z"
-    },
-    {
-      "id": "UzKSA8jcFv4",
-      "sourceTitle": "Creepy Science Facts That Will Keep You Up At Night",
-      "channel": "The Infographics Show",
-      "topic": "Science",
-      "title": "Creepy Science Facts That Will Keep You Up At Night",
-      "desc": "Shares unsettling science facts.",
-      "durationSeconds": 34,
-      "publishedAt": "2022-02-20T23:15:01Z"
-    },
-    {
-      "id": "wOh_UFk9fmo",
-      "sourceTitle": "This Fact Will Blow Your Mind #space #science #facts",
-      "channel": "AstroKobi",
-      "topic": "Science",
-      "title": "This Fact Will Blow Your Mind",
-      "desc": "Presents an astonishing fact related to space and science.",
-      "durationSeconds": 44,
-      "publishedAt": "2023-02-12T12:59:20Z"
-    },
-    {
-      "id": "xcixR0tKGu0",
-      "sourceTitle": "Random History Facts to Blow Your Mind #shorts #shortsvideo #facts #history #trivia #interesting",
-      "channel": "Cody Tucker",
-      "topic": "History",
-      "title": "Random History Facts to Blow Your Mind",
-      "desc": "Shares surprising historical facts.",
-      "durationSeconds": 44,
-      "publishedAt": "2025-04-22T23:00:54Z"
-    },
-    {
-      "id": "JAxKlOFvcS8",
-      "sourceTitle": "How was Israel created? 🇮🇱",
-      "channel": "Quick History",
-      "topic": "History",
-      "title": "How Was Israel Created?",
-      "desc": "A brief explanation of the creation of Israel.",
-      "durationSeconds": 31,
-      "publishedAt": "2025-09-21T19:05:19Z"
-    },
-    {
-      "id": "AV1OkEN3Cpw",
-      "sourceTitle": "Why the Statue of Liberty Has Chains #history #facts #newyork",
-      "channel": "Learning To Travel",
-      "topic": "History",
-      "title": "Why the Statue of Liberty Has Chains",
-      "desc": "Explains the historical significance of chains on the Statue of Liberty.",
-      "durationSeconds": 21,
-      "publishedAt": "2025-03-24T19:00:12Z"
-    },
-    {
-      "id": "cay9_oeYDF0",
-      "sourceTitle": "Why do so many German Officers have facial scars? #history #ww2",
-      "channel": "History's Mysteries",
-      "topic": "History",
-      "title": "Why Do So Many German Officers Have Facial Scars?",
-      "desc": "Explores the historical reasons behind facial scars on German officers.",
-      "durationSeconds": 26,
-      "publishedAt": "2024-12-31T20:40:44Z"
-    },
-    {
-      "id": "4H2ZstC14qU",
-      "sourceTitle": "History of Palestine and Israel in 60 sec #history #facts #shorts",
-      "channel": "His-story_Teller",
-      "topic": "History",
-      "title": "History of Palestine and Israel in 60 Seconds",
-      "desc": "A concise overview of the history of Palestine and Israel.",
-      "durationSeconds": 59,
-      "publishedAt": "2023-10-22T20:00:01Z"
-    },
-    {
-      "id": "fSPywoLsJrk",
-      "sourceTitle": "Prehistoric Facts That Change How you See Earth 🌍🔥 #prehistoric #dinosaurs #unbelievable",
-      "channel": "Fossil Facts",
-      "topic": "History",
-      "title": "Prehistoric Facts That Change How You See Earth",
-      "desc": "Shares surprising prehistoric facts about Earth.",
-      "durationSeconds": 34,
-      "publishedAt": "2025-06-11T14:30:26Z"
-    },
-    {
-      "id": "xuj2UA-kIE8",
-      "sourceTitle": "We've Been Lied To About The Great Sphinx 😯 (EXPLAINED)",
-      "channel": "Zack D. Films",
-      "topic": "History",
-      "title": "We've Been Lied To About The Great Sphinx",
-      "desc": "Discusses misconceptions about the Great Sphinx.",
-      "durationSeconds": 24,
-      "publishedAt": "2022-11-23T15:30:12Z"
-    },
-    {
-      "id": "F8-dtqVMH9Q",
-      "sourceTitle": "Shortest Wars in History😮",
-      "channel": "Glore",
-      "topic": "History",
-      "title": "Shortest Wars in History",
-      "desc": "Describes some of the shortest wars in recorded history.",
-      "durationSeconds": 40,
-      "publishedAt": "2025-03-26T19:59:01Z"
-    },
-    {
-      "id": "MgiG1GaDvaI",
-      "sourceTitle": "Why was Italy so useless during World War 2 #history #worldwar2",
-      "channel": "Madmam",
-      "topic": "History",
-      "title": "Why Was Italy So Useless During World War 2?",
-      "desc": "Examines Italy's role and performance in World War II.",
-      "durationSeconds": 40,
-      "publishedAt": "2025-05-20T10:48:39Z"
-    },
-    {
-      "id": "7VfQOxSLH4I",
-      "sourceTitle": "8 Crazy Geography Facts You Won't Believe! 🌎 #geography #didyouknow #subscribe #shorts #facts",
-      "channel": "geohand",
-      "topic": "Geography",
-      "title": "8 Crazy Geography Facts You Won't Believe!",
-      "desc": "Shares eight surprising facts about geography.",
-      "durationSeconds": 36,
-      "publishedAt": "2026-10-19T14:28:27Z"
-    },
-    {
-      "id": "pvfzsETlEjM",
-      "sourceTitle": "Earth's Secret 8th Continent 😱 (EXPLAINED)",
-      "channel": "Zack D. Films",
-      "topic": "Geography",
-      "title": "Earth's Secret 8th Continent Explained",
-      "desc": "Explains the concept of Earth's secret eighth continent.",
-      "durationSeconds": 27,
-      "publishedAt": "2022-10-07T14:30:11Z"
-    },
-    {
-      "id": "2-sJHyJMN5I",
-      "sourceTitle": "US Geography facts",
-      "channel": "True Story Docs",
-      "topic": "Geography",
-      "title": "US Geography Facts",
-      "desc": "Presents interesting facts about the geography of the United States.",
-      "durationSeconds": 45,
-      "publishedAt": "2024-06-26T12:47:01Z"
-    },
-    {
-      "id": "BF1Zv2BxxgU",
-      "sourceTitle": "Fun Fact About Every Country in the World",
-      "channel": "Happy Earth",
-      "topic": "Geography",
-      "title": "Fun Fact About Every Country in the World",
-      "desc": "Shares a fun fact about each country globally.",
-      "durationSeconds": 31,
-      "publishedAt": "2022-04-24T17:37:22Z"
-    },
-    {
-      "id": "VslfnYJEwQw",
-      "sourceTitle": "Sigmund Freud Explained: Psychoanalysis Pioneer, Mind Theories & Psychological Impact",
-      "channel": "History Chronicles",
-      "topic": "Psychology",
-      "title": "Sigmund Freud Explained: Psychoanalysis Pioneer",
-      "desc": "An introduction to Sigmund Freud's theories and psychological impact.",
-      "durationSeconds": 49,
-      "publishedAt": "2023-12-30T10:00:32Z"
     }
   ]
 }
