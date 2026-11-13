@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-12T19:54:52.440571+00:00",
+  "updatedAt": "2026-11-13T06:45:46.758148+00:00",
   "videos": [
+    {
+      "id": "TjueW8-aRX8",
+      "sourceTitle": "✈️How Does an Aeroplane Actually Fly?😱3D Inside View! #shorts #aeroplane #howplanesfly #aviation",
+      "channel": "Explainer of How it works",
+      "topic": "Science",
+      "title": "How Does an Aeroplane Actually Fly? 3D Inside View",
+      "desc": "Explains the principles of how airplanes fly with a 3D inside view.",
+      "durationSeconds": 49,
+      "publishedAt": "2026-11-13T03:29:45Z"
+    },
+    {
+      "id": "QpGeT5Fom8I",
+      "sourceTitle": "Complex Polynomials explained visually ! #complexnumbers #maths #calculus #education #exam #shorts",
+      "channel": "Nabla",
+      "topic": "Math",
+      "title": "Complex Polynomials Explained Visually",
+      "desc": "Visual explanation of complex polynomials and related math concepts.",
+      "durationSeconds": 43,
+      "publishedAt": "2026-11-12T19:50:37Z"
+    },
+    {
+      "id": "auvTtlQ8zDQ",
+      "sourceTitle": "What is physics.#definition #education #science #shorts",
+      "channel": "Educo learn",
+      "topic": "Science",
+      "title": "What is Physics? Definition and Basics",
+      "desc": "A brief definition and introduction to physics.",
+      "durationSeconds": 9,
+      "publishedAt": "2024-12-26T08:57:56Z"
+    },
+    {
+      "id": "xsxIVl0WABo",
+      "sourceTitle": "Earthquakes EXPLAINED in 30 seconds! What causes EARTHQUAKES? 🌎 Fun science facts for kids",
+      "channel": "Outschool - Educational Classes for Kids",
+      "topic": "Science",
+      "title": "Earthquakes Explained in 30 Seconds",
+      "desc": "Explains what causes earthquakes in a short, kid-friendly format.",
+      "durationSeconds": 30,
+      "publishedAt": "2023-11-19T21:05:01Z"
+    },
+    {
+      "id": "xuj2UA-kIE8",
+      "sourceTitle": "We've Been Lied To About The Great Sphinx 😯 (EXPLAINED)",
+      "channel": "Zack D. Films",
+      "topic": "History",
+      "title": "We've Been Lied To About The Great Sphinx (Explained)",
+      "desc": "Discusses common misconceptions about the Great Sphinx.",
+      "durationSeconds": 24,
+      "publishedAt": "2022-11-23T15:30:12Z"
+    },
+    {
+      "id": "fcNziOxaboM",
+      "sourceTitle": "Hidden secrets about the Revolutionary War. #ninjasarebutterflies #podcast #history",
+      "channel": "Ninjas Are Butterflies ",
+      "topic": "History",
+      "title": "Hidden Secrets About the Revolutionary War",
+      "desc": "Shares lesser-known facts about the Revolutionary War.",
+      "durationSeconds": 59,
+      "publishedAt": "2024-07-26T00:05:07Z"
+    },
+    {
+      "id": "JAxKlOFvcS8",
+      "sourceTitle": "How was Israel created? 🇮🇱",
+      "channel": "Quick History",
+      "topic": "History",
+      "title": "How Was Israel Created?",
+      "desc": "A brief overview of the creation of Israel.",
+      "durationSeconds": 31,
+      "publishedAt": "2025-09-21T19:05:19Z"
+    },
+    {
+      "id": "4H2ZstC14qU",
+      "sourceTitle": "History of Palestine and Israel in 60 sec #history #facts #shorts",
+      "channel": "His-story_Teller",
+      "topic": "History",
+      "title": "History of Palestine and Israel in 60 Seconds",
+      "desc": "Summarizes the history of Palestine and Israel in one minute.",
+      "durationSeconds": 59,
+      "publishedAt": "2023-10-22T20:00:01Z"
+    },
+    {
+      "id": "AV1OkEN3Cpw",
+      "sourceTitle": "Why the Statue of Liberty Has Chains #history #facts #newyork",
+      "channel": "Learning To Travel",
+      "topic": "History",
+      "title": "Why the Statue of Liberty Has Chains",
+      "desc": "Explains the symbolism behind the chains on the Statue of Liberty.",
+      "durationSeconds": 21,
+      "publishedAt": "2025-03-24T19:00:12Z"
+    },
+    {
+      "id": "k9ObD8Aogsk",
+      "sourceTitle": "This Capital Used to Be Two Cities 🇭🇺🤯  #facts #history #animation #short  #geography #map #shorts",
+      "channel": "GeoFactGuy",
+      "topic": "Geography",
+      "title": "This Capital Used to Be Two Cities",
+      "desc": "Explores the history of a capital city formed from two cities.",
+      "durationSeconds": 82,
+      "publishedAt": "2026-10-10T21:07:26Z"
+    },
+    {
+      "id": "pvfzsETlEjM",
+      "sourceTitle": "Earth's Secret 8th Continent 😱 (EXPLAINED)",
+      "channel": "Zack D. Films",
+      "topic": "Geography",
+      "title": "Earth's Secret 8th Continent Explained",
+      "desc": "Discusses the concept of Earth's hidden eighth continent.",
+      "durationSeconds": 27,
+      "publishedAt": "2022-10-07T14:30:11Z"
+    },
+    {
+      "id": "Bi8KLRaYcW4",
+      "sourceTitle": "Brazil's Geography isn't as Good as You'd Think.",
+      "channel": "Uncovered ",
+      "topic": "Geography",
+      "title": "Brazil's Geography Isn't as Good as You'd Think",
+      "desc": "Examines surprising facts about Brazil's geography.",
+      "durationSeconds": 26,
+      "publishedAt": "2023-06-13T03:25:26Z"
+    },
+    {
+      "id": "BF1Zv2BxxgU",
+      "sourceTitle": "Fun Fact About Every Country in the World",
+      "channel": "Happy Earth",
+      "topic": "Geography",
+      "title": "Fun Fact About Every Country in the World",
+      "desc": "Shares interesting facts about countries worldwide.",
+      "durationSeconds": 31,
+      "publishedAt": "2022-04-24T17:37:22Z"
+    },
+    {
+      "id": "2-sJHyJMN5I",
+      "sourceTitle": "US Geography facts",
+      "channel": "True Story Docs",
+      "topic": "Geography",
+      "title": "US Geography Facts",
+      "desc": "Presents facts about the geography of the United States.",
+      "durationSeconds": 45,
+      "publishedAt": "2024-06-26T12:47:01Z"
+    },
+    {
+      "id": "VslfnYJEwQw",
+      "sourceTitle": "Sigmund Freud Explained: Psychoanalysis Pioneer, Mind Theories & Psychological Impact",
+      "channel": "History Chronicles",
+      "topic": "Psychology",
+      "title": "Sigmund Freud Explained: Psychoanalysis Pioneer and Mind Theories",
+      "desc": "Overview of Sigmund Freud's contributions to psychology.",
+      "durationSeconds": 49,
+      "publishedAt": "2023-12-30T10:00:32Z"
+    },
+    {
+      "id": "2UNGMrwFEEA",
+      "sourceTitle": "The Self | Carl Jung (1957)",
+      "channel": "Human Nature",
+      "topic": "Psychology",
+      "title": "The Self | Carl Jung (1957)",
+      "desc": "A brief explanation of Carl Jung's concept of the self.",
+      "durationSeconds": 30,
+      "publishedAt": "2022-09-20T07:01:18Z"
+    },
+    {
+      "id": "x5L-MG6q5bA",
+      "sourceTitle": "Philosophy is Useless",
+      "channel": "Jack Lawrence",
+      "topic": "Philosophy",
+      "title": "Philosophy is Useless",
+      "desc": "A short video discussing a perspective on philosophy.",
+      "durationSeconds": 60,
+      "publishedAt": "2023-02-18T16:27:50Z"
+    },
+    {
+      "id": "fjgol6_788s",
+      "sourceTitle": "The purpose of life according to Aristotle",
+      "channel": "Big Think",
+      "topic": "Philosophy",
+      "title": "The Purpose of Life According to Aristotle",
+      "desc": "Explains Aristotle's view on the purpose of life.",
+      "durationSeconds": 43,
+      "publishedAt": "2025-06-23T17:04:10Z"
+    },
+    {
+      "id": "l1wHvPibOUo",
+      "sourceTitle": "Philosophy is better than self-help",
+      "channel": "Big Think",
+      "topic": "Philosophy",
+      "title": "Philosophy is Better Than Self-Help",
+      "desc": "Argues why philosophy may be more beneficial than self-help.",
+      "durationSeconds": 60,
+      "publishedAt": "2024-12-16T17:46:31Z"
+    },
+    {
+      "id": "tC-SkvQsGYA",
+      "sourceTitle": "The Great Philosophers: Socrates, Plato, and Aristotle  #philosophy #history",
+      "channel": "Everyday Philosopher",
+      "topic": "Philosophy",
+      "title": "The Great Philosophers: Socrates, Plato, and Aristotle",
+      "desc": "Introduces key ideas of Socrates, Plato, and Aristotle.",
+      "durationSeconds": 36,
+      "publishedAt": "2024-08-08T19:52:07Z"
+    },
+    {
+      "id": "SiSeFvVvyL8",
+      "sourceTitle": "Positive and Negative Liberty [Shorts version] #freedom #philosophy #sociology",
+      "channel": "Sprouts",
+      "topic": "Philosophy",
+      "title": "Positive and Negative Liberty Explained",
+      "desc": "A short explanation of the concepts of positive and negative liberty.",
+      "durationSeconds": 55,
+      "publishedAt": "2024-03-18T13:40:12Z"
+    },
+    {
+      "id": "0bzYwhvx804",
+      "sourceTitle": "Zeus 101 ⚡️ | Greeking Out: Minute Myths | @natgeokids",
+      "channel": "Nat Geo Kids",
+      "topic": "Mythology",
+      "title": "Zeus 101 | Greeking Out: Minute Myths",
+      "desc": "An introduction to Zeus from Greek mythology.",
+      "durationSeconds": 98,
+      "publishedAt": "2025-09-26T16:13:04Z"
+    },
+    {
+      "id": "seHP1Bz6NPk",
+      "sourceTitle": "Athena 101 🛡️ | Greeking Out: Minute Myths | @natgeokids",
+      "channel": "Nat Geo Kids",
+      "topic": "Mythology",
+      "title": "Athena 101 | Greeking Out: Minute Myths",
+      "desc": "An introduction to Athena from Greek mythology.",
+      "durationSeconds": 81,
+      "publishedAt": "2025-10-03T13:01:49Z"
+    },
+    {
+      "id": "DJSxAllIVUk",
+      "sourceTitle": "The Story of Medusa | Greek Mythology Explained",
+      "channel": "Eras & Tales Unfolded",
+      "topic": "Mythology",
+      "title": "The Story of Medusa | Greek Mythology Explained",
+      "desc": "Explains the myth of Medusa in Greek mythology.",
+      "durationSeconds": 58,
+      "publishedAt": "2023-11-06T21:30:00Z"
+    },
+    {
+      "id": "Zj0MSG82dfs",
+      "sourceTitle": "Greek Mythology Explained In 60 Seconds! | Mythical Madness",
+      "channel": "Mythical Madness",
+      "topic": "Mythology",
+      "title": "Greek Mythology Explained in 60 Seconds",
+      "desc": "A brief overview of Greek mythology.",
+      "durationSeconds": 60,
+      "publishedAt": "2023-05-16T23:30:07Z"
+    },
     {
       "id": "xFwiMZIttLQ",
       "sourceTitle": "8 year old GENIUS doing a math question #shorts #homeschool #educational #kids",
@@ -750,256 +1000,6 @@
       "desc": "Defines philosophy and explains the role of a philosopher.",
       "durationSeconds": 60,
       "publishedAt": "2024-06-29T17:30:04Z"
-    },
-    {
-      "id": "bLvr7-e-89g",
-      "sourceTitle": "3 Types of Rocks Explained in 30 Seconds! 🪨 | Amazing Earth Science #shorts",
-      "channel": "Smartlearn",
-      "topic": "Science",
-      "title": "3 Types of Rocks Explained in 30 Seconds",
-      "desc": "A brief explanation of the three types of rocks in earth science.",
-      "durationSeconds": 6,
-      "publishedAt": "2026-11-06T23:30:22Z"
-    },
-    {
-      "id": "9zhvRNlcbEE",
-      "sourceTitle": "Butterfly Method for Subtracting Fractions 📚 #Shorts #math #maths #mathematics #education #learn",
-      "channel": "markiedoesmath",
-      "topic": "Math",
-      "title": "Butterfly Method for Subtracting Fractions",
-      "desc": "A short tutorial on using the butterfly method to subtract fractions.",
-      "durationSeconds": 15,
-      "publishedAt": "2022-02-17T04:45:01Z"
-    },
-    {
-      "id": "RzwaiFvyN6s",
-      "sourceTitle": "How do Lasers Work?",
-      "channel": "Kurzgesagt – In a Nutshell",
-      "topic": "Science",
-      "title": "How do Lasers Work?",
-      "desc": "An educational video explaining the science behind lasers.",
-      "durationSeconds": 60,
-      "publishedAt": "2023-06-08T14:00:16Z"
-    },
-    {
-      "id": "chOZYtmloI4",
-      "sourceTitle": "Craziest Facts About Ancient Egypt #shorts #factsmine",
-      "channel": "Facts' Mine",
-      "topic": "History",
-      "title": "Craziest Facts About Ancient Egypt",
-      "desc": "A short video sharing unusual facts about Ancient Egypt.",
-      "durationSeconds": 54,
-      "publishedAt": "2023-02-19T16:52:19Z"
-    },
-    {
-      "id": "6JXtFK5w-ro",
-      "sourceTitle": "last 24 hours of hitler's life #shorts #shortvideo #facts #factsdaily #worldwar2 #history",
-      "channel": "Ansh Decodes",
-      "topic": "History",
-      "title": "Last 24 Hours of Hitler's Life",
-      "desc": "A brief overview of the final day in Adolf Hitler's life.",
-      "durationSeconds": 54,
-      "publishedAt": "2024-10-04T12:20:14Z"
-    },
-    {
-      "id": "_DPW_4mtgxk",
-      "sourceTitle": "Historical Facts That Will Distort Your Perception Of Time🤯 #history #historical #historyfacts",
-      "channel": "curiousitygeek",
-      "topic": "History",
-      "title": "Historical Facts That Will Distort Your Perception Of Time",
-      "desc": "A video presenting surprising historical facts about time perception.",
-      "durationSeconds": 52,
-      "publishedAt": "2024-06-26T09:12:39Z"
-    },
-    {
-      "id": "BmezElWWNU0",
-      "sourceTitle": "Facts That Will Mess With Your Perception Of Time #history #interesting #facts",
-      "channel": "1keaa History",
-      "topic": "History",
-      "title": "Facts That Will Mess With Your Perception Of Time",
-      "desc": "A short video sharing interesting historical facts related to time.",
-      "durationSeconds": 55,
-      "publishedAt": "2024-06-25T14:41:58Z"
-    },
-    {
-      "id": "WWWcA9NOcIQ",
-      "sourceTitle": "Akbar’s Crazy Experiment On Kids | Keerthi History                            #india #facts #shorts",
-      "channel": "Keerthi",
-      "topic": "History",
-      "title": "Akbar’s Crazy Experiment On Kids",
-      "desc": "A brief video about an unusual experiment conducted by Emperor Akbar.",
-      "durationSeconds": 35,
-      "publishedAt": "2024-10-21T11:53:10Z"
-    },
-    {
-      "id": "faaZ6cv6AD8",
-      "sourceTitle": "Why Were We Never Taught This History In School",
-      "channel": "Facts' Mine",
-      "topic": "History",
-      "title": "Why Were We Never Taught This History In School",
-      "desc": "A video discussing lesser-known historical facts not commonly taught.",
-      "durationSeconds": 48,
-      "publishedAt": "2024-05-28T16:40:42Z"
-    },
-    {
-      "id": "Xv-_c3WtY8M",
-      "sourceTitle": "Crazy Facts About Queen Cleopatra 🇪🇬 #history #shorts #cleopatra",
-      "channel": "History Hideout",
-      "topic": "History",
-      "title": "Crazy Facts About Queen Cleopatra",
-      "desc": "A short video sharing interesting facts about Queen Cleopatra.",
-      "durationSeconds": 45,
-      "publishedAt": "2023-05-29T15:35:00Z"
-    },
-    {
-      "id": "xH8QdOlyd1E",
-      "sourceTitle": "Who is the MOST EVIL Person in History? #history #animation",
-      "channel": "Historically",
-      "topic": "History",
-      "title": "Who is the MOST EVIL Person in History?",
-      "desc": "An animated video exploring the identity of history's most evil person.",
-      "durationSeconds": 52,
-      "publishedAt": "2024-03-25T12:32:31Z"
-    },
-    {
-      "id": "cto-q_SwxsQ",
-      "sourceTitle": "Crazy History Facts You Won’t Learn Anywhere Else #shorts #history",
-      "channel": "History Bypass",
-      "topic": "History",
-      "title": "Crazy History Facts You Won’t Learn Anywhere Else",
-      "desc": "A video presenting unusual historical facts not commonly known.",
-      "durationSeconds": 54,
-      "publishedAt": "2023-06-30T04:25:04Z"
-    },
-    {
-      "id": "z1SoRU-5G0s",
-      "sourceTitle": "The oldest thing in history #shorts #shortsvedio",
-      "channel": "AMAZING FACTS 24",
-      "topic": "History",
-      "title": "The Oldest Thing in History",
-      "desc": "A short video discussing the oldest known object or event in history.",
-      "durationSeconds": 39,
-      "publishedAt": "2025-10-23T15:29:31Z"
-    },
-    {
-      "id": "lHvrHtcl4eM",
-      "sourceTitle": "Mystery of 1st world war 😱 | History Facts Day- 13/75 #shorts",
-      "channel": "Fact's Clues",
-      "topic": "History",
-      "title": "Mystery of 1st World War",
-      "desc": "A brief video exploring mysteries related to the First World War.",
-      "durationSeconds": 32,
-      "publishedAt": "2024-04-12T11:30:20Z"
-    },
-    {
-      "id": "GnYwJogIyUM",
-      "sourceTitle": "How North Koreans Learn Math - Yeonmi Park",
-      "channel": "HeroMediaX",
-      "topic": "Other",
-      "title": "How North Koreans Learn Math - Yeonmi Park",
-      "desc": "A short video about math education in North Korea.",
-      "durationSeconds": 16,
-      "publishedAt": "2025-07-02T14:12:51Z"
-    },
-    {
-      "id": "DflY9vacl1s",
-      "sourceTitle": "Easy Math trick to amaze your friends | Fun Trick | Limited to only some specific numbers!",
-      "channel": "LKLogic",
-      "topic": "Math",
-      "title": "Basic Math Puzzles for Exams",
-      "desc": "A short video featuring basic math puzzles relevant for exams.",
-      "durationSeconds": 22,
-      "publishedAt": "2023-04-23T11:31:18Z"
-    },
-    {
-      "id": "k8mdltWUWWY",
-      "sourceTitle": "Mental Math Tricks",
-      "channel": "Gohar Khan",
-      "topic": "Math",
-      "title": "Mental Math Tricks",
-      "desc": "A brief video demonstrating mental math techniques.",
-      "durationSeconds": 27,
-      "publishedAt": "2023-12-05T21:45:11Z"
-    },
-    {
-      "id": "qXnE3XS-6RM",
-      "sourceTitle": "Country in Two Continents😮",
-      "channel": "Glore",
-      "topic": "Geography",
-      "title": "Country in Two Continents",
-      "desc": "A short video explaining a country located on two continents.",
-      "durationSeconds": 45,
-      "publishedAt": "2025-08-18T20:48:21Z"
-    },
-    {
-      "id": "nr6aatMxNP0",
-      "sourceTitle": "Why Greenland's Geography is Fascinating",
-      "channel": "Uncovered ",
-      "topic": "Geography",
-      "title": "Why Greenland's Geography is Fascinating",
-      "desc": "A brief video discussing interesting geographic features of Greenland.",
-      "durationSeconds": 27,
-      "publishedAt": "2023-07-12T10:30:23Z"
-    },
-    {
-      "id": "vDJzdvxtr3U",
-      "sourceTitle": "60 Seconds of Surprising Geography Facts 🌎🤯",
-      "channel": "TopQuest",
-      "topic": "Geography",
-      "title": "60 Seconds of Surprising Geography Facts",
-      "desc": "A quick video sharing surprising facts about geography.",
-      "durationSeconds": 71,
-      "publishedAt": "2026-09-22T16:21:36Z"
-    },
-    {
-      "id": "D_qkJBWsROE",
-      "sourceTitle": "Top 5 Geography Facts You Never Knew 🌍 Part 2",
-      "channel": "Geo-Empire",
-      "topic": "Geography",
-      "title": "Top 5 Geography Facts You Never Knew Part 2",
-      "desc": "A video presenting lesser-known geography facts.",
-      "durationSeconds": 45,
-      "publishedAt": "2026-06-09T21:35:33Z"
-    },
-    {
-      "id": "QZIaCjlnefs",
-      "sourceTitle": "Mind-Blowing Facts About the U.S. 🇺🇸 You Never Knew 🤯",
-      "channel": "GeoGlobeTales",
-      "topic": "Geography",
-      "title": "Mind-Blowing Facts About the U.S.",
-      "desc": "A short video sharing surprising facts about the United States.",
-      "durationSeconds": 61,
-      "publishedAt": "2024-09-02T00:09:40Z"
-    },
-    {
-      "id": "j703QOlk6sc",
-      "sourceTitle": "What If Countries Took What They Wanted? 🤯🌎 Dream Maps & Alternate History",
-      "channel": "GeoMap Unveiled",
-      "topic": "Geography",
-      "title": "What If Countries Took What They Wanted? Dream Maps & Alternate History",
-      "desc": "A video exploring alternate history scenarios involving country borders.",
-      "durationSeconds": 35,
-      "publishedAt": "2025-01-31T22:00:35Z"
-    },
-    {
-      "id": "fhOFWAw6d-s",
-      "sourceTitle": "Geography facts that Broke my brain... Part 2",
-      "channel": "Geo-Empire",
-      "topic": "Geography",
-      "title": "Geography Facts That Broke My Brain Part 2",
-      "desc": "A video sharing surprising and confusing geography facts.",
-      "durationSeconds": 44,
-      "publishedAt": "2026-09-07T15:34:03Z"
-    },
-    {
-      "id": "WVQ9GpJbBV8",
-      "sourceTitle": "Confusing Borders😵‍💫🇮🇳???",
-      "channel": "Mr Geo",
-      "topic": "Geography",
-      "title": "Confusing Borders",
-      "desc": "A short video about confusing international borders.",
-      "durationSeconds": 21,
-      "publishedAt": "2024-10-21T18:10:00Z"
     }
   ]
 }
