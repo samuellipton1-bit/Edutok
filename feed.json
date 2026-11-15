@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-14T22:24:48.132444+00:00",
+  "updatedAt": "2026-11-15T06:32:03.372990+00:00",
   "videos": [
+    {
+      "id": "auvTtlQ8zDQ",
+      "sourceTitle": "What is physics.#definition #education #science #shorts",
+      "channel": "Educo learn",
+      "topic": "Science",
+      "title": "What is physics",
+      "desc": "A brief educational video defining physics.",
+      "durationSeconds": 9,
+      "publishedAt": "2024-12-26T08:57:56Z"
+    },
+    {
+      "id": "xFj1jMAuz6M",
+      "sourceTitle": "15 Essential Physics Formulas Explained! #shorts",
+      "channel": "NextGen Education",
+      "topic": "Science",
+      "title": "15 Essential Physics Formulas Explained",
+      "desc": "A short video explaining key physics formulas.",
+      "durationSeconds": 11,
+      "publishedAt": "2026-11-14T09:50:52Z"
+    },
+    {
+      "id": "chOSIonomSY",
+      "sourceTitle": "Why Do Your Fingers Wrinkle in Water? 💧 The Science Explained! #shorts",
+      "channel": " Facts&mystery ",
+      "topic": "Science",
+      "title": "Why Do Your Fingers Wrinkle in Water? The Science Explained",
+      "desc": "A short explanation of the science behind finger wrinkling in water.",
+      "durationSeconds": 28,
+      "publishedAt": "2026-11-15T02:08:02Z"
+    },
+    {
+      "id": "jQ-3y_Y93qk",
+      "sourceTitle": "How Nature Inspired Science | Amazing Science Facts #shorts #education #physics",
+      "channel": "Sri Chaitanya Academy NEET",
+      "topic": "Science",
+      "title": "How Nature Inspired Science",
+      "desc": "A brief video on how nature has inspired scientific discoveries.",
+      "durationSeconds": 21,
+      "publishedAt": "2025-08-27T06:30:21Z"
+    },
+    {
+      "id": "xsxIVl0WABo",
+      "sourceTitle": "Earthquakes EXPLAINED in 30 seconds! What causes EARTHQUAKES? 🌎 Fun science facts for kids",
+      "channel": "Outschool - Educational Classes for Kids",
+      "topic": "Science",
+      "title": "Earthquakes Explained in 30 Seconds",
+      "desc": "A quick explanation of what causes earthquakes.",
+      "durationSeconds": 30,
+      "publishedAt": "2023-11-19T21:05:01Z"
+    },
+    {
+      "id": "6MUIGCEBoEA",
+      "sourceTitle": "The magic of Electric Current  🤯#physics #science #facts #short",
+      "channel": "Tuning Science",
+      "topic": "Science",
+      "title": "The Magic of Electric Current",
+      "desc": "A short video about electric current and its properties.",
+      "durationSeconds": 17,
+      "publishedAt": "2026-11-03T12:00:01Z"
+    },
+    {
+      "id": "fcNziOxaboM",
+      "sourceTitle": "Hidden secrets about the Revolutionary War. #ninjasarebutterflies #podcast #history",
+      "channel": "Ninjas Are Butterflies ",
+      "topic": "History",
+      "title": "Hidden Secrets about the Revolutionary War",
+      "desc": "A brief video revealing lesser-known facts about the Revolutionary War.",
+      "durationSeconds": 59,
+      "publishedAt": "2024-07-26T00:05:07Z"
+    },
+    {
+      "id": "AV1OkEN3Cpw",
+      "sourceTitle": "Why the Statue of Liberty Has Chains #history #facts #newyork",
+      "channel": "Learning To Travel",
+      "topic": "History",
+      "title": "Why the Statue of Liberty Has Chains",
+      "desc": "A short explanation about the chains on the Statue of Liberty.",
+      "durationSeconds": 21,
+      "publishedAt": "2025-03-24T19:00:12Z"
+    },
+    {
+      "id": "xuj2UA-kIE8",
+      "sourceTitle": "We've Been Lied To About The Great Sphinx 😯 (EXPLAINED)",
+      "channel": "Zack D. Films",
+      "topic": "History",
+      "title": "We've Been Lied To About The Great Sphinx (Explained)",
+      "desc": "A brief video discussing common misconceptions about the Great Sphinx.",
+      "durationSeconds": 24,
+      "publishedAt": "2022-11-23T15:30:12Z"
+    },
+    {
+      "id": "WxMw5rjkns8",
+      "sourceTitle": "Which empire had the highest win rate in history? #history #facts",
+      "channel": "Ancient History Lol",
+      "topic": "History",
+      "title": "Which Empire Had the Highest Win Rate in History?",
+      "desc": "A short video exploring historical empires and their success rates.",
+      "durationSeconds": 40,
+      "publishedAt": "2026-10-18T23:08:48Z"
+    },
+    {
+      "id": "Eq2YSSPtmMc",
+      "sourceTitle": "The Real Height of Napoleon Will Surprise You #history #facts",
+      "channel": "Odly Famous",
+      "topic": "History",
+      "title": "The Real Height of Napoleon Will Surprise You",
+      "desc": "A brief video about the true height of Napoleon Bonaparte.",
+      "durationSeconds": 29,
+      "publishedAt": "2026-11-14T19:00:03Z"
+    },
+    {
+      "id": "pZmC2psuO_U",
+      "sourceTitle": "Geography Facts | भारत के नक्शे में श्रीलंका क्यों होता है ? Indian Geography |CrazyGkTrick #shorts",
+      "channel": "Crazy GkTrick",
+      "topic": "Geography",
+      "title": "Geography Facts: Why Sri Lanka Appears on India's Map",
+      "desc": "A short video explaining a geography fact about India and Sri Lanka.",
+      "durationSeconds": 49,
+      "publishedAt": "2023-05-25T11:51:54Z"
+    },
+    {
+      "id": "pvfzsETlEjM",
+      "sourceTitle": "Earth's Secret 8th Continent 😱 (EXPLAINED)",
+      "channel": "Zack D. Films",
+      "topic": "Geography",
+      "title": "Earth's Secret 8th Continent Explained",
+      "desc": "A brief explanation about the Earth's possible eighth continent.",
+      "durationSeconds": 27,
+      "publishedAt": "2022-10-07T14:30:11Z"
+    },
+    {
+      "id": "2-sJHyJMN5I",
+      "sourceTitle": "US Geography facts",
+      "channel": "True Story Docs",
+      "topic": "Geography",
+      "title": "US Geography Facts",
+      "desc": "A short video presenting facts about US geography.",
+      "durationSeconds": 45,
+      "publishedAt": "2024-06-26T12:47:01Z"
+    },
+    {
+      "id": "BqV3efJP6xo",
+      "sourceTitle": "Interesting facts about Geography | Geography #parcham #sscgeography #geographyfacts",
+      "channel": "Parcham Classes",
+      "topic": "Geography",
+      "title": "Interesting Facts about Geography",
+      "desc": "A brief video sharing interesting geography facts.",
+      "durationSeconds": 48,
+      "publishedAt": "2024-04-26T12:30:06Z"
+    },
+    {
+      "id": "vDJzdvxtr3U",
+      "sourceTitle": "60 Seconds of Surprising Geography Facts 🌎🤯",
+      "channel": "TopQuest",
+      "topic": "Geography",
+      "title": "60 Seconds of Surprising Geography Facts",
+      "desc": "A quick video presenting surprising facts about geography.",
+      "durationSeconds": 71,
+      "publishedAt": "2026-09-22T16:21:36Z"
+    },
+    {
+      "id": "BF1Zv2BxxgU",
+      "sourceTitle": "Fun Fact About Every Country in the World",
+      "channel": "Happy Earth",
+      "topic": "Geography",
+      "title": "Fun Fact About Every Country in the World",
+      "desc": "A short video sharing fun facts about countries worldwide.",
+      "durationSeconds": 31,
+      "publishedAt": "2022-04-24T17:37:22Z"
+    },
+    {
+      "id": "Zux6l4SGqcc",
+      "sourceTitle": "🌍 9 Countries With Geography Facts That Sound Impossible! 😱🔥#shorts",
+      "channel": "Atlas Reveal",
+      "topic": "Geography",
+      "title": "9 Countries With Geography Facts That Sound Impossible",
+      "desc": "A brief video about unusual geography facts of nine countries.",
+      "durationSeconds": 17,
+      "publishedAt": "2026-09-16T11:32:56Z"
+    },
+    {
+      "id": "6UNB1l_wC0I",
+      "sourceTitle": "3 Geography Facts Jo Aapko Shock Kar Denge! 🌍😱 #upsc #shorts #usa",
+      "channel": "OnlyIAS Extended",
+      "topic": "Geography",
+      "title": "3 Geography Facts That Will Shock You",
+      "desc": "A short video presenting three surprising geography facts.",
+      "durationSeconds": 36,
+      "publishedAt": "2024-12-02T14:00:06Z"
+    },
+    {
+      "id": "XgoBeh_z7Xk",
+      "sourceTitle": "PRINCIPLES OF ECONOMICS Explained Simply | Mankiw’s 10 Principles",
+      "channel": "ExplainIt! ",
+      "topic": "Other",
+      "title": "Principles of Economics Explained Simply",
+      "desc": "A brief explanation of Mankiw’s 10 principles of economics.",
+      "durationSeconds": 103,
+      "publishedAt": "2026-09-27T11:00:08Z"
+    },
+    {
+      "id": "feZSqm7cZtQ",
+      "sourceTitle": "What is Economy for Kids? How Money Works! Economics Made Simple 🌍💰",
+      "channel": "Kids_Finance_English",
+      "topic": "Technology",
+      "title": "What Is a Context Window? (Why ChatGPT Forgets What You Said)",
+      "desc": "A short video explaining the concept of context windows in AI.",
+      "durationSeconds": 117,
+      "publishedAt": "2025-03-19T06:08:46Z"
+    },
+    {
+      "id": "EnJgyKosCII",
+      "sourceTitle": "How Neuralink Works 🧠",
+      "channel": "Zack D. Films",
+      "topic": "Technology",
+      "title": "How Neuralink Works",
+      "desc": "A brief explanation of how Neuralink technology functions.",
+      "durationSeconds": 28,
+      "publishedAt": "2024-04-26T14:30:08Z"
+    },
+    {
+      "id": "WMXGoc5n2uM",
+      "sourceTitle": "Chess Tips for Beginners By R Praggnanandhaa | Raj Shamani #Shorts",
+      "channel": "Raj Shamani",
+      "topic": "Chess",
+      "title": "Chess Tips for Beginners by R Praggnanandhaa",
+      "desc": "A short video offering beginner chess tips from a grandmaster.",
+      "durationSeconds": 44,
+      "publishedAt": "2025-08-11T14:30:33Z"
+    },
+    {
+      "id": "qJHUh9h-Q84",
+      "sourceTitle": "The Best Chess Opening For Beginners?",
+      "channel": "Chess.com",
+      "topic": "Chess",
+      "title": "The Best Chess Opening for Beginners?",
+      "desc": "A brief video discussing recommended chess openings for beginners.",
+      "durationSeconds": 60,
+      "publishedAt": "2023-01-18T19:07:19Z"
+    },
+    {
+      "id": "DJSxAllIVUk",
+      "sourceTitle": "The Story of Medusa | Greek Mythology Explained",
+      "channel": "Eras & Tales Unfolded",
+      "topic": "Mythology",
+      "title": "The Story of Medusa: Greek Mythology Explained",
+      "desc": "A short explanation of the Medusa myth from Greek mythology.",
+      "durationSeconds": 58,
+      "publishedAt": "2023-11-06T21:30:00Z"
+    },
     {
       "id": "xFwiMZIttLQ",
       "sourceTitle": "8 year old GENIUS doing a math question #shorts #homeschool #educational #kids",
@@ -750,256 +1000,6 @@
       "desc": "A brief video sharing surprising but true geography facts.",
       "durationSeconds": 58,
       "publishedAt": "2026-10-29T18:24:22Z"
-    },
-    {
-      "id": "r9Nj-IzIwv4",
-      "sourceTitle": "What is a noun ? #shorts#englishgrammar#english#trending#viral#shortvideo #noun#education",
-      "channel": "Easy learning",
-      "topic": "Other",
-      "title": "What is a noun?",
-      "desc": "A brief educational video explaining the concept of a noun.",
-      "durationSeconds": 5,
-      "publishedAt": "2022-09-30T04:57:25Z"
-    },
-    {
-      "id": "6afmpMvq9tk",
-      "sourceTitle": "Stroke Explained: What Happens Inside Your Brain? | Ischemic vs Hemorrhagic Stroke #shorts  #science",
-      "channel": "PragyaRX",
-      "topic": "Science",
-      "title": "Stroke Explained: Ischemic vs Hemorrhagic",
-      "desc": "A short video explaining what happens inside the brain during different types of strokes.",
-      "durationSeconds": 46,
-      "publishedAt": "2026-11-13T15:56:12Z"
-    },
-    {
-      "id": "5PO-ZlmaORs",
-      "sourceTitle": "3 Science Facts You Didn't Need To Know",
-      "channel": "IFLScience",
-      "topic": "Science",
-      "title": "3 Science Facts You Didn't Know",
-      "desc": "A brief video presenting three interesting science facts.",
-      "durationSeconds": 25,
-      "publishedAt": "2022-11-08T18:15:00Z"
-    },
-    {
-      "id": "6Ij0mL5vmM8",
-      "sourceTitle": "How Does a Chicken Make an Egg? The Incredible Process 🥚 #science #chicken #egg #facts #experiment",
-      "channel": "EcoplanturUSA",
-      "topic": "Science",
-      "title": "How Does a Chicken Make an Egg?",
-      "desc": "A short video explaining the process of egg formation in chickens.",
-      "durationSeconds": 41,
-      "publishedAt": "2026-09-15T01:50:58Z"
-    },
-    {
-      "id": "6PaLnLxCAmQ",
-      "sourceTitle": "The Strongest Material in the universe? #sciencefacts #facts #science #shorts",
-      "channel": "Scienceverse",
-      "topic": "Science",
-      "title": "The Strongest Material in the Universe?",
-      "desc": "A brief video discussing the strongest known material in the universe.",
-      "durationSeconds": 31,
-      "publishedAt": "2024-10-05T12:02:21Z"
-    },
-    {
-      "id": "-1F_J1FI6DM",
-      "sourceTitle": "Wormhole Theory Explained 😲| #facts #shorts",
-      "channel": "Scienceverse",
-      "topic": "Science",
-      "title": "Wormhole Theory Explained",
-      "desc": "A short video explaining the concept of wormholes in science.",
-      "durationSeconds": 52,
-      "publishedAt": "2025-08-25T12:01:38Z"
-    },
-    {
-      "id": "z6v67BgcVy4",
-      "sourceTitle": "RFID Technology Explained",
-      "channel": "Kestronics",
-      "topic": "Technology",
-      "title": "RFID Technology Explained",
-      "desc": "An educational video explaining how RFID technology works.",
-      "durationSeconds": 107,
-      "publishedAt": "2021-09-17T09:34:25Z"
-    },
-    {
-      "id": "gmba2elPaqk",
-      "sourceTitle": "How Does Your Mobile Touchscreen Actually Work? 🤯📱 | Technology Explained #shorts #shortsfeed #fyp",
-      "channel": "DENEXO ",
-      "topic": "Technology",
-      "title": "How Does Your Mobile Touchscreen Work?",
-      "desc": "A short video explaining the technology behind mobile touchscreens.",
-      "durationSeconds": 41,
-      "publishedAt": "2026-11-13T08:44:56Z"
-    },
-    {
-      "id": "VFhdACHi8kg",
-      "sourceTitle": "Holograms: The Future of Communication | Mind-Blowing Technology Explained! #short",
-      "channel": "Do U Know?",
-      "topic": "Technology",
-      "title": "Holograms: The Future of Communication",
-      "desc": "A brief video explaining hologram technology and its potential.",
-      "durationSeconds": 72,
-      "publishedAt": "2025-01-12T15:15:04Z"
-    },
-    {
-      "id": "E-wuAWnrVu4",
-      "sourceTitle": "Every Philosopher's Philosophy In One Sentence",
-      "channel": "M3 Digital",
-      "topic": "Philosophy",
-      "title": "Every Philosopher's Philosophy In One Sentence",
-      "desc": "A short video summarizing key philosophies in one sentence each.",
-      "durationSeconds": 79,
-      "publishedAt": "2025-02-22T13:34:18Z"
-    },
-    {
-      "id": "xlAdS7uWhLA",
-      "sourceTitle": "What are Myths? Simple and Concise Explanation of Mythology",
-      "channel": "The Learning Depot",
-      "topic": "Mythology",
-      "title": "What are Myths? Simple Explanation",
-      "desc": "A concise explanation of mythology and myths.",
-      "durationSeconds": 77,
-      "publishedAt": "2019-04-09T01:25:26Z"
-    },
-    {
-      "id": "GQlIlJxW538",
-      "sourceTitle": "Odysseus 101 🐴 | Greeking Out: Minute Myths | @natgeokids",
-      "channel": "Nat Geo Kids",
-      "topic": "Mythology",
-      "title": "Odysseus 101 | Minute Myths",
-      "desc": "A brief educational video about the mythological figure Odysseus.",
-      "durationSeconds": 79,
-      "publishedAt": "2025-11-21T14:00:22Z"
-    },
-    {
-      "id": "PSGW_zWJkY0",
-      "sourceTitle": "What is a Myth?|  Myths Explained Simply | Low Stimulation Videos for Kids | Genre",
-      "channel": "ReadingPad",
-      "topic": "Mythology",
-      "title": "What is a Myth? Explained Simply",
-      "desc": "A short video explaining the concept of myths for kids.",
-      "durationSeconds": 81,
-      "publishedAt": "2024-12-15T00:00:16Z"
-    },
-    {
-      "id": "oUUddXjrO3k",
-      "sourceTitle": "The Ancient Greek Fates #shorts",
-      "channel": "Adrian Bliss",
-      "topic": "Mythology",
-      "title": "The Ancient Greek Fates",
-      "desc": "A brief video about the Ancient Greek Fates.",
-      "durationSeconds": 45,
-      "publishedAt": "2022-07-17T22:42:11Z"
-    },
-    {
-      "id": "xcixR0tKGu0",
-      "sourceTitle": "Random History Facts to Blow Your Mind #shorts #shortsvideo #facts #history #trivia #interesting",
-      "channel": "Cody Tucker",
-      "topic": "History",
-      "title": "Random History Facts to Blow Your Mind",
-      "desc": "A short video presenting interesting history facts.",
-      "durationSeconds": 44,
-      "publishedAt": "2025-04-22T23:00:54Z"
-    },
-    {
-      "id": "Xv-_c3WtY8M",
-      "sourceTitle": "Crazy Facts About Queen Cleopatra 🇪🇬 #history #shorts #cleopatra",
-      "channel": "History Hideout",
-      "topic": "History",
-      "title": "Crazy Facts About Queen Cleopatra",
-      "desc": "A brief video sharing unusual facts about Queen Cleopatra.",
-      "durationSeconds": 45,
-      "publishedAt": "2023-05-29T15:35:00Z"
-    },
-    {
-      "id": "XFlK_Zl0Py8",
-      "sourceTitle": "One bizarre facts about every King and Queen of England (Part 1)",
-      "channel": "Absolute History",
-      "topic": "History",
-      "title": "Bizarre Facts About English Kings and Queens (Part 1)",
-      "desc": "A short video presenting strange facts about English royalty.",
-      "durationSeconds": 57,
-      "publishedAt": "2023-05-17T21:00:24Z"
-    },
-    {
-      "id": "rY9uvNRjveQ",
-      "sourceTitle": "Daily Life during the Black Plague #history #animation",
-      "channel": "Historically",
-      "topic": "History",
-      "title": "Daily Life during the Black Plague",
-      "desc": "An animated short video about life during the Black Plague.",
-      "durationSeconds": 49,
-      "publishedAt": "2024-04-13T12:03:00Z"
-    },
-    {
-      "id": "F8-dtqVMH9Q",
-      "sourceTitle": "Shortest Wars in History😮",
-      "channel": "Glore",
-      "topic": "History",
-      "title": "Shortest Wars in History",
-      "desc": "A brief video about some of the shortest wars in history.",
-      "durationSeconds": 40,
-      "publishedAt": "2025-03-26T19:59:01Z"
-    },
-    {
-      "id": "xH8QdOlyd1E",
-      "sourceTitle": "Who is the MOST EVIL Person in History? #history #animation",
-      "channel": "Historically",
-      "topic": "History",
-      "title": "Who is the Most Evil Person in History?",
-      "desc": "An animated short video discussing historical figures considered evil.",
-      "durationSeconds": 52,
-      "publishedAt": "2024-03-25T12:32:31Z"
-    },
-    {
-      "id": "Wf74TmXlq4g",
-      "sourceTitle": "Look at People’s Patterns of Behavior I Robert Greene",
-      "channel": "Robert Greene ",
-      "topic": "History",
-      "title": "Victorian Era Taste and Culture",
-      "desc": "A short video about Victorian era aesthetics and culture.",
-      "durationSeconds": 23,
-      "publishedAt": "2024-03-15T16:00:25Z"
-    },
-    {
-      "id": "ZbT62jPfmFE",
-      "sourceTitle": "The story of the Danaides #history #art #painting",
-      "channel": "History by Mae",
-      "topic": "History",
-      "title": "The Story of the Danaides",
-      "desc": "A brief video about the mythological story of the Danaides.",
-      "durationSeconds": 17,
-      "publishedAt": "2024-09-08T13:59:49Z"
-    },
-    {
-      "id": "MgiG1GaDvaI",
-      "sourceTitle": "Why was Italy so useless during World War 2 #history #worldwar2",
-      "channel": "Madmam",
-      "topic": "History",
-      "title": "Why Was Italy Useless During World War 2?",
-      "desc": "A short video exploring Italy's role in World War 2.",
-      "durationSeconds": 40,
-      "publishedAt": "2025-05-20T10:48:39Z"
-    },
-    {
-      "id": "WjxlEHb-liU",
-      "sourceTitle": "5 Baseball Facts You Didn't Know",
-      "channel": "SportzCrow",
-      "topic": "Baseball",
-      "title": "5 Baseball Facts You Didn't Know",
-      "desc": "A brief video sharing lesser-known facts about baseball.",
-      "durationSeconds": 33,
-      "publishedAt": "2023-05-11T12:00:18Z"
-    },
-    {
-      "id": "VXJNTGv4F4o",
-      "sourceTitle": "Names of Chess Pieces: Chess Basics For Beginners| How to Play Chess #chess #chessgame #english",
-      "channel": "Daily Dose Of English Sentences",
-      "topic": "Chess",
-      "title": "Names of Chess Pieces: Chess Basics for Beginners",
-      "desc": "A short video teaching the names of chess pieces for beginners.",
-      "durationSeconds": 13,
-      "publishedAt": "2024-08-25T11:58:58Z"
     }
   ]
 }
