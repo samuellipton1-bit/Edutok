@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-15T06:32:03.372990+00:00",
+  "updatedAt": "2026-11-15T18:51:33.257150+00:00",
   "videos": [
+    {
+      "id": "vwUJkbsSEag",
+      "sourceTitle": "Physics Explained #shorts #sigmaphysics #physics #alberteinstein #shortsviral",
+      "channel": "Sigma Einstein",
+      "topic": "Science",
+      "title": "Physics Explained",
+      "desc": "A brief video explaining physics concepts related to Albert Einstein.",
+      "durationSeconds": 21,
+      "publishedAt": "2026-11-15T18:00:17Z"
+    },
+    {
+      "id": "r9Nj-IzIwv4",
+      "sourceTitle": "What is a noun ? #shorts#englishgrammar#english#trending#viral#shortvideo #noun#education",
+      "channel": "Easy learning",
+      "topic": "Other",
+      "title": "What is a Noun?",
+      "desc": "A short educational video explaining the concept of nouns in English grammar.",
+      "durationSeconds": 5,
+      "publishedAt": "2022-09-30T04:57:25Z"
+    },
+    {
+      "id": "Zbhepn2GfXM",
+      "sourceTitle": "Compound Words for Kids 😲 Eggplant, Pancake & Firefighter | Adi Connection #shorts",
+      "channel": "Adi Connection",
+      "topic": "Other",
+      "title": "Compound Words for Kids",
+      "desc": "An educational video teaching compound words like eggplant, pancake, and firefighter.",
+      "durationSeconds": 20,
+      "publishedAt": "2026-11-15T10:30:27Z"
+    },
+    {
+      "id": "SMg-gJYy410",
+      "sourceTitle": "🥩 What Meat Comes From Which Animal? 🐄🍗 | Meat Names Explained! #Shorts#MeatFacts #FoodFacts",
+      "channel": "NutriZestora",
+      "topic": "Other",
+      "title": "What Meat Comes From Which Animal?",
+      "desc": "A short video explaining the origins of different types of meat.",
+      "durationSeconds": 16,
+      "publishedAt": "2026-11-15T13:45:22Z"
+    },
+    {
+      "id": "8Ckd5YMTaTI",
+      "sourceTitle": "YouTube Method for Fast Multiplication!  35 × 75 Trick #shorts #maths #mathstricks #education",
+      "channel": "Al Barkat Learning Hub ",
+      "topic": "Math",
+      "title": "YouTube Method for Fast Multiplication",
+      "desc": "A quick math trick for multiplying numbers efficiently.",
+      "durationSeconds": 16,
+      "publishedAt": "2026-10-13T16:00:21Z"
+    },
+    {
+      "id": "k1m1cFE6TgE",
+      "sourceTitle": "The Sun, the Moon and the Earth rotation #educational #shorts #rotation",
+      "channel": "The Xplanator",
+      "topic": "Science",
+      "title": "The Sun, the Moon and the Earth Rotation",
+      "desc": "A short educational video about the rotation of the sun, moon, and earth.",
+      "durationSeconds": 27,
+      "publishedAt": "2022-10-15T17:43:21Z"
+    },
+    {
+      "id": "5PO-ZlmaORs",
+      "sourceTitle": "3 Science Facts You Didn't Need To Know",
+      "channel": "IFLScience",
+      "topic": "Science",
+      "title": "3 Science Facts You Didn't Need To Know",
+      "desc": "A brief video sharing interesting science facts.",
+      "durationSeconds": 25,
+      "publishedAt": "2022-11-08T18:15:00Z"
+    },
+    {
+      "id": "9dMFxnpEkKc",
+      "sourceTitle": "Newton's Apple - Science Short",
+      "channel": "Sick Science!",
+      "topic": "Science",
+      "title": "Newton's Apple - Science Short",
+      "desc": "A short video about Newton's apple and its scientific significance.",
+      "durationSeconds": 11,
+      "publishedAt": "2023-03-15T19:00:05Z"
+    },
+    {
+      "id": "-1F_J1FI6DM",
+      "sourceTitle": "Wormhole Theory Explained 😲| #facts #shorts",
+      "channel": "Scienceverse",
+      "topic": "Science",
+      "title": "Wormhole Theory Explained",
+      "desc": "A brief explanation of wormhole theory in physics.",
+      "durationSeconds": 52,
+      "publishedAt": "2025-08-25T12:01:38Z"
+    },
+    {
+      "id": "6Ij0mL5vmM8",
+      "sourceTitle": "How Does a Chicken Make an Egg? The Incredible Process 🥚 #science #chicken #egg #facts #experiment",
+      "channel": "EcoplanturUSA",
+      "topic": "Science",
+      "title": "How Does a Chicken Make an Egg?",
+      "desc": "An educational video explaining the process of egg formation in chickens.",
+      "durationSeconds": 41,
+      "publishedAt": "2026-09-15T01:50:58Z"
+    },
+    {
+      "id": "xcixR0tKGu0",
+      "sourceTitle": "Random History Facts to Blow Your Mind #shorts #shortsvideo #facts #history #trivia #interesting",
+      "channel": "Cody Tucker",
+      "topic": "History",
+      "title": "Random History Facts to Blow Your Mind",
+      "desc": "A short video presenting surprising history facts.",
+      "durationSeconds": 44,
+      "publishedAt": "2025-04-22T23:00:54Z"
+    },
+    {
+      "id": "Xv-_c3WtY8M",
+      "sourceTitle": "Crazy Facts About Queen Cleopatra 🇪🇬 #history #shorts #cleopatra",
+      "channel": "History Hideout",
+      "topic": "History",
+      "title": "Crazy Facts About Queen Cleopatra",
+      "desc": "A brief video sharing interesting facts about Queen Cleopatra.",
+      "durationSeconds": 45,
+      "publishedAt": "2023-05-29T15:35:00Z"
+    },
+    {
+      "id": "cto-q_SwxsQ",
+      "sourceTitle": "Crazy History Facts You Won’t Learn Anywhere Else #shorts #history",
+      "channel": "History Bypass",
+      "topic": "History",
+      "title": "Crazy History Facts You Won’t Learn Anywhere Else",
+      "desc": "A short video presenting unusual historical facts.",
+      "durationSeconds": 54,
+      "publishedAt": "2023-06-30T04:25:04Z"
+    },
+    {
+      "id": "rY9uvNRjveQ",
+      "sourceTitle": "Daily Life during the Black Plague #history #animation",
+      "channel": "Historically",
+      "topic": "History",
+      "title": "Daily Life during the Black Plague",
+      "desc": "An animated video about everyday life during the Black Plague.",
+      "durationSeconds": 49,
+      "publishedAt": "2024-04-13T12:03:00Z"
+    },
+    {
+      "id": "BmezElWWNU0",
+      "sourceTitle": "Facts That Will Mess With Your Perception Of Time #history #interesting #facts",
+      "channel": "1keaa History",
+      "topic": "History",
+      "title": "Facts That Will Mess With Your Perception Of Time",
+      "desc": "A video sharing history facts that challenge common perceptions of time.",
+      "durationSeconds": 55,
+      "publishedAt": "2024-06-25T14:41:58Z"
+    },
+    {
+      "id": "DJDpI_V567w",
+      "sourceTitle": "Weird and Bizarre History Facts From The Victorian Era #shorts #history",
+      "channel": "Past Perplex",
+      "topic": "History",
+      "title": "Weird and Bizarre History Facts From The Victorian Era",
+      "desc": "A short video about unusual history facts from the Victorian era.",
+      "durationSeconds": 56,
+      "publishedAt": "2023-11-01T15:49:12Z"
+    },
+    {
+      "id": "F8-dtqVMH9Q",
+      "sourceTitle": "Shortest Wars in History😮",
+      "channel": "Glore",
+      "topic": "History",
+      "title": "Shortest Wars in History",
+      "desc": "A brief video explaining some of the shortest wars in history.",
+      "durationSeconds": 40,
+      "publishedAt": "2025-03-26T19:59:01Z"
+    },
+    {
+      "id": "0764bef9Wfw",
+      "sourceTitle": "15 Geography Facts That Will Blow Your Mind!",
+      "channel": "GeoLoop",
+      "topic": "Geography",
+      "title": "15 Geography Facts That Will Blow Your Mind!",
+      "desc": "A short video presenting surprising geography facts.",
+      "durationSeconds": 74,
+      "publishedAt": "2026-11-10T07:17:12Z"
+    },
+    {
+      "id": "tT-BzWbyqkw",
+      "sourceTitle": "Why Nobody Can Cross Darien Gap 🤔 What's Wrong here? 🤯",
+      "channel": "Geo All Day",
+      "topic": "Geography",
+      "title": "Why Nobody Can Cross Darien Gap",
+      "desc": "An educational video explaining the challenges of crossing the Darien Gap.",
+      "durationSeconds": 60,
+      "publishedAt": "2024-09-09T18:43:13Z"
+    },
+    {
+      "id": "VslfnYJEwQw",
+      "sourceTitle": "Sigmund Freud Explained: Psychoanalysis Pioneer, Mind Theories & Psychological Impact",
+      "channel": "History Chronicles",
+      "topic": "Psychology",
+      "title": "Sigmund Freud Explained",
+      "desc": "A short video about Sigmund Freud's psychoanalysis and psychological theories.",
+      "durationSeconds": 49,
+      "publishedAt": "2023-12-30T10:00:32Z"
+    },
+    {
+      "id": "2UNGMrwFEEA",
+      "sourceTitle": "The Self | Carl Jung (1957)",
+      "channel": "Human Nature",
+      "topic": "Psychology",
+      "title": "The Self | Carl Jung (1957)",
+      "desc": "A brief video discussing Carl Jung's concept of the self.",
+      "durationSeconds": 30,
+      "publishedAt": "2022-09-20T07:01:18Z"
+    },
+    {
+      "id": "Giiz81_uzK8",
+      "sourceTitle": "What is Technology?",
+      "channel": "Tony Montez",
+      "topic": "Technology",
+      "title": "What is Technology?",
+      "desc": "An educational video explaining the concept of technology.",
+      "durationSeconds": 90,
+      "publishedAt": "2014-02-16T00:56:45Z"
+    },
+    {
+      "id": "vQU0y4ytSv0",
+      "sourceTitle": "Quantum Computing Explained in 60 Seconds: The Future of Technology",
+      "channel": "Smart Minute",
+      "topic": "Technology",
+      "title": "Quantum Computing Explained in 60 Seconds",
+      "desc": "A brief explanation of quantum computing and its future implications.",
+      "durationSeconds": 49,
+      "publishedAt": "2025-10-11T19:08:31Z"
+    },
+    {
+      "id": "SMC2lylFXeQ",
+      "sourceTitle": "What is AI?",
+      "channel": "The Educated Owl",
+      "topic": "Technology",
+      "title": "What is AI?",
+      "desc": "A short video explaining artificial intelligence.",
+      "durationSeconds": 18,
+      "publishedAt": "2025-07-28T16:00:55Z"
+    },
+    {
+      "id": "cLD9Ld97AlY",
+      "sourceTitle": "What is Philosophy?",
+      "channel": "THE WHAT IS PROJECT",
+      "topic": "Philosophy",
+      "title": "What is Philosophy?",
+      "desc": "A concise explanation of philosophy.",
+      "durationSeconds": 58,
+      "publishedAt": "2023-04-09T09:24:14Z"
+    },
     {
       "id": "auvTtlQ8zDQ",
       "sourceTitle": "What is physics.#definition #education #science #shorts",
@@ -750,256 +1000,6 @@
       "desc": "An explanation of neuroplasticity in simple terms.",
       "durationSeconds": 36,
       "publishedAt": "2025-07-09T22:02:32Z"
-    },
-    {
-      "id": "BV0Tvp69VnY",
-      "sourceTitle": "Top 10 Educational YouTube channels In the world. #top10 #education #shorts #viral #bestvideo",
-      "channel": "Top 10 Quicks ",
-      "topic": "Other",
-      "title": "Top 10 Educational YouTube Channels",
-      "desc": "A brief overview of top educational YouTube channels worldwide.",
-      "durationSeconds": 38,
-      "publishedAt": "2025-06-17T14:15:01Z"
-    },
-    {
-      "id": "NfAQwcseX0E",
-      "sourceTitle": "Every Education Term Explained in 60 Seconds! 🎓#Education #Knowledge #Shorts",
-      "channel": "Wisdomino",
-      "topic": "Other",
-      "title": "Every Education Term Explained in 60 Seconds",
-      "desc": "A quick explanation of various education-related terms.",
-      "durationSeconds": 66,
-      "publishedAt": "2026-11-07T07:08:39Z"
-    },
-    {
-      "id": "iyoZJJiUIa4",
-      "sourceTitle": "What Happens In Your Body When You Sleep? 😴#shorts  #sleep  #humanbody  #sciencefacts  #brainrot",
-      "channel": "MY DREAM AI",
-      "topic": "Science",
-      "title": "What Happens In Your Body When You Sleep?",
-      "desc": "A short explanation of bodily processes during sleep.",
-      "durationSeconds": 38,
-      "publishedAt": "2026-11-14T03:30:04Z"
-    },
-    {
-      "id": "SXgbpXwgQdM",
-      "sourceTitle": "The Obstacle Explained in 35 seconds",
-      "channel": "Lingualin",
-      "topic": "Other",
-      "title": "The Obstacle Explained in 35 Seconds",
-      "desc": "A brief educational video explaining the concept of an obstacle.",
-      "durationSeconds": 38,
-      "publishedAt": "2026-11-12T10:27:41Z"
-    },
-    {
-      "id": "nVT6nfKABhk",
-      "sourceTitle": "Arabic Letter بَ (Baa) | Correct Makharij Explained in 3D 🔬📖#viral #fyp #makharij #islamicshorts #vr",
-      "channel": "Tajweed Articulation Lab",
-      "topic": "Other",
-      "title": "Arabic Letter بَ (Baa) | Correct Makharij Explained in 3D",
-      "desc": "A 3D explanation of correct articulation of the Arabic letter بَ.",
-      "durationSeconds": 11,
-      "publishedAt": "2026-11-11T07:45:39Z"
-    },
-    {
-      "id": "EO2oZYPAUUs",
-      "sourceTitle": "Oxygen and CO₂ Explain Their Importance! 💨 | Educational Video #shorts",
-      "channel": "FactStory World",
-      "topic": "Science",
-      "title": "Oxygen and CO₂ Explain Their Importance",
-      "desc": "A short video explaining the importance of oxygen and carbon dioxide.",
-      "durationSeconds": 13,
-      "publishedAt": "2026-07-18T08:30:21Z"
-    },
-    {
-      "id": "tAgIg8_jg0s",
-      "sourceTitle": "Why Education is Important ? 📚😲 | Kuldeep Singhaniaa #shorts",
-      "channel": "Kuldeep Singhania Shorts",
-      "topic": "Other",
-      "title": "Why Education is Important?",
-      "desc": "A motivational explanation on the importance of education.",
-      "durationSeconds": 55,
-      "publishedAt": "2024-10-18T06:25:51Z"
-    },
-    {
-      "id": "_2GIDFh8dOQ",
-      "sourceTitle": "🌍 Earth's Inner Core Explained! 🔥 | Earth Layers for Kids | #Shorts#bnykids",
-      "channel": "Bnykids",
-      "topic": "Science",
-      "title": "Earth's Inner Core Explained for Kids",
-      "desc": "A simple explanation of Earth's inner core and layers for children.",
-      "durationSeconds": 43,
-      "publishedAt": "2026-11-14T03:19:54Z"
-    },
-    {
-      "id": "AnMuBpaMtms",
-      "sourceTitle": "Why Tardigrades Are Awesome",
-      "channel": "Cleo Abram",
-      "topic": "Science",
-      "title": "Why Tardigrades Are Awesome",
-      "desc": "A short video highlighting interesting facts about tardigrades.",
-      "durationSeconds": 55,
-      "publishedAt": "2024-08-28T13:30:53Z"
-    },
-    {
-      "id": "Tr2OkeZOP_w",
-      "sourceTitle": "Secrets of Einstein's Brain 🧠",
-      "channel": "Mr Scientific",
-      "topic": "Science",
-      "title": "Secrets of Einstein's Brain",
-      "desc": "A brief exploration of interesting facts about Einstein's brain.",
-      "durationSeconds": 42,
-      "publishedAt": "2025-09-13T13:00:53Z"
-    },
-    {
-      "id": "UzKSA8jcFv4",
-      "sourceTitle": "Creepy Science Facts That Will Keep You Up At Night",
-      "channel": "The Infographics Show",
-      "topic": "Science",
-      "title": "Creepy Science Facts That Will Keep You Up At Night",
-      "desc": "A short video sharing unsettling science facts.",
-      "durationSeconds": 34,
-      "publishedAt": "2022-02-20T23:15:01Z"
-    },
-    {
-      "id": "wOh_UFk9fmo",
-      "sourceTitle": "This Fact Will Blow Your Mind #space #science #facts",
-      "channel": "AstroKobi",
-      "topic": "Science",
-      "title": "This Fact Will Blow Your Mind (Space & Science)",
-      "desc": "A brief video presenting surprising facts about space and science.",
-      "durationSeconds": 44,
-      "publishedAt": "2023-02-12T12:59:20Z"
-    },
-    {
-      "id": "EC_wGGqxZCM",
-      "sourceTitle": "The two greatest mysteries in science #michiokaku",
-      "channel": "The Science Fact",
-      "topic": "Science",
-      "title": "The Two Greatest Mysteries in Science",
-      "desc": "A short video discussing two major scientific mysteries.",
-      "durationSeconds": 38,
-      "publishedAt": "2023-11-16T15:40:02Z"
-    },
-    {
-      "id": "qRGYAQUOKcE",
-      "sourceTitle": "Why Spacesuits Are White & Orange 😯 (EXPLAINED)",
-      "channel": "Zack D. Films",
-      "topic": "Science",
-      "title": "Why Spacesuits Are White & Orange (Explained)",
-      "desc": "An explanation of the color choices for spacesuits.",
-      "durationSeconds": 28,
-      "publishedAt": "2023-03-24T14:30:29Z"
-    },
-    {
-      "id": "Ey-5LxdnvSc",
-      "sourceTitle": "Largest and the Smallest Human Cell | Human Body 101| Human Body Facts #biologyexams4u #humanbody",
-      "channel": "biologyexams4u",
-      "topic": "Science",
-      "title": "Largest and Smallest Human Cell | Human Body Facts",
-      "desc": "A quick overview of the largest and smallest human cells.",
-      "durationSeconds": 13,
-      "publishedAt": "2023-09-03T10:20:14Z"
-    },
-    {
-      "id": "lAa1QccuXgk",
-      "sourceTitle": "Scientific Facts Mentioned in the Quran #Shorts",
-      "channel": "Ramsha Sultan",
-      "topic": "Science",
-      "title": "Scientific Facts Mentioned in the Quran",
-      "desc": "A short video presenting scientific facts referenced in the Quran.",
-      "durationSeconds": 31,
-      "publishedAt": "2021-05-31T14:07:38Z"
-    },
-    {
-      "id": "YGO3TEkNq90",
-      "sourceTitle": "Interesting Scientific Facts",
-      "channel": "Vinay Vines",
-      "topic": "Science",
-      "title": "Interesting Scientific Facts",
-      "desc": "A brief video sharing various interesting scientific facts.",
-      "durationSeconds": 47,
-      "publishedAt": "2025-09-08T06:45:01Z"
-    },
-    {
-      "id": "PmVA43pwMBI",
-      "sourceTitle": "The Medical Routine of a WWII Leader #shorts",
-      "channel": "History Bypass",
-      "topic": "History",
-      "title": "The Medical Routine of a WWII Leader",
-      "desc": "A short video about the medical routine of a World War II leader.",
-      "durationSeconds": 7,
-      "publishedAt": "2025-10-11T22:14:57Z"
-    },
-    {
-      "id": "2OIn4bKiXts",
-      "sourceTitle": "Three wildly different historical eras that overlapped #history #art",
-      "channel": "History by Mae",
-      "topic": "History",
-      "title": "Three Wildly Different Historical Eras That Overlapped",
-      "desc": "A brief explanation of overlapping historical eras.",
-      "durationSeconds": 13,
-      "publishedAt": "2025-07-12T12:05:47Z"
-    },
-    {
-      "id": "OuZrXdy5zWI",
-      "sourceTitle": "History Facts They Won’t Teach You In School! #history",
-      "channel": "Jabreel Sagas",
-      "topic": "History",
-      "title": "History Facts They Won’t Teach You In School",
-      "desc": "A short video sharing lesser-known historical facts.",
-      "durationSeconds": 46,
-      "publishedAt": "2023-08-23T21:49:14Z"
-    },
-    {
-      "id": "cay9_oeYDF0",
-      "sourceTitle": "Why do so many German Officers have facial scars? #history #ww2",
-      "channel": "History's Mysteries",
-      "topic": "History",
-      "title": "Why Do So Many German Officers Have Facial Scars?",
-      "desc": "An explanation about the facial scars common among German officers.",
-      "durationSeconds": 26,
-      "publishedAt": "2024-12-31T20:40:44Z"
-    },
-    {
-      "id": "fSPywoLsJrk",
-      "sourceTitle": "Prehistoric Facts That Change How you See Earth 🌍🔥 #prehistoric #dinosaurs #unbelievable",
-      "channel": "Fossil Facts",
-      "topic": "History",
-      "title": "Prehistoric Facts That Change How You See Earth",
-      "desc": "A short video sharing surprising prehistoric facts.",
-      "durationSeconds": 34,
-      "publishedAt": "2025-06-11T14:30:26Z"
-    },
-    {
-      "id": "DBESxadc-nY",
-      "sourceTitle": "Easy Math Tricks📚✅ #mathtricks #math #study #school #knowledge #tricks",
-      "channel": "Mathsrick",
-      "topic": "Math",
-      "title": "Easy Math Tricks",
-      "desc": "A brief video demonstrating simple math tricks.",
-      "durationSeconds": 12,
-      "publishedAt": "2025-07-17T05:55:00Z"
-    },
-    {
-      "id": "O86CweicQ6k",
-      "sourceTitle": "How to Make Multiplication Easy and Fun 😉 #math #multiplication #mathtrick",
-      "channel": "NikiMath",
-      "topic": "Math",
-      "title": "How to Make Multiplication Easy and Fun",
-      "desc": "A short video showing ways to simplify multiplication.",
-      "durationSeconds": 14,
-      "publishedAt": "2023-03-17T08:00:17Z"
-    },
-    {
-      "id": "Px169l_th14",
-      "sourceTitle": "🤯 Geography Facts That Sound Fake But Are 100% Real! #shorts #bigfacts #factfinder #maps",
-      "channel": "GeoGlobeFiles",
-      "topic": "Geography",
-      "title": "Geography Facts That Sound Fake But Are Real",
-      "desc": "A brief video sharing surprising but true geography facts.",
-      "durationSeconds": 58,
-      "publishedAt": "2026-10-29T18:24:22Z"
     }
   ]
 }
