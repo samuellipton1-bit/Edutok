@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-16T06:29:51.698713+00:00",
+  "updatedAt": "2026-11-16T22:02:36.057401+00:00",
   "videos": [
+    {
+      "id": "V0ALvVPHz-8",
+      "sourceTitle": "5 Foods for Your Arteries — Meet the Tiny Cleanup Crew 🛠️ #Shorts #HeartHealth #Artery #Cholesterol",
+      "channel": "BeHealthy",
+      "topic": "Other",
+      "title": "5 Foods for Your Arteries — Meet the Tiny Cleanup Crew",
+      "desc": "A short educational video about foods beneficial for artery health.",
+      "durationSeconds": 31,
+      "publishedAt": "2026-10-10T08:30:13Z"
+    },
+    {
+      "id": "NfAQwcseX0E",
+      "sourceTitle": "Every Education Term Explained in 60 Seconds! 🎓#Education #Knowledge #Shorts",
+      "channel": "Wisdomino",
+      "topic": "Other",
+      "title": "Every Education Term Explained in 60 Seconds",
+      "desc": "A brief video explaining various education terms.",
+      "durationSeconds": 66,
+      "publishedAt": "2026-11-07T07:08:39Z"
+    },
+    {
+      "id": "yVva17tkmG4",
+      "sourceTitle": "Learn Easy English Grammar For Kids Er Est 📘✨ | Cartoon Animation Lesson",
+      "channel": "Anokha",
+      "topic": "Other",
+      "title": "Learn Easy English Grammar For Kids Er Est",
+      "desc": "A cartoon animation lesson teaching English grammar to kids.",
+      "durationSeconds": 21,
+      "publishedAt": "2026-03-06T08:30:35Z"
+    },
+    {
+      "id": "Qh5cS3by-Fk",
+      "sourceTitle": "How Do Submarines Get Oxygen Underwater? 5 Methods Explained",
+      "channel": "Retell Facts",
+      "topic": "Other",
+      "title": "How Do Submarines Get Oxygen Underwater? 5 Methods Explained",
+      "desc": "A short video explaining methods submarines use to get oxygen underwater.",
+      "durationSeconds": 6,
+      "publishedAt": "2026-11-16T19:00:32Z"
+    },
+    {
+      "id": "9zhvRNlcbEE",
+      "sourceTitle": "Butterfly Method for Subtracting Fractions 📚 #Shorts #math #maths #mathematics #education #learn",
+      "channel": "markiedoesmath",
+      "topic": "Other",
+      "title": "Butterfly Method for Subtracting Fractions",
+      "desc": "A brief tutorial on the butterfly method for subtracting fractions.",
+      "durationSeconds": 15,
+      "publishedAt": "2022-02-17T04:45:01Z"
+    },
+    {
+      "id": "BOuwCDGNLhc",
+      "sourceTitle": "The magic | Refraction of light #physics #light",
+      "channel": "Physics Simplified ",
+      "topic": "Other",
+      "title": "The Magic of Refraction of Light",
+      "desc": "A short video explaining the refraction of light.",
+      "durationSeconds": 10,
+      "publishedAt": "2025-02-22T11:24:30Z"
+    },
+    {
+      "id": "qRGYAQUOKcE",
+      "sourceTitle": "Why Spacesuits Are White & Orange 😯 (EXPLAINED)",
+      "channel": "Zack D. Films",
+      "topic": "Other",
+      "title": "Why Spacesuits Are White & Orange (Explained)",
+      "desc": "A short explanation about the colors of spacesuits.",
+      "durationSeconds": 28,
+      "publishedAt": "2023-03-24T14:30:29Z"
+    },
+    {
+      "id": "hHYtYGh_QzA",
+      "sourceTitle": "Huge New Discovery About The Universe",
+      "channel": "Cleo Abram",
+      "topic": "Other",
+      "title": "Huge New Discovery About The Universe",
+      "desc": "A brief video about a recent significant discovery in astronomy.",
+      "durationSeconds": 60,
+      "publishedAt": "2023-07-07T14:59:13Z"
+    },
+    {
+      "id": "iuFRItGK1WU",
+      "sourceTitle": "The Infinite Energy Machine 🤯 #short #reels #science #facts #ytshorts",
+      "channel": "Tuning Science",
+      "topic": "Other",
+      "title": "The Infinite Energy Machine",
+      "desc": "A short video discussing the concept of an infinite energy machine.",
+      "durationSeconds": 25,
+      "publishedAt": "2026-10-29T09:30:27Z"
+    },
+    {
+      "id": "JAxKlOFvcS8",
+      "sourceTitle": "How was Israel created? 🇮🇱",
+      "channel": "Quick History",
+      "topic": "Other",
+      "title": "How was Israel created?",
+      "desc": "A brief educational video about the creation of Israel.",
+      "durationSeconds": 31,
+      "publishedAt": "2025-09-21T19:05:19Z"
+    },
+    {
+      "id": "4H2ZstC14qU",
+      "sourceTitle": "History of Palestine and Israel in 60 sec #history #facts #shorts",
+      "channel": "His-story_Teller",
+      "topic": "Other",
+      "title": "History of Palestine and Israel in 60 Seconds",
+      "desc": "A short video summarizing the history of Palestine and Israel.",
+      "durationSeconds": 59,
+      "publishedAt": "2023-10-22T20:00:01Z"
+    },
+    {
+      "id": "YQWTW3TwueI",
+      "sourceTitle": "That must have been painful… #history #archaeology",
+      "channel": "History by Mae",
+      "topic": "Other",
+      "title": "That Must Have Been Painful…",
+      "desc": "A brief video related to history and archaeology.",
+      "durationSeconds": 17,
+      "publishedAt": "2024-08-13T12:56:29Z"
+    },
+    {
+      "id": "s9FB4M3QodI",
+      "sourceTitle": "scary facts creep me out #shorts #history #viral",
+      "channel": "Histovar Lucis",
+      "topic": "Other",
+      "title": "Scary Facts Creep Me Out",
+      "desc": "A short video sharing scary historical facts.",
+      "durationSeconds": 30,
+      "publishedAt": "2024-05-30T16:11:42Z"
+    },
+    {
+      "id": "cay9_oeYDF0",
+      "sourceTitle": "Why do so many German Officers have facial scars? #history #ww2",
+      "channel": "History's Mysteries",
+      "topic": "Other",
+      "title": "Why Do So Many German Officers Have Facial Scars?",
+      "desc": "A brief historical video about German officers' facial scars.",
+      "durationSeconds": 26,
+      "publishedAt": "2024-12-31T20:40:44Z"
+    },
+    {
+      "id": "-QzjlrSwnt8",
+      "sourceTitle": "Top HistOry Facts That School Never Taught You",
+      "channel": "Facts' Mine",
+      "topic": "Other",
+      "title": "Top History Facts That School Never Taught You",
+      "desc": "A short video sharing lesser-known historical facts.",
+      "durationSeconds": 46,
+      "publishedAt": "2026-01-29T03:31:00Z"
+    },
+    {
+      "id": "fSPywoLsJrk",
+      "sourceTitle": "Prehistoric Facts That Change How you See Earth 🌍🔥 #prehistoric #dinosaurs #unbelievable",
+      "channel": "Fossil Facts",
+      "topic": "Other",
+      "title": "Prehistoric Facts That Change How You See Earth",
+      "desc": "A brief video about surprising prehistoric facts.",
+      "durationSeconds": 34,
+      "publishedAt": "2025-06-11T14:30:26Z"
+    },
+    {
+      "id": "5zxwCGzqg5Y",
+      "sourceTitle": "The Queen Who Was Pregnant 24 Times… #history",
+      "channel": "The History Girl",
+      "topic": "Other",
+      "title": "The Queen Who Was Pregnant 24 Times",
+      "desc": "A short historical video about a queen with many pregnancies.",
+      "durationSeconds": 24,
+      "publishedAt": "2026-10-08T21:28:29Z"
+    },
+    {
+      "id": "7G7UIQStEIk",
+      "sourceTitle": "How To Solve Math Percentage Word Problem?",
+      "channel": "Math Vibe",
+      "topic": "Other",
+      "title": "How To Solve Math Percentage Word Problem?",
+      "desc": "A brief tutorial on solving percentage word problems in math.",
+      "durationSeconds": 29,
+      "publishedAt": "2023-01-16T01:22:19Z"
+    },
+    {
+      "id": "kcjZo9IWQ3c",
+      "sourceTitle": "How to Calculate Percentages FAST!⚡ Easy Math Trick You’ll Never Forget!  #maths #mathstricks",
+      "channel": "NikiMath",
+      "topic": "Other",
+      "title": "How to Calculate Percentages FAST! Easy Math Trick",
+      "desc": "A short video demonstrating a quick math trick for percentages.",
+      "durationSeconds": 11,
+      "publishedAt": "2025-09-16T21:05:23Z"
+    },
+    {
+      "id": "mqQKTuS9n0Q",
+      "sourceTitle": "WTF? This Is How They Teach Math to Kids Now",
+      "channel": "The Rubin Report",
+      "topic": "Other",
+      "title": "WTF? This Is How They Teach Math to Kids Now",
+      "desc": "A short video discussing modern math teaching methods.",
+      "durationSeconds": 56,
+      "publishedAt": "2024-10-17T23:45:01Z"
+    },
+    {
+      "id": "LWIKdWarTRk",
+      "sourceTitle": "5 Geography facts that Broke my brain... 😱🤔",
+      "channel": "Geo-Empire",
+      "topic": "Other",
+      "title": "5 Geography Facts That Broke My Brain",
+      "desc": "A brief video sharing surprising geography facts.",
+      "durationSeconds": 59,
+      "publishedAt": "2026-08-26T17:36:40Z"
+    },
+    {
+      "id": "qXnE3XS-6RM",
+      "sourceTitle": "Country in Two Continents😮",
+      "channel": "Glore",
+      "topic": "Other",
+      "title": "Country in Two Continents",
+      "desc": "A short educational video about a country spanning two continents.",
+      "durationSeconds": 45,
+      "publishedAt": "2025-08-18T20:48:21Z"
+    },
+    {
+      "id": "0KVZI9u2fLM",
+      "sourceTitle": "Did you know these countries changed their names? 🌍 #geography #facts",
+      "channel": "GLK",
+      "topic": "Other",
+      "title": "Did You Know These Countries Changed Their Names?",
+      "desc": "A brief video about countries that have changed their names.",
+      "durationSeconds": 22,
+      "publishedAt": "2026-10-28T20:54:45Z"
+    },
+    {
+      "id": "D_qkJBWsROE",
+      "sourceTitle": "Top 5 Geography Facts You Never Knew 🌍 Part 2",
+      "channel": "Geo-Empire",
+      "topic": "Other",
+      "title": "Top 5 Geography Facts You Never Knew Part 2",
+      "desc": "A short video sharing lesser-known geography facts.",
+      "durationSeconds": 45,
+      "publishedAt": "2026-06-09T21:35:33Z"
+    },
+    {
+      "id": "j703QOlk6sc",
+      "sourceTitle": "What If Countries Took What They Wanted? 🤯🌎 Dream Maps & Alternate History",
+      "channel": "GeoMap Unveiled",
+      "topic": "Other",
+      "title": "What If Countries Took What They Wanted? Dream Maps & Alternate History",
+      "desc": "A brief video exploring hypothetical alternate history maps.",
+      "durationSeconds": 35,
+      "publishedAt": "2025-01-31T22:00:35Z"
+    },
     {
       "id": "O7ZRKxv8vww",
       "sourceTitle": "This is what lightning does to sand 🏖️⚡️ #science #weather #educational",
@@ -750,256 +1000,6 @@
       "desc": "A short explanation of the Medusa myth from Greek mythology.",
       "durationSeconds": 58,
       "publishedAt": "2023-11-06T21:30:00Z"
-    },
-    {
-      "id": "xFwiMZIttLQ",
-      "sourceTitle": "8 year old GENIUS doing a math question #shorts #homeschool #educational #kids",
-      "channel": "JonAyves TV",
-      "topic": "Math",
-      "title": "8 year old genius solving a math question",
-      "desc": "A short video showing a young child solving a math problem.",
-      "durationSeconds": 24,
-      "publishedAt": "2023-04-09T02:00:22Z"
-    },
-    {
-      "id": "m5yjg4IDZyI",
-      "sourceTitle": "Imaginary Numbers in 60 Seconds",
-      "channel": "World of Math",
-      "topic": "Math",
-      "title": "Imaginary Numbers in 60 Seconds",
-      "desc": "A brief explanation of imaginary numbers.",
-      "durationSeconds": 62,
-      "publishedAt": "2025-01-27T15:00:33Z"
-    },
-    {
-      "id": "uJ-5PD_su2M",
-      "sourceTitle": "Calculus Explained In 30 Seconds",
-      "channel": "CleereLearn",
-      "topic": "Math",
-      "title": "Calculus Explained In 30 Seconds",
-      "desc": "A quick overview of calculus concepts.",
-      "durationSeconds": 45,
-      "publishedAt": "2024-10-29T15:35:28Z"
-    },
-    {
-      "id": "5E54PyNViZA",
-      "sourceTitle": "Understanding Calculus in One Minute... 🤯",
-      "channel": "JOCALUME",
-      "topic": "Math",
-      "title": "Understanding Calculus in One Minute",
-      "desc": "A concise explanation of calculus.",
-      "durationSeconds": 52,
-      "publishedAt": "2024-03-16T14:00:05Z"
-    },
-    {
-      "id": "6UZv64lI5hM",
-      "sourceTitle": "Basic Algebra | Basic Concept | #math #mathematics #mathstricks",
-      "channel": "Easy Maths By Ms. Maham",
-      "topic": "Math",
-      "title": "Basic Algebra Concepts",
-      "desc": "An introduction to basic algebra concepts.",
-      "durationSeconds": 17,
-      "publishedAt": "2024-03-08T17:08:20Z"
-    },
-    {
-      "id": "4WIWvNdgrW4",
-      "sourceTitle": "Matrix 3D Determinant - Visual meaning #maths #physics #shorts",
-      "channel": "MerlinoMaths",
-      "topic": "Math",
-      "title": "Matrix 3D Determinant - Visual Meaning",
-      "desc": "A visual explanation of 3D matrix determinants.",
-      "durationSeconds": 18,
-      "publishedAt": "2025-07-09T16:04:26Z"
-    },
-    {
-      "id": "THQWhMkij2E",
-      "sourceTitle": "The Beauty of Mathematics",
-      "channel": "The Science and Math Channel",
-      "topic": "Math",
-      "title": "The Beauty of Mathematics",
-      "desc": "A short video highlighting the beauty of math.",
-      "durationSeconds": 9,
-      "publishedAt": "2025-01-31T15:06:25Z"
-    },
-    {
-      "id": "ZdC2vjJnyhM",
-      "sourceTitle": "Top 5 Wild Geography Facts🤯",
-      "channel": "Glore",
-      "topic": "Geography",
-      "title": "Top 5 Wild Geography Facts",
-      "desc": "A brief presentation of surprising geography facts.",
-      "durationSeconds": 40,
-      "publishedAt": "2025-01-29T20:26:44Z"
-    },
-    {
-      "id": "t1DECN9zS_8",
-      "sourceTitle": "Why Do Time Zones Look So Strange 🌍 How They Work 🕒",
-      "channel": "GeoGlobeTales",
-      "topic": "Geography",
-      "title": "Why Do Time Zones Look So Strange? How They Work",
-      "desc": "An explanation of the unusual shapes of time zones.",
-      "durationSeconds": 61,
-      "publishedAt": "2024-07-03T15:43:48Z"
-    },
-    {
-      "id": "O96MiXxXz6k",
-      "sourceTitle": "Why Animals Don’t Cross This Invisible Border 🚧 Wallace Line 😱",
-      "channel": "GeoGlobeTales",
-      "topic": "Geography",
-      "title": "Why Animals Don’t Cross This Invisible Border: Wallace Line",
-      "desc": "A short video about the Wallace Line and its impact on animal distribution.",
-      "durationSeconds": 61,
-      "publishedAt": "2024-09-01T15:50:57Z"
-    },
-    {
-      "id": "QZIaCjlnefs",
-      "sourceTitle": "Mind-Blowing Facts About the U.S. 🇺🇸 You Never Knew 🤯",
-      "channel": "GeoGlobeTales",
-      "topic": "Geography",
-      "title": "Mind-Blowing Facts About the U.S. You Never Knew",
-      "desc": "A quick overview of surprising facts about U.S. geography.",
-      "durationSeconds": 61,
-      "publishedAt": "2024-09-02T00:09:40Z"
-    },
-    {
-      "id": "x1SU-xq_0PM",
-      "sourceTitle": "Where’s the Real Center of Each Continent? 🤔 Geographic Centers Explained 🌍",
-      "channel": "Geo Bytes",
-      "topic": "Geography",
-      "title": "Where’s the Real Center of Each Continent? Geographic Centers Explained",
-      "desc": "An explanation of how geographic centers of continents are determined.",
-      "durationSeconds": 61,
-      "publishedAt": "2025-06-26T15:37:51Z"
-    },
-    {
-      "id": "NleWyugr2pI",
-      "sourceTitle": "Quick Psychology Test  | TikTok: @drjuliesmith",
-      "channel": "Psychology",
-      "topic": "Geography",
-      "title": "Quick Psychology Test",
-      "desc": "A short video presenting a quick psychology test.",
-      "durationSeconds": 58,
-      "publishedAt": "2022-03-07T18:31:01Z"
-    },
-    {
-      "id": "wcWOHg_wCnI",
-      "sourceTitle": "What is psychology #definition #education #shorts #scienceeducation",
-      "channel": "Educo learn",
-      "topic": "Psychology",
-      "title": "What is Psychology? Definition and Overview",
-      "desc": "A brief definition and explanation of psychology.",
-      "durationSeconds": 17,
-      "publishedAt": "2025-01-07T15:15:22Z"
-    },
-    {
-      "id": "KdnOs4h9lyA",
-      "sourceTitle": "How Does LiFi Work pureliFi #shorts #short #technology #lifi #lifi_learning #internet",
-      "channel": "Li Fi Tech News",
-      "topic": "Technology",
-      "title": "How Does LiFi Work?",
-      "desc": "A short explanation of LiFi technology.",
-      "durationSeconds": 60,
-      "publishedAt": "2023-05-25T07:24:34Z"
-    },
-    {
-      "id": "1HqmaDmZVvE",
-      "sourceTitle": "Liquid Piston Rotary Engine Explained 🚀 | Future of Engine Technology #short",
-      "channel": "Mechanism Hub ⭐",
-      "topic": "Technology",
-      "title": "Liquid Piston Rotary Engine Explained",
-      "desc": "A brief explanation of the liquid piston rotary engine technology.",
-      "durationSeconds": 8,
-      "publishedAt": "2026-08-07T18:05:26Z"
-    },
-    {
-      "id": "H9fcWUQycm4",
-      "sourceTitle": "10 Astonishing Feats of Modern Technology 😱 #short #shorts #viral #shortvideo #technology",
-      "channel": "Mega Projects Insight",
-      "topic": "Technology",
-      "title": "10 Astonishing Feats of Modern Technology",
-      "desc": "A short video showcasing impressive modern technologies.",
-      "durationSeconds": 31,
-      "publishedAt": "2023-10-03T18:24:55Z"
-    },
-    {
-      "id": "MDtAgWRbj58",
-      "sourceTitle": "How VTEC Works (In 60 Seconds)",
-      "channel": "Engineering Explained",
-      "topic": "Technology",
-      "title": "How VTEC Works in 60 Seconds",
-      "desc": "A quick explanation of VTEC engine technology.",
-      "durationSeconds": 57,
-      "publishedAt": "2022-10-21T14:00:09Z"
-    },
-    {
-      "id": "S5SIcZY26aI",
-      "sourceTitle": "Ejection Seat Engineering Explained!",
-      "channel": "BrainHook ",
-      "topic": "Technology",
-      "title": "Ejection Seat Engineering Explained",
-      "desc": "A brief explanation of how ejection seats work.",
-      "durationSeconds": 18,
-      "publishedAt": "2025-10-17T15:24:02Z"
-    },
-    {
-      "id": "DOgT8yzX9uk",
-      "sourceTitle": "What is 5G Technology ? Short Definition of 5G Technology with Example #5gtechnology #shorts",
-      "channel": "DigiHelp IT Services LLP",
-      "topic": "Technology",
-      "title": "What is 5G Technology? Short Definition with Example",
-      "desc": "A concise explanation of 5G technology.",
-      "durationSeconds": 21,
-      "publishedAt": "2025-09-09T06:52:37Z"
-    },
-    {
-      "id": "EACjoPZPYzI",
-      "sourceTitle": "Transistors Explained - What is a transistor?",
-      "channel": "The Engineering Mindset",
-      "topic": "Technology",
-      "title": "Transistors Explained - What is a Transistor?",
-      "desc": "A short video explaining the function of transistors.",
-      "durationSeconds": 60,
-      "publishedAt": "2023-02-10T12:31:39Z"
-    },
-    {
-      "id": "Ozrq7hl4Csw",
-      "sourceTitle": "Blockchain Technology Explained for Begi #short #shorts #viral #tech #videos",
-      "channel": " Lijn 1 and Tech World ",
-      "topic": "Technology",
-      "title": "Blockchain Technology Explained for Beginners",
-      "desc": "A brief introduction to blockchain technology.",
-      "durationSeconds": 16,
-      "publishedAt": "2023-02-26T00:00:08Z"
-    },
-    {
-      "id": "vqxPo7YbG8c",
-      "sourceTitle": "What is AI Technology ? / Short Definition of AI Technology #aitechnology #shorts",
-      "channel": "Learn Basic",
-      "topic": "Technology",
-      "title": "What is AI Technology? Short Definition",
-      "desc": "A short explanation of artificial intelligence technology.",
-      "durationSeconds": 28,
-      "publishedAt": "2025-08-31T11:13:08Z"
-    },
-    {
-      "id": "GqeRnxSuLFI",
-      "sourceTitle": "Supply and Demand Explained in One Minute",
-      "channel": "One Minute Economics",
-      "topic": "Other",
-      "title": "Supply and Demand Explained in One Minute",
-      "desc": "A quick overview of supply and demand economics.",
-      "durationSeconds": 54,
-      "publishedAt": "2016-01-23T06:42:26Z"
-    },
-    {
-      "id": "HQ-Kg_xgdhE",
-      "sourceTitle": "What is inflation? Economics explained",
-      "channel": "The Guardian",
-      "topic": "Other",
-      "title": "What is Inflation? Economics Explained",
-      "desc": "A brief explanation of inflation in economics.",
-      "durationSeconds": 112,
-      "publishedAt": "2015-12-15T11:02:36Z"
     }
   ]
 }
