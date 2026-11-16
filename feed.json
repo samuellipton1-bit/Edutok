@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-15T18:51:33.257150+00:00",
+  "updatedAt": "2026-11-16T06:29:51.698713+00:00",
   "videos": [
+    {
+      "id": "O7ZRKxv8vww",
+      "sourceTitle": "This is what lightning does to sand 🏖️⚡️ #science #weather #educational",
+      "channel": "BrainPebblo",
+      "topic": "Science",
+      "title": "What Lightning Does to Sand",
+      "desc": "A short educational video explaining the effect of lightning on sand.",
+      "durationSeconds": 36,
+      "publishedAt": "2026-11-16T02:54:24Z"
+    },
+    {
+      "id": "EO2oZYPAUUs",
+      "sourceTitle": "Oxygen and CO₂ Explain Their Importance! 💨 | Educational Video #shorts",
+      "channel": "FactStory World",
+      "topic": "Science",
+      "title": "Importance of Oxygen and CO₂ Explained",
+      "desc": "A brief educational video on the roles of oxygen and carbon dioxide.",
+      "durationSeconds": 13,
+      "publishedAt": "2026-07-18T08:30:21Z"
+    },
+    {
+      "id": "6PaLnLxCAmQ",
+      "sourceTitle": "The Strongest Material in the universe? #sciencefacts #facts #science #shorts",
+      "channel": "Scienceverse",
+      "topic": "Science",
+      "title": "The Strongest Material in the Universe?",
+      "desc": "A short video presenting facts about the strongest known material.",
+      "durationSeconds": 31,
+      "publishedAt": "2024-10-05T12:02:21Z"
+    },
+    {
+      "id": "Tr2OkeZOP_w",
+      "sourceTitle": "Secrets of Einstein's Brain 🧠",
+      "channel": "Mr Scientific",
+      "topic": "Science",
+      "title": "Secrets of Einstein's Brain",
+      "desc": "A short educational video about interesting facts related to Einstein's brain.",
+      "durationSeconds": 42,
+      "publishedAt": "2025-09-13T13:00:53Z"
+    },
+    {
+      "id": "AnMuBpaMtms",
+      "sourceTitle": "Why Tardigrades Are Awesome",
+      "channel": "Cleo Abram",
+      "topic": "Science",
+      "title": "Why Tardigrades Are Awesome",
+      "desc": "A short video explaining why tardigrades are remarkable creatures.",
+      "durationSeconds": 55,
+      "publishedAt": "2024-08-28T13:30:53Z"
+    },
+    {
+      "id": "EC_wGGqxZCM",
+      "sourceTitle": "The two greatest mysteries in science #michiokaku",
+      "channel": "The Science Fact",
+      "topic": "Science",
+      "title": "The Two Greatest Mysteries in Science",
+      "desc": "A brief educational video discussing major scientific mysteries.",
+      "durationSeconds": 38,
+      "publishedAt": "2023-11-16T15:40:02Z"
+    },
+    {
+      "id": "wOh_UFk9fmo",
+      "sourceTitle": "This Fact Will Blow Your Mind #space #science #facts",
+      "channel": "AstroKobi",
+      "topic": "Science",
+      "title": "Mind-Blowing Space Fact",
+      "desc": "A short video sharing an astonishing fact about space.",
+      "durationSeconds": 44,
+      "publishedAt": "2023-02-12T12:59:20Z"
+    },
+    {
+      "id": "Ey-5LxdnvSc",
+      "sourceTitle": "Largest and the Smallest Human Cell | Human Body 101| Human Body Facts #biologyexams4u #humanbody",
+      "channel": "biologyexams4u",
+      "topic": "Science",
+      "title": "Largest and Smallest Human Cells",
+      "desc": "A brief educational video about human cell sizes.",
+      "durationSeconds": 13,
+      "publishedAt": "2023-09-03T10:20:14Z"
+    },
+    {
+      "id": "fVm-lQtIu1E",
+      "sourceTitle": "Smallest objects in the universe! 💀🤯 #Shorts #Universe #Biology #Physics #Science #Space",
+      "channel": "Science Of Infinity",
+      "topic": "Science",
+      "title": "Smallest Objects in the Universe",
+      "desc": "A short video exploring the tiniest known objects in the universe.",
+      "durationSeconds": 31,
+      "publishedAt": "2025-05-23T12:30:53Z"
+    },
+    {
+      "id": "lAa1QccuXgk",
+      "sourceTitle": "Scientific Facts Mentioned in the Quran #Shorts",
+      "channel": "Ramsha Sultan",
+      "topic": "Science",
+      "title": "Scientific Facts Mentioned in the Quran",
+      "desc": "A brief educational video about scientific facts referenced in the Quran.",
+      "durationSeconds": 31,
+      "publishedAt": "2021-05-31T14:07:38Z"
+    },
+    {
+      "id": "YGO3TEkNq90",
+      "sourceTitle": "Interesting Scientific Facts",
+      "channel": "Vinay Vines",
+      "topic": "Science",
+      "title": "Interesting Scientific Facts",
+      "desc": "A short video presenting various scientific facts.",
+      "durationSeconds": 47,
+      "publishedAt": "2025-09-08T06:45:01Z"
+    },
+    {
+      "id": "T9G8IUeLN30",
+      "sourceTitle": "I Investigated the Most Disturbing Facts About Human Bodies.. 😭 #shorts",
+      "channel": "Sean Andrew",
+      "topic": "Science",
+      "title": "Disturbing Facts About Human Bodies",
+      "desc": "A short educational video investigating unsettling facts about the human body.",
+      "durationSeconds": 43,
+      "publishedAt": "2024-01-06T02:39:29Z"
+    },
+    {
+      "id": "PmVA43pwMBI",
+      "sourceTitle": "The Medical Routine of a WWII Leader #shorts",
+      "channel": "History Bypass",
+      "topic": "History",
+      "title": "Medical Routine of a WWII Leader",
+      "desc": "A brief video about the medical routine of a World War II leader.",
+      "durationSeconds": 7,
+      "publishedAt": "2025-10-11T22:14:57Z"
+    },
+    {
+      "id": "2OIn4bKiXts",
+      "sourceTitle": "Three wildly different historical eras that overlapped #history #art",
+      "channel": "History by Mae",
+      "topic": "History",
+      "title": "Three Overlapping Historical Eras",
+      "desc": "A short educational video about three distinct historical periods that overlapped.",
+      "durationSeconds": 13,
+      "publishedAt": "2025-07-12T12:05:47Z"
+    },
+    {
+      "id": "zFSkxbGRjtU",
+      "sourceTitle": "Why All Snipers HATE This Invention #history #facts",
+      "channel": "MORGAR | Human History",
+      "topic": "History",
+      "title": "Why Snipers Hate This Invention",
+      "desc": "A brief video explaining a historical invention disliked by snipers.",
+      "durationSeconds": 8,
+      "publishedAt": "2026-09-09T17:28:41Z"
+    },
+    {
+      "id": "OuZrXdy5zWI",
+      "sourceTitle": "History Facts They Won’t Teach You In School! #history",
+      "channel": "Jabreel Sagas",
+      "topic": "History",
+      "title": "History Facts Not Taught in School",
+      "desc": "A short video sharing lesser-known historical facts.",
+      "durationSeconds": 46,
+      "publishedAt": "2023-08-23T21:49:14Z"
+    },
+    {
+      "id": "HvXHZlDpByo",
+      "sourceTitle": "Longest Wars in History😮",
+      "channel": "Glore60",
+      "topic": "History",
+      "title": "Longest Wars in History",
+      "desc": "A brief educational video about some of the longest wars in history.",
+      "durationSeconds": 45,
+      "publishedAt": "2025-04-12T20:12:23Z"
+    },
+    {
+      "id": "y4fw5E9Mn4E",
+      "sourceTitle": "What does the “O” in O’clock mean? #facts #history #didyouknow",
+      "channel": "Austin Knows 🤯",
+      "topic": "History",
+      "title": "Meaning of the 'O' in O'clock",
+      "desc": "A short video explaining the historical origin of the term 'O'clock'.",
+      "durationSeconds": 29,
+      "publishedAt": "2026-11-09T14:00:22Z"
+    },
+    {
+      "id": "QoByiYzd0so",
+      "sourceTitle": "One bizarre facts about every King and Queen of England (Part 3)",
+      "channel": "Absolute History",
+      "topic": "History",
+      "title": "Bizarre Facts About English Monarchs (Part 3)",
+      "desc": "A brief video sharing unusual facts about English kings and queens.",
+      "durationSeconds": 59,
+      "publishedAt": "2023-05-24T21:00:11Z"
+    },
+    {
+      "id": "DBESxadc-nY",
+      "sourceTitle": "Easy Math Tricks📚✅ #mathtricks #math #study #school #knowledge #tricks",
+      "channel": "Mathsrick",
+      "topic": "Math",
+      "title": "Easy Math Tricks",
+      "desc": "A short video demonstrating simple math tricks.",
+      "durationSeconds": 12,
+      "publishedAt": "2025-07-17T05:55:00Z"
+    },
+    {
+      "id": "O86CweicQ6k",
+      "sourceTitle": "How to Make Multiplication Easy and Fun 😉 #math #multiplication #mathtrick",
+      "channel": "NikiMath",
+      "topic": "Math",
+      "title": "Making Multiplication Easy and Fun",
+      "desc": "A brief educational video about simplifying multiplication.",
+      "durationSeconds": 14,
+      "publishedAt": "2023-03-17T08:00:17Z"
+    },
+    {
+      "id": "DflY9vacl1s",
+      "sourceTitle": "Easy Math trick to amaze your friends | Fun Trick | Limited to only some specific numbers!",
+      "channel": "LKLogic",
+      "topic": "Math",
+      "title": "Fun Math Trick for Specific Numbers",
+      "desc": "A short video showing a math trick limited to certain numbers.",
+      "durationSeconds": 22,
+      "publishedAt": "2023-04-23T11:31:18Z"
+    },
+    {
+      "id": "Px169l_th14",
+      "sourceTitle": "🤯 Geography Facts That Sound Fake But Are 100% Real! #shorts #bigfacts #factfinder #maps",
+      "channel": "GeoGlobeFiles",
+      "topic": "Geography",
+      "title": "Geography Facts That Sound Fake But Are Real",
+      "desc": "A short video presenting surprising but true geography facts.",
+      "durationSeconds": 58,
+      "publishedAt": "2026-10-29T18:24:22Z"
+    },
+    {
+      "id": "9RSZ2Sz2kC8",
+      "sourceTitle": "Africa Is Way Bigger Than You Think 🌍 #geography #map",
+      "channel": "Geo Spark",
+      "topic": "Geography",
+      "title": "Africa Is Way Bigger Than You Think",
+      "desc": "A brief educational video about the true size of Africa.",
+      "durationSeconds": 58,
+      "publishedAt": "2025-10-27T21:56:51Z"
+    },
+    {
+      "id": "fhOFWAw6d-s",
+      "sourceTitle": "Geography facts that Broke my brain... Part 2",
+      "channel": "Geo-Empire",
+      "topic": "Geography",
+      "title": "Geography Facts That Broke My Brain, Part 2",
+      "desc": "A short video sharing surprising geography facts.",
+      "durationSeconds": 44,
+      "publishedAt": "2026-09-07T15:34:03Z"
+    },
     {
       "id": "vwUJkbsSEag",
       "sourceTitle": "Physics Explained #shorts #sigmaphysics #physics #alberteinstein #shortsviral",
@@ -750,256 +1000,6 @@
       "desc": "A brief explanation of inflation in economics.",
       "durationSeconds": 112,
       "publishedAt": "2015-12-15T11:02:36Z"
-    },
-    {
-      "id": "M6w17eY4-L4",
-      "sourceTitle": "4-Way Switch Wiring Connection ⚡ | Electrical Wiring Explained #Shorts",
-      "channel": "Electrical and Electronics World",
-      "topic": "Other",
-      "title": "4-Way Switch Wiring Connection Explained",
-      "desc": "A brief explanation of 4-way switch wiring connections.",
-      "durationSeconds": 8,
-      "publishedAt": "2026-11-14T01:15:26Z"
-    },
-    {
-      "id": "zzVBfF6T89o",
-      "sourceTitle": "Blood Donation Rules Explained Clearly",
-      "channel": "Manixor",
-      "topic": "Other",
-      "title": "Blood Donation Rules Explained Clearly",
-      "desc": "Clear explanation of rules related to blood donation.",
-      "durationSeconds": 21,
-      "publishedAt": "2026-11-14T16:50:11Z"
-    },
-    {
-      "id": "IgmS1vqf4Gs",
-      "sourceTitle": "Education Speech | Short English Speech | 10 Lines Speech",
-      "channel": "Shiksha Target",
-      "topic": "Other",
-      "title": "Short English Speech on Education",
-      "desc": "A concise speech about education in English.",
-      "durationSeconds": 11,
-      "publishedAt": "2025-09-18T17:27:44Z"
-    },
-    {
-      "id": "vRAxTc3gC8k",
-      "sourceTitle": "Incredible Education! Preschool in China Teaches Useful Skills 🧒🇨🇳 #shorts",
-      "channel": "Ricar",
-      "topic": "Other",
-      "title": "Preschool Education in China Teaches Useful Skills",
-      "desc": "Overview of useful skills taught in Chinese preschools.",
-      "durationSeconds": 20,
-      "publishedAt": "2024-09-13T23:10:03Z"
-    },
-    {
-      "id": "jDMCBzXR2gE",
-      "sourceTitle": "Which Foods Help You Grow Strong? 💪🥕 #shorts #learn",
-      "channel": "Flip4Fun",
-      "topic": "Other",
-      "title": "Foods That Help You Grow Strong",
-      "desc": "Information about foods beneficial for growth.",
-      "durationSeconds": 23,
-      "publishedAt": "2026-02-09T16:01:09Z"
-    },
-    {
-      "id": "ky81JXvMmUA",
-      "sourceTitle": "Learn Colors and Animals! 💜🧸 Fun Educational Video for Kids #shorts",
-      "channel": "Emir Ela",
-      "topic": "Other",
-      "title": "Learn Colors and Animals for Kids",
-      "desc": "Educational video teaching colors and animals to children.",
-      "durationSeconds": 16,
-      "publishedAt": "2026-10-02T16:00:03Z"
-    },
-    {
-      "id": "q966TbakCV0",
-      "sourceTitle": "Insane Science Facts",
-      "channel": "The Infographics Show",
-      "topic": "Other",
-      "title": "Insane Science Facts",
-      "desc": "A collection of surprising science facts.",
-      "durationSeconds": 49,
-      "publishedAt": "2021-10-02T22:15:03Z"
-    },
-    {
-      "id": "RzwaiFvyN6s",
-      "sourceTitle": "How do Lasers Work?",
-      "channel": "Kurzgesagt – In a Nutshell",
-      "topic": "Other",
-      "title": "How Do Lasers Work?",
-      "desc": "An explanation of the working principles of lasers.",
-      "durationSeconds": 60,
-      "publishedAt": "2023-06-08T14:00:16Z"
-    },
-    {
-      "id": "7nNoAaeZQoI",
-      "sourceTitle": "The SCARIEST Fact About SPACE #space #spacefacts #universe",
-      "channel": "AstroKobi",
-      "topic": "Other",
-      "title": "The Scariest Fact About Space",
-      "desc": "A short video discussing a frightening fact about space.",
-      "durationSeconds": 44,
-      "publishedAt": "2022-09-22T14:00:04Z"
-    },
-    {
-      "id": "8SgbwjvLGr4",
-      "sourceTitle": "The Human Heart Explained in 10 Seconds ❤️ | Amazing Science Facts #humanheart #heartrhythm",
-      "channel": "sadhana ____12🥰",
-      "topic": "Other",
-      "title": "The Human Heart Explained in 10 Seconds",
-      "desc": "A quick explanation of the human heart and its rhythm.",
-      "durationSeconds": 11,
-      "publishedAt": "2026-09-22T13:15:18Z"
-    },
-    {
-      "id": "YQWTW3TwueI",
-      "sourceTitle": "That must have been painful… #history #archaeology",
-      "channel": "History by Mae",
-      "topic": "Other",
-      "title": "That Must Have Been Painful: History and Archaeology",
-      "desc": "A brief historical and archaeological fact likely involving injury.",
-      "durationSeconds": 17,
-      "publishedAt": "2024-08-13T12:56:29Z"
-    },
-    {
-      "id": "HVz6luFlsOg",
-      "sourceTitle": "History’s Timeline Doesn’t Make Sense?? #shorts #timeline #weird #history #interesting #ypr",
-      "channel": "Ryan Kelly Comedy",
-      "topic": "Other",
-      "title": "History’s Timeline Doesn’t Make Sense?",
-      "desc": "A short video discussing oddities in historical timelines.",
-      "durationSeconds": 46,
-      "publishedAt": "2025-01-28T22:00:18Z"
-    },
-    {
-      "id": "s9FB4M3QodI",
-      "sourceTitle": "scary facts creep me out #shorts #history #viral",
-      "channel": "Histovar Lucis",
-      "topic": "Other",
-      "title": "Scary History Facts",
-      "desc": "A collection of unsettling historical facts.",
-      "durationSeconds": 30,
-      "publishedAt": "2024-05-30T16:11:42Z"
-    },
-    {
-      "id": "tdP4C6-yQx8",
-      "sourceTitle": "Count on the Victorians to have interesting taste. #history #art",
-      "channel": "History by Mae",
-      "topic": "Other",
-      "title": "Victorian Era’s Interesting Taste",
-      "desc": "A brief look at the unique tastes of the Victorian period.",
-      "durationSeconds": 21,
-      "publishedAt": "2025-08-14T18:41:47Z"
-    },
-    {
-      "id": "GnYwJogIyUM",
-      "sourceTitle": "How North Koreans Learn Math - Yeonmi Park",
-      "channel": "HeroMediaX",
-      "topic": "Other",
-      "title": "How North Koreans Learn Math",
-      "desc": "Insights into math education in North Korea.",
-      "durationSeconds": 16,
-      "publishedAt": "2025-07-02T14:12:51Z"
-    },
-    {
-      "id": "pSH9DVii1iM",
-      "sourceTitle": "Solving for x in x³ - 11 = 53 #Shorts #algebra #math #maths #mathematics #education #learn #learning",
-      "channel": "markiedoesmath",
-      "topic": "Other",
-      "title": "Solving for x in x³ - 11 = 53",
-      "desc": "A short tutorial on solving a cubic algebraic equation.",
-      "durationSeconds": 16,
-      "publishedAt": "2022-03-25T03:00:30Z"
-    },
-    {
-      "id": "7G7UIQStEIk",
-      "sourceTitle": "How To Solve Math Percentage Word Problem?",
-      "channel": "Math Vibe",
-      "topic": "Other",
-      "title": "How to Solve Math Percentage Word Problems",
-      "desc": "A guide to solving percentage word problems in math.",
-      "durationSeconds": 29,
-      "publishedAt": "2023-01-16T01:22:19Z"
-    },
-    {
-      "id": "kcjZo9IWQ3c",
-      "sourceTitle": "How to Calculate Percentages FAST!⚡ Easy Math Trick You’ll Never Forget!  #maths #mathstricks",
-      "channel": "NikiMath",
-      "topic": "Other",
-      "title": "How to Calculate Percentages Fast",
-      "desc": "An easy math trick for quick percentage calculations.",
-      "durationSeconds": 11,
-      "publishedAt": "2025-09-16T21:05:23Z"
-    },
-    {
-      "id": "qXnE3XS-6RM",
-      "sourceTitle": "Country in Two Continents😮",
-      "channel": "Glore",
-      "topic": "Other",
-      "title": "Country in Two Continents",
-      "desc": "A geography fact about a country spanning two continents.",
-      "durationSeconds": 45,
-      "publishedAt": "2025-08-18T20:48:21Z"
-    },
-    {
-      "id": "nr6aatMxNP0",
-      "sourceTitle": "Why Greenland's Geography is Fascinating",
-      "channel": "Uncovered ",
-      "topic": "Other",
-      "title": "Why Greenland's Geography is Fascinating",
-      "desc": "A short video explaining interesting aspects of Greenland's geography.",
-      "durationSeconds": 27,
-      "publishedAt": "2023-07-12T10:30:23Z"
-    },
-    {
-      "id": "D_qkJBWsROE",
-      "sourceTitle": "Top 5 Geography Facts You Never Knew 🌍 Part 2",
-      "channel": "Geo-Empire",
-      "topic": "Other",
-      "title": "Top 5 Geography Facts You Never Knew Part 2",
-      "desc": "A continuation of surprising geography facts.",
-      "durationSeconds": 45,
-      "publishedAt": "2026-06-09T21:35:33Z"
-    },
-    {
-      "id": "0wegV24-aUg",
-      "sourceTitle": "10 Things That You Didn't Know About the United States #geography #usa",
-      "channel": "Mr. Lee",
-      "topic": "Other",
-      "title": "10 Things You Didn't Know About the United States",
-      "desc": "A list of lesser-known facts about U.S. geography.",
-      "durationSeconds": 60,
-      "publishedAt": "2024-04-04T00:51:24Z"
-    },
-    {
-      "id": "tyXaGLBWVI4",
-      "sourceTitle": "12 famous Psychologists and their Theories in psychology!",
-      "channel": "PsychTalks ",
-      "topic": "Other",
-      "title": "12 Famous Psychologists and Their Theories",
-      "desc": "A brief overview of notable psychologists and their theories.",
-      "durationSeconds": 6,
-      "publishedAt": "2025-08-07T07:07:22Z"
-    },
-    {
-      "id": "7XoPJY-VM-A",
-      "sourceTitle": "Life Changing Tip From A Psychologist",
-      "channel": "Dr Julie",
-      "topic": "Other",
-      "title": "Life Changing Tip From a Psychologist",
-      "desc": "A short video sharing a psychological tip for life improvement.",
-      "durationSeconds": 19,
-      "publishedAt": "2025-05-10T15:45:01Z"
-    },
-    {
-      "id": "hkvYK5TbkwQ",
-      "sourceTitle": "Neuroplasticity Explained Step-by-Step",
-      "channel": "Productive, actually",
-      "topic": "Other",
-      "title": "Neuroplasticity Explained Step-by-Step",
-      "desc": "An explanation of neuroplasticity in simple terms.",
-      "durationSeconds": 36,
-      "publishedAt": "2025-07-09T22:02:32Z"
     }
   ]
 }
