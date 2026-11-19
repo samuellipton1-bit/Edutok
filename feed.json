@@ -1,6 +1,256 @@
 {
-  "updatedAt": "2026-11-19T07:26:51.904174+00:00",
+  "updatedAt": "2026-11-19T20:37:47.488329+00:00",
   "videos": [
+    {
+      "id": "xFwiMZIttLQ",
+      "sourceTitle": "8 year old GENIUS doing a math question #shorts #homeschool #educational #kids",
+      "channel": "JonAyves TV",
+      "topic": "Other",
+      "title": "8 year old genius solving a math question",
+      "desc": "A short video showing a young child solving a math problem.",
+      "durationSeconds": 24,
+      "publishedAt": "2023-04-09T02:00:22Z"
+    },
+    {
+      "id": "V0ALvVPHz-8",
+      "sourceTitle": "5 Foods for Your Arteries — Meet the Tiny Cleanup Crew 🛠️ #Shorts #HeartHealth #Artery #Cholesterol",
+      "channel": "BeHealthy",
+      "topic": "Other",
+      "title": "5 Foods for Your Arteries",
+      "desc": "A short video about foods that help artery health.",
+      "durationSeconds": 31,
+      "publishedAt": "2026-10-10T08:30:13Z"
+    },
+    {
+      "id": "NfAQwcseX0E",
+      "sourceTitle": "Every Education Term Explained in 60 Seconds! 🎓#Education #Knowledge #Shorts",
+      "channel": "Wisdomino",
+      "topic": "Other",
+      "title": "Every Education Term Explained in 60 Seconds",
+      "desc": "A brief explanation of various education terms.",
+      "durationSeconds": 66,
+      "publishedAt": "2026-11-07T07:08:39Z"
+    },
+    {
+      "id": "9zhvRNlcbEE",
+      "sourceTitle": "Butterfly Method for Subtracting Fractions 📚 #Shorts #math #maths #mathematics #education #learn",
+      "channel": "markiedoesmath",
+      "topic": "Other",
+      "title": "Butterfly Method for Subtracting Fractions",
+      "desc": "A short tutorial on subtracting fractions using the butterfly method.",
+      "durationSeconds": 15,
+      "publishedAt": "2022-02-17T04:45:01Z"
+    },
+    {
+      "id": "qvLO1tiy-BA",
+      "sourceTitle": "🤩 Understand BIG Feelings! 😄 Happy VS Sad 😭 with Blippi! #shorts",
+      "channel": "Blippi - Educational Videos for Kids",
+      "topic": "Other",
+      "title": "Understanding Big Feelings: Happy vs Sad",
+      "desc": "A video helping kids understand emotions like happiness and sadness.",
+      "durationSeconds": 50,
+      "publishedAt": "2025-09-05T11:01:41Z"
+    },
+    {
+      "id": "q966TbakCV0",
+      "sourceTitle": "Insane Science Facts",
+      "channel": "The Infographics Show",
+      "topic": "Other",
+      "title": "Insane Science Facts",
+      "desc": "A short video sharing surprising science facts.",
+      "durationSeconds": 49,
+      "publishedAt": "2021-10-02T22:15:03Z"
+    },
+    {
+      "id": "9dMFxnpEkKc",
+      "sourceTitle": "Newton's Apple - Science Short",
+      "channel": "Sick Science!",
+      "topic": "Other",
+      "title": "Newton's Apple - Science Short",
+      "desc": "A brief science video related to Newton's apple story.",
+      "durationSeconds": 11,
+      "publishedAt": "2023-03-15T19:00:05Z"
+    },
+    {
+      "id": "YGO3TEkNq90",
+      "sourceTitle": "Interesting Scientific Facts",
+      "channel": "Vinay Vines",
+      "topic": "Other",
+      "title": "Interesting Scientific Facts",
+      "desc": "A short video presenting interesting science facts.",
+      "durationSeconds": 47,
+      "publishedAt": "2025-09-08T06:45:01Z"
+    },
+    {
+      "id": "t1DECN9zS_8",
+      "sourceTitle": "Why Do Time Zones Look So Strange 🌍 How They Work 🕒",
+      "channel": "GeoGlobeTales",
+      "topic": "Other",
+      "title": "Why Do Time Zones Look So Strange? How They Work",
+      "desc": "A short explanation of time zones and their unusual shapes.",
+      "durationSeconds": 61,
+      "publishedAt": "2024-07-03T15:43:48Z"
+    },
+    {
+      "id": "DjhZuN0woDY",
+      "sourceTitle": "All Maps are Lying to You 😱 The Real Size of Counties 🗺️",
+      "channel": "GeoGlobeTales",
+      "topic": "Other",
+      "title": "All Maps Are Lying to You: The Real Size of Countries",
+      "desc": "A video explaining map distortions and true country sizes.",
+      "durationSeconds": 61,
+      "publishedAt": "2024-05-01T15:38:50Z"
+    },
+    {
+      "id": "s9FB4M3QodI",
+      "sourceTitle": "scary facts creep me out #shorts #history #viral",
+      "channel": "Histovar Lucis",
+      "topic": "Other",
+      "title": "Scary Facts That Creep Me Out",
+      "desc": "A short video sharing unsettling historical facts.",
+      "durationSeconds": 30,
+      "publishedAt": "2024-05-30T16:11:42Z"
+    },
+    {
+      "id": "sBsWlP3U3qY",
+      "sourceTitle": "The story of Dollar💰#shorts #facts #history",
+      "channel": "Remember This",
+      "topic": "Other",
+      "title": "The Story of the Dollar",
+      "desc": "A brief history and facts about the US dollar.",
+      "durationSeconds": 83,
+      "publishedAt": "2026-11-19T14:47:46Z"
+    },
+    {
+      "id": "uJ-5PD_su2M",
+      "sourceTitle": "Calculus Explained In 30 Seconds",
+      "channel": "CleereLearn",
+      "topic": "Other",
+      "title": "Calculus Explained in 30 Seconds",
+      "desc": "A concise explanation of calculus concepts.",
+      "durationSeconds": 45,
+      "publishedAt": "2024-10-29T15:35:28Z"
+    },
+    {
+      "id": "5E54PyNViZA",
+      "sourceTitle": "Understanding Calculus in One Minute... 🤯",
+      "channel": "JOCALUME",
+      "topic": "Other",
+      "title": "Understanding Calculus in One Minute",
+      "desc": "A short video explaining calculus basics.",
+      "durationSeconds": 52,
+      "publishedAt": "2024-03-16T14:00:05Z"
+    },
+    {
+      "id": "v4U4b7UP5xc",
+      "sourceTitle": "Find Percentages in Seconds | Percentage Problems - Shortcuts & Tricks #math #percents #mathtrick",
+      "channel": "NikiMath",
+      "topic": "Other",
+      "title": "Find Percentages in Seconds: Shortcuts & Tricks",
+      "desc": "A quick tutorial on calculating percentages efficiently.",
+      "durationSeconds": 22,
+      "publishedAt": "2023-02-05T13:17:04Z"
+    },
+    {
+      "id": "ZdC2vjJnyhM",
+      "sourceTitle": "Top 5 Wild Geography Facts🤯",
+      "channel": "Glore",
+      "topic": "Other",
+      "title": "Top 5 Wild Geography Facts",
+      "desc": "A short video presenting surprising geography facts.",
+      "durationSeconds": 40,
+      "publishedAt": "2025-01-29T20:26:44Z"
+    },
+    {
+      "id": "tyXaGLBWVI4",
+      "sourceTitle": "12 famous Psychologists and their Theories in psychology!",
+      "channel": "PsychTalks ",
+      "topic": "Other",
+      "title": "12 Famous Psychologists and Their Theories",
+      "desc": "A brief overview of notable psychologists and their theories.",
+      "durationSeconds": 6,
+      "publishedAt": "2025-08-07T07:07:22Z"
+    },
+    {
+      "id": "NleWyugr2pI",
+      "sourceTitle": "Quick Psychology Test  | TikTok: @drjuliesmith",
+      "channel": "Psychology",
+      "topic": "Other",
+      "title": "Quick Psychology Test",
+      "desc": "A short video featuring a quick psychology test.",
+      "durationSeconds": 58,
+      "publishedAt": "2022-03-07T18:31:01Z"
+    },
+    {
+      "id": "VslfnYJEwQw",
+      "sourceTitle": "Sigmund Freud Explained: Psychoanalysis Pioneer, Mind Theories & Psychological Impact",
+      "channel": "History Chronicles",
+      "topic": "Other",
+      "title": "Sigmund Freud Explained: Psychoanalysis Pioneer",
+      "desc": "A brief explanation of Freud's contributions to psychology.",
+      "durationSeconds": 49,
+      "publishedAt": "2023-12-30T10:00:32Z"
+    },
+    {
+      "id": "1HqmaDmZVvE",
+      "sourceTitle": "Liquid Piston Rotary Engine Explained 🚀 | Future of Engine Technology #short",
+      "channel": "Mechanism Hub ⭐",
+      "topic": "Other",
+      "title": "Liquid Piston Rotary Engine Explained",
+      "desc": "A short video explaining a new engine technology.",
+      "durationSeconds": 8,
+      "publishedAt": "2026-08-07T18:05:26Z"
+    },
+    {
+      "id": "S5SIcZY26aI",
+      "sourceTitle": "Ejection Seat Engineering Explained!",
+      "channel": "BrainHook ",
+      "topic": "Other",
+      "title": "Ejection Seat Engineering Explained",
+      "desc": "A brief explanation of how ejection seats work.",
+      "durationSeconds": 18,
+      "publishedAt": "2025-10-17T15:24:02Z"
+    },
+    {
+      "id": "yFlJ0tSr8E4",
+      "sourceTitle": "How Does the Internet Actually Work? 🌐🤯",
+      "channel": "OB USA Tech",
+      "topic": "Other",
+      "title": "How Does the Internet Actually Work?",
+      "desc": "A short video explaining the basics of internet technology.",
+      "durationSeconds": 49,
+      "publishedAt": "2026-11-19T13:23:12Z"
+    },
+    {
+      "id": "XdtaUmr3j6g",
+      "sourceTitle": "Is GPT Astra going to replace electrical engineers?",
+      "channel": "Tech.Explain",
+      "topic": "Other",
+      "title": "Is GPT Astra Going to Replace Electrical Engineers?",
+      "desc": "A video discussing AI's impact on electrical engineering jobs.",
+      "durationSeconds": 97,
+      "publishedAt": "2026-09-23T17:46:35Z"
+    },
+    {
+      "id": "uUUK2RSx-hY",
+      "sourceTitle": "COMAC CE-25A: China's 19-Seat Electric Plane Explained #technology",
+      "channel": "Vault360 ",
+      "topic": "Other",
+      "title": "COMAC CE-25A: China's 19-Seat Electric Plane Explained",
+      "desc": "A short video about China's electric plane technology.",
+      "durationSeconds": 81,
+      "publishedAt": "2026-11-19T10:00:37Z"
+    },
+    {
+      "id": "GqeRnxSuLFI",
+      "sourceTitle": "Supply and Demand Explained in One Minute",
+      "channel": "One Minute Economics",
+      "topic": "Other",
+      "title": "Supply and Demand Explained in One Minute",
+      "desc": "A concise explanation of supply and demand economics.",
+      "durationSeconds": 54,
+      "publishedAt": "2016-01-23T06:42:26Z"
+    },
     {
       "id": "qIdtqwe10ic",
       "sourceTitle": "How Do Kidneys Make Urine? 🩺 | 3D Nephron Function Explained #Shorts",
@@ -750,256 +1000,6 @@
       "desc": "A brief explanation of Indian geography related to Sri Lanka.",
       "durationSeconds": 49,
       "publishedAt": "2023-05-25T11:51:54Z"
-    },
-    {
-      "id": "bHpP-tPzVVw",
-      "sourceTitle": "Neural Network Explained 🧠 | How Neural Networks Work in AI #Shorts",
-      "channel": "Tech Shortcut",
-      "topic": "Other",
-      "title": "Neural Network Explained | How Neural Networks Work in AI",
-      "desc": "A brief explanation of neural networks and their function in artificial intelligence.",
-      "durationSeconds": 25,
-      "publishedAt": "2026-11-17T14:00:07Z"
-    },
-    {
-      "id": "xsxIVl0WABo",
-      "sourceTitle": "Earthquakes EXPLAINED in 30 seconds! What causes EARTHQUAKES? 🌎 Fun science facts for kids",
-      "channel": "Outschool - Educational Classes for Kids",
-      "topic": "Science",
-      "title": "Earthquakes Explained in 30 Seconds",
-      "desc": "A quick overview of what causes earthquakes, aimed at kids.",
-      "durationSeconds": 30,
-      "publishedAt": "2023-11-19T21:05:01Z"
-    },
-    {
-      "id": "ONY0CJvwYow",
-      "sourceTitle": "A Mosquito Bites You With 6 Needles 🦟 #shorts #science #facts #didyouknow",
-      "channel": "Mr. What If?",
-      "topic": "Science",
-      "title": "A Mosquito Bites You With 6 Needles",
-      "desc": "An educational fact about the mosquito's biting mechanism.",
-      "durationSeconds": 41,
-      "publishedAt": "2026-11-12T00:50:34Z"
-    },
-    {
-      "id": "HVz6luFlsOg",
-      "sourceTitle": "History’s Timeline Doesn’t Make Sense?? #shorts #timeline #weird #history #interesting #ypr",
-      "channel": "Ryan Kelly Comedy",
-      "topic": "History",
-      "title": "History’s Timeline Doesn’t Make Sense?",
-      "desc": "A short video discussing oddities in historical timelines.",
-      "durationSeconds": 46,
-      "publishedAt": "2025-01-28T22:00:18Z"
-    },
-    {
-      "id": "fcNziOxaboM",
-      "sourceTitle": "Hidden secrets about the Revolutionary War. #ninjasarebutterflies #podcast #history",
-      "channel": "Ninjas Are Butterflies ",
-      "topic": "History",
-      "title": "Hidden Secrets About the Revolutionary War",
-      "desc": "A brief look at lesser-known facts about the Revolutionary War.",
-      "durationSeconds": 59,
-      "publishedAt": "2024-07-26T00:05:07Z"
-    },
-    {
-      "id": "AV1OkEN3Cpw",
-      "sourceTitle": "Why the Statue of Liberty Has Chains #history #facts #newyork",
-      "channel": "Learning To Travel",
-      "topic": "History",
-      "title": "Why the Statue of Liberty Has Chains",
-      "desc": "An explanation of the symbolism behind the chains on the Statue of Liberty.",
-      "durationSeconds": 21,
-      "publishedAt": "2025-03-24T19:00:12Z"
-    },
-    {
-      "id": "Ny-Bmx_T5kg",
-      "sourceTitle": "The Oldest Wine In The World Would Groos You Out #shorts #history #facts",
-      "channel": "History Explorer",
-      "topic": "History",
-      "title": "The Oldest Wine In The World Would Gross You Out",
-      "desc": "A quick fact about the oldest known wine in history.",
-      "durationSeconds": 8,
-      "publishedAt": "2026-08-30T01:16:19Z"
-    },
-    {
-      "id": "tdP4C6-yQx8",
-      "sourceTitle": "Count on the Victorians to have interesting taste. #history #art",
-      "channel": "History by Mae",
-      "topic": "History",
-      "title": "Victorian Era's Interesting Taste",
-      "desc": "A brief insight into the unique tastes of the Victorian period.",
-      "durationSeconds": 21,
-      "publishedAt": "2025-08-14T18:41:47Z"
-    },
-    {
-      "id": "m5yjg4IDZyI",
-      "sourceTitle": "Imaginary Numbers in 60 Seconds",
-      "channel": "World of Math",
-      "topic": "Math",
-      "title": "Imaginary Numbers in 60 Seconds",
-      "desc": "A concise introduction to the concept of imaginary numbers.",
-      "durationSeconds": 62,
-      "publishedAt": "2025-01-27T15:00:33Z"
-    },
-    {
-      "id": "6UZv64lI5hM",
-      "sourceTitle": "Basic Algebra | Basic Concept | #math #mathematics #mathstricks",
-      "channel": "Easy Maths By Ms. Maham",
-      "topic": "Math",
-      "title": "Basic Algebra Concepts",
-      "desc": "A short explanation of fundamental algebra concepts.",
-      "durationSeconds": 17,
-      "publishedAt": "2024-03-08T17:08:20Z"
-    },
-    {
-      "id": "vDJzdvxtr3U",
-      "sourceTitle": "60 Seconds of Surprising Geography Facts 🌎🤯",
-      "channel": "TopQuest",
-      "topic": "Geography",
-      "title": "60 Seconds of Surprising Geography Facts",
-      "desc": "A quick compilation of interesting geography facts.",
-      "durationSeconds": 71,
-      "publishedAt": "2026-09-22T16:21:36Z"
-    },
-    {
-      "id": "0wegV24-aUg",
-      "sourceTitle": "10 Things That You Didn't Know About the United States #geography #usa",
-      "channel": "Mr. Lee",
-      "topic": "Geography",
-      "title": "10 Things You Didn't Know About the United States",
-      "desc": "A brief video sharing lesser-known facts about the USA.",
-      "durationSeconds": 60,
-      "publishedAt": "2024-04-04T00:51:24Z"
-    },
-    {
-      "id": "2-sJHyJMN5I",
-      "sourceTitle": "US Geography facts",
-      "channel": "True Story Docs",
-      "topic": "Geography",
-      "title": "US Geography Facts",
-      "desc": "A short video presenting facts about US geography.",
-      "durationSeconds": 45,
-      "publishedAt": "2024-06-26T12:47:01Z"
-    },
-    {
-      "id": "BqV3efJP6xo",
-      "sourceTitle": "Interesting facts about Geography | Geography #parcham #sscgeography #geographyfacts",
-      "channel": "Parcham Classes",
-      "topic": "Geography",
-      "title": "Interesting Facts About Geography",
-      "desc": "A brief educational video about various geography facts.",
-      "durationSeconds": 48,
-      "publishedAt": "2024-04-26T12:30:06Z"
-    },
-    {
-      "id": "pvfzsETlEjM",
-      "sourceTitle": "Earth's Secret 8th Continent 😱 (EXPLAINED)",
-      "channel": "Zack D. Films",
-      "topic": "Geography",
-      "title": "Earth's Secret 8th Continent Explained",
-      "desc": "An explanation about the concept of Earth's eighth continent.",
-      "durationSeconds": 27,
-      "publishedAt": "2022-10-07T14:30:11Z"
-    },
-    {
-      "id": "QZIaCjlnefs",
-      "sourceTitle": "Mind-Blowing Facts About the U.S. 🇺🇸 You Never Knew 🤯",
-      "channel": "GeoGlobeTales",
-      "topic": "Geography",
-      "title": "Mind-Blowing Facts About the U.S.",
-      "desc": "A short video sharing surprising facts about the United States.",
-      "durationSeconds": 61,
-      "publishedAt": "2024-09-02T00:09:40Z"
-    },
-    {
-      "id": "x1SU-xq_0PM",
-      "sourceTitle": "Where’s the Real Center of Each Continent? 🤔 Geographic Centers Explained 🌍",
-      "channel": "Geo Bytes",
-      "topic": "Geography",
-      "title": "Where’s the Real Center of Each Continent? Geographic Centers Explained",
-      "desc": "An explanation of how geographic centers of continents are determined.",
-      "durationSeconds": 61,
-      "publishedAt": "2025-06-26T15:37:51Z"
-    },
-    {
-      "id": "nr6aatMxNP0",
-      "sourceTitle": "Why Greenland's Geography is Fascinating",
-      "channel": "Uncovered ",
-      "topic": "Geography",
-      "title": "Why Greenland's Geography is Fascinating",
-      "desc": "A brief video highlighting interesting aspects of Greenland's geography.",
-      "durationSeconds": 27,
-      "publishedAt": "2023-07-12T10:30:23Z"
-    },
-    {
-      "id": "6UNB1l_wC0I",
-      "sourceTitle": "3 Geography Facts Jo Aapko Shock Kar Denge! 🌍😱 #upsc #shorts #usa",
-      "channel": "OnlyIAS Extended",
-      "topic": "Geography",
-      "title": "3 Geography Facts That Will Shock You",
-      "desc": "A short video presenting surprising geography facts.",
-      "durationSeconds": 36,
-      "publishedAt": "2024-12-02T14:00:06Z"
-    },
-    {
-      "id": "Wf74TmXlq4g",
-      "sourceTitle": "Look at People’s Patterns of Behavior I Robert Greene",
-      "channel": "Robert Greene ",
-      "topic": "Psychology",
-      "title": "Look at People’s Patterns of Behavior",
-      "desc": "A brief video discussing patterns in human behavior.",
-      "durationSeconds": 23,
-      "publishedAt": "2024-03-15T16:00:25Z"
-    },
-    {
-      "id": "WSWsUdeocKs",
-      "sourceTitle": "Brain Structure Theories Every Psychology Student Should Know | Biological Psychology",
-      "channel": "PsychMind in Minutes",
-      "topic": "Psychology",
-      "title": "Brain Structure Theories Every Psychology Student Should Know",
-      "desc": "An overview of key brain structure theories in biological psychology.",
-      "durationSeconds": 72,
-      "publishedAt": "2026-10-24T10:48:52Z"
-    },
-    {
-      "id": "bNTcH8I9b14",
-      "sourceTitle": "The history of baseball",
-      "channel": "Sporty Facts",
-      "topic": "Baseball",
-      "title": "The History of Baseball",
-      "desc": "A short video outlining the history of baseball.",
-      "durationSeconds": 53,
-      "publishedAt": "2023-03-22T22:26:50Z"
-    },
-    {
-      "id": "RPrfR5w5l0A",
-      "sourceTitle": "⚾ Baseball’s Origin Story Is NOT What You Think🤯#shorts #baseball #usa #canada #youtubeshorts",
-      "channel": "What If think",
-      "topic": "Baseball",
-      "title": "Baseball’s Origin Story Is Not What You Think",
-      "desc": "A brief video challenging common beliefs about baseball's origins.",
-      "durationSeconds": 57,
-      "publishedAt": "2026-10-29T22:00:32Z"
-    },
-    {
-      "id": "GBn5LdV7k-c",
-      "sourceTitle": "7 Baseball Facts That Prove You Don't Know Baseball",
-      "channel": "History Comic",
-      "topic": "Baseball",
-      "title": "7 Baseball Facts That Prove You Don't Know Baseball",
-      "desc": "A short video sharing surprising facts about baseball.",
-      "durationSeconds": 68,
-      "publishedAt": "2026-11-17T15:07:37Z"
-    },
-    {
-      "id": "iTR4OBr13bY",
-      "sourceTitle": "EASY Chess Opening",
-      "channel": "GothamChess",
-      "topic": "Baseball",
-      "title": "Babe Ruth’s Dozing Defense",
-      "desc": "A brief historical fact about Babe Ruth's defensive play.",
-      "durationSeconds": 22,
-      "publishedAt": "2022-12-23T14:25:00Z"
     }
   ]
 }
